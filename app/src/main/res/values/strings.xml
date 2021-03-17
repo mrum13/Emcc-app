@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Usaha &amp; Energi</string>
+    <string name="splash_text1">USAHA &amp; ENERGI</string>
+    <string name="splash_text2">Materi Pembelajaran Fisika</string>
+
+    <string name="apersepsi_main">APERSEPSI</string>
+    <string name="KI_main">KI,KD,INDIKATOR,T.PEMBELAJARAN</string>
+    <string name="peta_main">PETA KONSEP</string>
+    <string name="tokoh_main">TOKOH FISIKA</string>
+    <string name="materi_main">MATERI</string>
+    <string name="soal_main">SOAL TES</string>
+    <string name="profil_main">PROFIL</string>
+    <string name="toolbar">Toolbar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="apersepsi_detail">Jumlah energi atau kalori yang masuk serta keluar menentukan berat badan kita. Saat berlari, kita dapat mengurangi kalori dan lemak tubuh melalui pengeluaran energi. Berlari juga memperkuat tulang dan otot serta membantu metabolism. Tetapi pada titik tertentu, kita dapat membangun otot hanya dengan berlari saja.
+	Energi yang Anda habiskan tersebut tidak akan hilang, tetapi berubah bentuk menjadi energi yang lain. Misalnya, panas, suara, dan bentuk energi lain. Hasil dari penggunaan energi yang menghasilkan perubahan tertentu, seperti perpindahan disebut sebagai usaha atau kerja.
+	Contoh dari perubahan energi yang menghasilkan usaha terdapat pada pembangkit listrik. Untuk menghasilkan listrik, diperlukan konversi atau perubahan energi dari bentuk awal. Contohnya, angina, air, panas bumi, atau nuklir. Pada pembangkit listrik bertenaga angin dan air, energi dari hasil perubahan kecepatan (energi kinetik) dipergunakan untuk menggerakkan turbin sehingga generator dapat bekerja untuk menyimpan energi listrik. Sementara itu, pembangkit listrik tenaga panas bumi atau nuklir, memanfaatkan energi panas dari inti Bumi atau reaksi peluruhan sehingga menciptakan uap bertekanan tinggi untuk menggerakkan turbin dan menyalakan generator. Energi listrik tersebut terbentuk akibat usaha dari berbagai konservasi energi. </string>
+
+    <string name="hubungi">Hubungi Saya</string>
+
+    <string name="nama">Putri Chusnul Chotimah L</string>
+    <string name="nim">NIM : 20600117060</string>
+    <string name="angkatan">2017</string>
+    <string name="jurusan">Jurusan Pendidikan Fisika</string>
+    <string name="fakultas">Fakultas Tarbiyah dan Keguruan</string>
+    <string name="kampus">UIN Alauddin Makassar</string>
+    <string name="judul">Pengembangan Modul Multimedia Mobile Learning Berbasis Android Pada Materi Usaha dan Energi Kelas X IPA di SMAN 10 Makassar</string>
+
+    <string name="tokohtext1">Sir Charles Algernon Parsons (1854-1931) merupakan seorang ilmuan dari Inggris yang menciptakan turbin uap multi-stage sebagai mesin pendorong pada kapal laut. Pada tahun 1889, Persons mulai membangun rancangannya sendiri di Newcastle untuk membuat mesin turbin uap, dinamo, dan perangkat listrik lainnya. Mesin turbin diciptakan pada tahun 1884 dan terdiri dari beberapa tahap. Pada setiap tahap, ekspansi dari uap dibatasi sampai kondisi tertentu sehingga dapat menghasilkan energi kinetik yang besar tanpa menyebabkan kipas turbin bergerak terlalu cepat.</string>
+    <string name="tokohtext2">Pada tahun 1891, turbin buatan Parsons dipasangkan dengan sebuah kondenser untuk menghasilkan energi listrik dan pada tahun 1897, turbin tersebut berhasil diaplikasikan sebagai mesin pendorong pada kapal bernama Turbinia. Kapal tersebut dapat melaju dengan kecepatan 34,5 knot, di mana pada waktu itu termasuk sangat cepat.</string>
+
+    <string name="kiA">A. Kompetensi Inti</string>
+    <string name="kiA1">Menghayati dan mengamalkan ajaran agama yang dianutnya.</string>
+    <string name="kiA2">Menghayati dan mengamalkan perilaku jujur, disiplin, tanggungjawab, peduli 	(gotong royong, kerjasama; toleran, damai), santun, responsif dan proaktif dan 	menunjukkan sikap sebagai bagian dari solusi atas berbagai permasalahn dalam 	berinteraksi secara efektif dengan lingkungan sosial.</string>
+    <string name="kiA3">Memahami, menerapkan, menganalisis pengetahuan faktual, konseptual, 	prosedural 	berdasarkan rasa ingintahunya tentang ilmu pengetahuan, teknologi, 	seni, budaya, dan humaniora dengan wawasan kemanusiaan, kebangsaan, 	kenegaraan, dan peradaban terkait penyebab fenomena dan kejadian, serta 	menerapkan pengetahuan prosedural pada bidang kajian yang spesifik sesuai 	dengan bakat dan minatnya untuk memecahkan masalah. </string>
+    <string name="kiA4">Mengolah, menalar, dan menyaji dalam ranah konkret dan ranah abstrak terkait 	dengan pengembangan dari yang dipelajarinya di sekolah secara mandiri, dan 	mampu menggunakan metode sesuai kaidah keilmuan.</string>
+
+    <string name="kiB">B. Kompetensi Dasar</string>
+    <string name="kiB1">Menganalisis konsep energi, usaha (kerja), hubungan usaha (kerja), dan perubahan 	energi, hukum kekekalan energi, serta penerapannya dalam peristiwa sehari-hari. </string>
+
+    <string name="kiC">C. Indikator</string>
+    <string name="kiC1">Menjelaskan pengertian usaha</string>
+    <string name="kiC2">Menganalisis hubungan usaha, gaya, dan perpindahan</string>
+    <string name="kiC3">Menghitung besarnya usaha pada suatu benda</string>
+    <string name="kiC4">Mendefinisikan konsep usaha</string>
+    <string name="kiC5">Menjelaskan pengertian energi</string>
+    <string name="kiC6">Menjelaskan macam-macam energi</string>
+    <string name="kiC7">Menjelaskan pengertian energi kinetik dan energi potensial</string>
+    <string name="kiC8">Menjelaskan hubungan usaha dan energi kinetik</string>
+    <string name="kiC9">Menjelaskan hubungan usaha dan energi potensial</string>
+    <string name="kiC10">Mendefinisikan hubungan usaha dan energi</string>
+    <string name="kiC11">Menjelaskan hukum kekekalan energi mekanik</string>
+
+    <string name="kiD">D. Tujuan Pembelajaran</string>
+    <string name="kiD1">Peserta didik mampu menjelaskan pengertian usaha</string>
+    <string name="kiD2">Peserta didik mampu menjelaskan hubungan usaha gaya dan perpindahan</string>
+    <string name="kiD3">Peserta didik mampu menghitung besarnya usaha pada suatu benda</string>
+    <string name="kiD4">Peserta didik mampu menjelaskan konsep usaha</string>
+    <string name="kiD5">Peserta didik mampu menjelaskan pengertian energi</string>
+    <string name="kiD6">Peserta didik dapat mengetahui macam-macam energi</string>
+    <string name="kiD7">Peserta didik mampu menjelaskan pengertian energi kinetik dan energi potensial</string>
+    <string name="kiD8">Peserta didik mampu mengetahui hubungan usaha dan energi kinetik</string>
+    <string name="kiD9">Peserta didik mampu mengetahui hubungan usaha dan energi potensial</string>
+    <string name="kiD10">Peserta didik mampu menjelaskan hubungan usaha dan energi</string>
+    <string name="kiD11">Peserta didik mampu mengetahui hukum kekekalan energi</string>
+
+</resources>
