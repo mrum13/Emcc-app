@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="biru">#2D7DFF</color>
+
+    <color name="orens">#FD8E63</color>
+    <color name="hijau">#00B793</color>
+    <color name="merah">#F25858</color>
+    <color name="kuning">#F2BC58</color>
 </resources>

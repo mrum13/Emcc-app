@@ -1,10 +1,11 @@
 <resources>
+
     <string name="app_name">Usaha &amp; Energi</string>
     <string name="splash_text1">USAHA &amp; ENERGI</string>
     <string name="splash_text2">Materi Pembelajaran Fisika</string>
 
     <string name="apersepsi_main">APERSEPSI</string>
-    <string name="KI_main">KI,KD,INDIKATOR,T.PEMBELAJARAN</string>
+    <string name="KI_main">KI,KD,INDIKATOR,TEORI PEMBELAJARAN</string>
     <string name="peta_main">PETA KONSEP</string>
     <string name="tokoh_main">TOKOH FISIKA</string>
     <string name="materi_main">MATERI</string>
@@ -65,5 +66,85 @@
     <string name="kiD9">Peserta didik mampu mengetahui hubungan usaha dan energi potensial</string>
     <string name="kiD10">Peserta didik mampu menjelaskan hubungan usaha dan energi</string>
     <string name="kiD11">Peserta didik mampu mengetahui hukum kekekalan energi</string>
+
+    <string name="soal1">Hasil kali gaya dengan perpindahan benda merupakan......</string>
+    <string name="soal1a">A. Percepatan</string>
+    <string name="soal1b">B. Kecepatan</string>
+    <string name="soal1c">C. Usaha</string>
+    <string name="soal1d">D. Energi</string>
+    <string name="soal1e">E. Gaya</string>
+
+    <string name="soal2">Persamaan usaha yang bekerja pada suatu benda adalah.....</string>
+    <string name="soal2a">A. W = F. S</string>
+    <string name="soal2b">B. W = F cos α s</string>
+    <string name="soal2c">C. W = F sin α s</string>
+    <string name="soal2d">D. W = m. g</string>
+    <string name="soal2e">E. W = m.a</string>
+
+    <string name="soal3">Energi yang disebabkan oleh posisis benda adalah...</string>
+    <string name="soal3a">A. Energi potensial</string>
+    <string name="soal3b">B. Energi kinetik</string>
+    <string name="soal3c">C. Energi listrik</string>
+    <string name="soal3d">D. Energi mekanik</string>
+    <string name="soal3e">E. Energi kimia</string>
+
+    <string name="soal4">4.Perhatikan pernyataan berikut:<br />
+1)Ami bersepeda dari rumah menuju lapangan dan kembali lagi ke rumah<br />
+2)Suga mencetak gol dari tendangan jarak jauh<br />
+3)Moni mendorong tembok dengan sekuat tenaga<br /> 
+4)Lisa mendorong meja sejauh 2 meter<br />
+Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</string>
+    <string name="soal4a">A. 1) dan 2)</string>
+    <string name="soal4b">B. 1) dan 4)</string>
+    <string name="soal4c">C. 2) dan 3)</string>
+    <string name="soal4d">D. 2) dan 4)</string>
+    <string name="soal4e">E. 3) dan 4)</string>
+
+    <string name="soal5">5.Perhatikan pernyataan berikut ini!<br />
+1)Energi kinetik dan energi mekanik mempengaruhi nilai dari energi potensial<br />
+2)Energi mekanik dan energi potensial mempengaruhi nilai energi kinetik benda<br />
+3)Energi mekanik merupakan perpaduan dari energi kinetik dan potensial dalam sistem yang sama<br />
+4)Energi mekanik pada awal sistem akan sama dengan energi mekanik diakhir sistem <br />
+Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
+    <string name="soal5a">A. 1) dan 2)</string>
+    <string name="soal5b">B. 1) dan 4)</string>
+    <string name="soal5c">C. 2) dan 3)</string>
+    <string name="soal5d">D. 2) dan 4)</string>
+    <string name="soal5e">E. 3) dan 4)</string>
+
+    <string name="soal6">Proses perubahan Energi yang terjadi pada sebuah bola lampu yang menyala saat dihubungkan dengan sumber tegangan berupa baterei adalah….</string>
+    <string name="soal6a">A. energi kimia→ energi kalor→ energi listrik + energi cahaya</string>
+    <string name="soal6b">B. energi listrik→ energi kimia→ energi cahaya + energi kalor</string>
+    <string name="soal6c">C. energi listrik→ energi kimia→ energi kalor + energi cahaya</string>
+    <string name="soal6d">D. energi kimia→ energi listrik→ energi cahaya + energi kalor</string>
+    <string name="soal6e">E. energi listrik→ energi kalor→ energi kimia + energi cahaya</string>
+
+    <string name="soal7">Pada saat kita bersepeda menuruni jalan yang terjal, kecepatan sepeda akan bertambah. Pertambahan kecepatan ini berasal dari perubahan….</string>
+    <string name="soal7a">A. Energi gerak menjadi energi diam</string>
+    <string name="soal7b">B. Energi gerak menjadi energi potensial</string>
+    <string name="soal7c">C. Energi kinetik menjadi energi gravitasi</string>
+    <string name="soal7d">D. Energi potensial menjadi energi kinetik</string>
+    <string name="soal7e">E. Energi kinetik menjadi energi potensial</string>
+
+    <string name="soal8">Sebuah balok bermassa 50 gr bergerak sepanjang garis lurus pada permukaan mendatar akibat pengaruh gaya yang berubah-ubah terhadap kedudukan seperti ditunjukkan pada gambar. Hitunglah usaha yang dilakukan gaya tersebut untuk memindahkan balok sejauh 14 m!</string>
+    <string name="soal8a">A. 20 Joule</string>
+    <string name="soal8b">B. 30 Joule</string>
+    <string name="soal8c">C. 40 Joule</string>
+    <string name="soal8d">D. 50 Joule</string>
+    <string name="soal8e">E. 60 Joule</string>
+
+    <string name="soal9">Benda pertama memiliki massa m dan kecepatan v. Benda kedua memiliki massa 3 kali benda pertama dan kecepatan 2 kali benda pertama. Perbandingan energi kinetik yang dimiliki oleh benda kedua dan benda pertama adalah....</string>
+    <string name="soal9a">A. 12 : 1</string>
+    <string name="soal9b">B. 12 : 2</string>
+    <string name="soal9c">C. 12 : 3</string>
+    <string name="soal9d">D. 12 : 4</string>
+    <string name="soal9e">E. 12: 5</string>
+
+    <string name="soal10">10.Sebuah mobil bermassa 2000 kg bergerak dengan kelajuan 10 m/s pada arah mendatar. Tiba-tiba pengemudi mengurangi kelajuan mobil menjadi 5 m/s. Usaha yang dilakukan pengemudi pada mobil adalah….</string>
+    <string name="soal10a">A. 75.000 Joule</string>
+    <string name="soal10b">B. 20.000 Joule</string>
+    <string name="soal10c">C. 25.000 Joule</string>
+    <string name="soal10d">D. 12.000 Joule</string>
+    <string name="soal10e">E. 21.000 Joule</string>
 
 </resources>

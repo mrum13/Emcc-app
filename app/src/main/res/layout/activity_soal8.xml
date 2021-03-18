@@ -4,21 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu.soal.SoalActivity"
-    >
+    tools:context=".menu.soal.SoalActivity8">
 
     <include
         layout="@layout/toolbar"
         android:id="@+id/toolbar_soal"/>
 
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/toolbar_soal"
+        android:src="@drawable/img8"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/soal1"
+        android:text="@string/soal8"
         android:textColor="@color/black"
         android:layout_marginHorizontal="24dp"
-        android:textSize="18sp"
-        android:layout_marginTop="100dp"/>
+        android:textSize="14sp"
+        android:layout_below="@id/img8"
+        android:textAllCaps="false"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,31 +41,37 @@
             android:id="@+id/btnA"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/soal1a"/>
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/soal8a"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/btnB"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/soal1b"/>
+            android:layout_height="71dp"
+            android:text="@string/soal8b"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/btnC"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/soal1c"/>
+            android:text="@string/soal8c"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/btnD"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/soal1d"/>
+            android:text="@string/soal8d"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/btnE"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/soal1e"/>
+            android:text="@string/soal8e"
+            android:textAllCaps="false"/>
 
     </LinearLayout>
 
