@@ -52,7 +52,8 @@ public class SoalActivity8 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity8.this, SoalActivity9.class);
-                modelJawaban.setSoal8("a");
+                soal8 = "a";
+                Preferences.setSoal8(getBaseContext(),soal8);
                 startActivity(intent);
             }
         });
@@ -61,7 +62,8 @@ public class SoalActivity8 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity8.this, SoalActivity9.class);
-                modelJawaban.setSoal8("b");
+                soal8 = "b";
+                Preferences.setSoal8(getBaseContext(),soal8);
                 startActivity(intent);
             }
         });
@@ -70,7 +72,8 @@ public class SoalActivity8 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity8.this, SoalActivity9.class);
-                modelJawaban.setSoal8("c");
+                soal8 = "c";
+                Preferences.setSoal8(getBaseContext(),soal8);
                 startActivity(intent);
             }
         });
@@ -79,7 +82,8 @@ public class SoalActivity8 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity8.this, SoalActivity9.class);
-                modelJawaban.setSoal8("d");
+                soal8 = "d";
+                Preferences.setSoal8(getBaseContext(),soal8);
                 startActivity(intent);
             }
         });
@@ -88,7 +92,8 @@ public class SoalActivity8 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity8.this, SoalActivity9.class);
-                modelJawaban.setSoal8("e");
+                soal8 = "e";
+                Preferences.setSoal8(getBaseContext(),soal8);
                 startActivity(intent);
             }
         });

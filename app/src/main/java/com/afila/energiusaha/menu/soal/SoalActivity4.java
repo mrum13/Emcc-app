@@ -51,7 +51,8 @@ public class SoalActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity4.this, SoalActivity5.class);
-                modelJawaban.setSoal4("a");
+                soal4 = "a";
+                Preferences.setSoal4(getBaseContext(),soal4);
                 startActivity(intent);
             }
         });
@@ -60,7 +61,8 @@ public class SoalActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity4.this, SoalActivity5.class);
-                modelJawaban.setSoal4("b");
+                soal4 = "b";
+                Preferences.setSoal4(getBaseContext(),soal4);
                 startActivity(intent);
             }
         });
@@ -69,7 +71,8 @@ public class SoalActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity4.this, SoalActivity5.class);
-                modelJawaban.setSoal4("c");
+                soal4 = "c";
+                Preferences.setSoal4(getBaseContext(),soal4);
                 startActivity(intent);
             }
         });
@@ -78,7 +81,8 @@ public class SoalActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity4.this, SoalActivity5.class);
-                modelJawaban.setSoal4("d");
+                soal4 = "d";
+                Preferences.setSoal4(getBaseContext(),soal4);
                 startActivity(intent);
             }
         });
@@ -87,7 +91,8 @@ public class SoalActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity4.this, SoalActivity5.class);
-                modelJawaban.setSoal4("e");
+                soal4 = "e";
+                Preferences.setSoal4(getBaseContext(),soal4);
                 startActivity(intent);
             }
         });

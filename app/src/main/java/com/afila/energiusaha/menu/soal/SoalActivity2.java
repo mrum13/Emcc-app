@@ -63,7 +63,7 @@ public class SoalActivity2 extends AppCompatActivity {
         btna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity2.this, ResultActivity.class);
+                Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
                 soal2 = "a";
                 Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
@@ -75,7 +75,7 @@ public class SoalActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
                 soal2 = "b";
-                sendData.putExtra("key2",soal2);
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });
@@ -85,7 +85,7 @@ public class SoalActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
                 soal2 = "c";
-                sendData.putExtra("key2",soal2);
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });
@@ -95,7 +95,7 @@ public class SoalActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
                 soal2 = "d";
-                sendData.putExtra("key2",soal2);
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });
@@ -105,7 +105,7 @@ public class SoalActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
                 soal2 = "e";
-                sendData.putExtra("key2",soal2);
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });

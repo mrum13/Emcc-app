@@ -140,11 +140,224 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="soal9d">D. 12 : 4</string>
     <string name="soal9e">E. 12: 5</string>
 
-    <string name="soal10">10.Sebuah mobil bermassa 2000 kg bergerak dengan kelajuan 10 m/s pada arah mendatar. Tiba-tiba pengemudi mengurangi kelajuan mobil menjadi 5 m/s. Usaha yang dilakukan pengemudi pada mobil adalah….</string>
+    <string name="soal10">Sebuah mobil bermassa 2000 kg bergerak dengan kelajuan 10 m/s pada arah mendatar. Tiba-tiba pengemudi mengurangi kelajuan mobil menjadi 5 m/s. Usaha yang dilakukan pengemudi pada mobil adalah….</string>
     <string name="soal10a">A. 75.000 Joule</string>
     <string name="soal10b">B. 20.000 Joule</string>
     <string name="soal10c">C. 25.000 Joule</string>
     <string name="soal10d">D. 12.000 Joule</string>
     <string name="soal10e">E. 21.000 Joule</string>
+
+    <string name="soal11">Sebuah benda 2 kg bergerak pada permukaan licin dengan kecepatan 2 m/s dan dikerjakan usaha sebesar 21 joule. Kecepatan akhir benda tersebut adalah…</string>
+    <string name="soal11a">A. 3 m/s</string>
+    <string name="soal11b">B. 4 m/s</string>
+    <string name="soal11c">C. 5 m/s</string>
+    <string name="soal11d">D. 6 m/s</string>
+    <string name="soal11e">E. 7 m/s</string>
+
+    <string name="soal12">Sebuah meja massanya 10 kg mula-mula diam di atas lantai licin, didorong selama 3 sekon bergerak lurus dengan percepatan 2 m/s2. Besar usaha yang terjadi adalah…</string>
+    <string name="soal12a">A. 20 joule</string>
+    <string name="soal12b">B. 30 joule</string>
+    <string name="soal12c">C. 60 joule</string>
+    <string name="soal12d">D. 180 joule</string>
+    <string name="soal12e">E. 360 joule</string>
+
+    //ada gambar diatas soal
+    <string name="soal13">Benda seberat 10 N berada pada bidang miring yang licin dengan sudut kemiringan 30°. Bila benda meluncur sejauh 1 m, maka usaha yang dilakukan gaya berat adalah....</string>
+    <string name="soal13a">A. 10 sin 30° joule</string>
+    <string name="soal13b">B. 10 cos 30° joule</string>
+    <string name="soal13c">C. 10 sin 60° joule</string>
+    <string name="soal13d">D. 10 tan 30° joule</string>
+    <string name="soal13e">E. 10 tan 60° joule</string>
+
+    <string name="soal14">Sebuah trem mempergunakan daya 10 kW sehingga dapat bergerak dengan kelajuan tetap 8 m/s. Gaya penggerakannya adalah….</string>
+    <string name="soal14a">A. 800 Newton</string>
+    <string name="soal14b">B. 1250 Newton</string>
+    <string name="soal14c">C. 2500 Newton</string>
+    <string name="soal14d">D. 125000 Newton</string>
+    <string name="soal14e">E. 80000 Newton</string>
+
+    //ada gambar diatas soal
+    <string name="soal15">Dua buah benda menuruni lintasan dari titik A. Massa benda pertama m1 = 5 kg dan benda kedua m2 = 15 kg. Jika percepatan gravitasi g = 10 m/s2, maka perbandingan energi kinetik EK1 : EK2 di titik B adalah….</string>
+    <string name="soal15a">A. 1 : 2</string>
+    <string name="soal15b">B. 1 : 3</string>
+    <string name="soal15c">C. 1 : 9</string>
+    <string name="soal15d">D. 2 : 1</string>
+    <string name="soal15e">E. 3 : 1</string>
+
+    <string name="soal16">Sebongkah balok es bermassa 2000 gram didorong dengan gaya F di atas permukaan lantai sehingga resultan gaya yang bekerja pada balok es 10 N selama 2 sekon. Setelah 2 sekon gaya dorong tersebut dihilangkan kemudian balok es tersebut mampu menempuh jarak 5 meter lalu berhenti. Berapa besar gaya dorong yang diberikan pada balok es tersebut .... N</string>
+    <string name="soal16a">A. 30</string>
+    <string name="soal16b">B. 20</string>
+    <string name="soal16c">C. 15</string>
+    <string name="soal16d">D. 10</string>
+    <string name="soal16e">E. 5</string>
+
+    <string name="soal17">Sebuah benda meluncur pada permukaan datar dengan kecepatan v = 4 m/s dan kemudian benda naik pada bidang miring dengan kemiringan 30°. Bila tidak ada gesekan antara benda dan bidang luncur, maka panjang lintasan benda pada bidang miring adalah….</string>
+    <string name="soal17a">A. 40</string>
+    <string name="soal17b">B. 60</string>
+    <string name="soal17c">C. 80</string>
+    <string name="soal17d">D. 120</string>
+    <string name="soal17e">E. 160</string>
+
+    <string name="soal18">Sebuah balok bermassa 3 kg bergerak ke atas pada bidang miring yang sudut miringnya 60°, dengan energi kinetik awal 18 J. Jika koefisien gesekannya 0,3 maka jarak terjauh yang dicapai balok saat meluncur pada bidang miring adalah sekitar …. m.</string>
+    <string name="soal18a">A. 1</string>
+    <string name="soal18b">B. 0,8</string>
+    <string name="soal18c">C. 0,6</string>
+    <string name="soal18d">D. 0,4</string>
+    <string name="soal18e">E. 0,2</string>
+
+    <string name="soal19atas">Sebuah balok bermassa 1 kg meluncur pada bidang miring kasar dari keadaan diam seperti gambar.</string>
+    //ada gambar disini
+    <string name="soal19bawah">Setelah menempuh jarak 3,75 m, kecepatan balok = 7,5 m/s. Diketahui g = 10 m/s2, koefisien gesekan kinetis 3/16 dan tan θ = 3/4, maka besar gaya tahan F agar balok berhenti tepat di kaki bidang miring adalah …</string>
+    <string name="soal19a">A. 3,75 N</string>
+    <string name="soal19b">B. 5,75 N</string>
+    <string name="soal19c">C. 7,50 N</string>
+    <string name="soal19d">D. 9,50 N</string>
+    <string name="soal19e">E. 12,00 N</string>
+
+    //ada gambar diatas soal
+    <string name="soal20">Suatu pegas (massa diabaikan) jika diberi gaya 100 N akan menekan sejauh 1 meter. Pegas ini diletakkan di dasar bidang miring licin (α = 30⁰). Suatu balok dengan massa 10 kg dilepas dari puncak bidang miring sehingga menyebabkan pegas tertekan sejauh 2 meter. Berapa jauhkah jarak yang ditempuh balok dari posisi awal hingga posisi akhir?</string>
+    <string name="soal20a">A. 2 m</string>
+    <string name="soal20b">B. 3 m</string>
+    <string name="soal20c">C. 4 m</string>
+    <string name="soal20d">D. 6 m</string>
+    <string name="soal20e">E. 8 m</string>
+
+    <string name="materi1">Usaha</string>
+    <string name="materiusaha">Usaha adalah kerja yang dilakukan oleh gaya untuk memindahkan benda. Misalnya, kuda menarik pedati, lokomotif menarik gerbong kereta api, seorang siswa mengangkat buku dari lantai ke atas meja. Dari contoh tersebut pedati, gerbong, dan buku berpindah tempat karena suatu gaya. Dengan demikian, usaha adalah besarnya gaya yang bekerja pada suatu benda sehingga benda tersebut mengalami perpindahan. Usaha merupakan hasil perkalian titik (dot product) antara gaya dengan perpindahan. Usaha merupakan besar skalar.</string>
+    <string name="usahagambar1">Gambar 1. Contoh usaha dalam kehidupan sehari-hari</string>
+    <string name="materiusaha2">Jika sebuah benda diberi gaya F sehingga menyebabkan benda berpindah sejauh s, gaya melakukan usaha yang dapat dinyatakan dengan persamaan berikut.</string>
+    <string name="f">F 	= gaya yang bekerja pada benda (N)</string>
+    <string name="s">s	= perpindahan (m), dan</string>
+    <string name="w">W	= usaha yang dikerjakan oleh gaya (J)</string>
+    <string name="usahagambar2">Gambar 2. Benda diberi gaya sebesar F  dan berpindah sejauh s.</string>
+    <string name="materiusaha3">Jika gaya F  yang bekerja pada benda searah dengan perpindahan s, maka usaha yang dilakukan oleh gaya itu dinyatakan dengan persamaan berikut.</string>
+    <string name="materiusaha4">Namun, jika gaya F  yang bekerja pada benda berlawanan arah dengan perpidahan s, maka usaha yang dilakukan oleh gaya dinyatakan dengan persamaan berikut.</string>
+    <string name="materiusaha5">Jika pada benda bekerja beberapa buah gaya, maka usaha yang dilakukan oleh resultan gaya dinyatakan dengan persamaan seperti berikut.</string>
+    <string name="usahagambar3">Gambar 3. (a) Gaya benda F  searah dengan perpindahan s. (b) Gaya benda F  berlawanan arah dengan perpindahan s. (c) Bekerja beberapa gaya pada benda.</string>
+    <string name="usahagambar4">Gambar 4. Komponen gaya pada sumbu X dan Y.</string>
+    <string name="materiusaha7">Perhatikan Gambar 4. Gaya F dapat diuraikan menjadi dua komponen gaya, yaitu sebagai berikut.</string>
+    <string name="materiusaha8">Gaya yang melakukan usaha terhadap benda adalah gaya dalam komponen Fx yang menyebabkan benda berpindah sejauh s.</string>
+    <string name="usahagambar5">Gambar 5. Grafik gaya F  terhadap perpindahan s.</string>
+    <string name="materiusaha9">Usaha yang dilakukan gaya F terdapat sebuah benda sehingga berpindah sejauh s dapat dinyatakan dalam bentuk grafik seperti Gambar 5. Luas daerah yang diarsir merupakan usaha positif yang dilakukan oleh gaya F terhadap perpindahan s. Usaha yang dilakukan gaya sama dengan luas daerah yang dibatasi oleh garis F−s. </string>
+    <string name="materiusaha10">Usaha yang dilakukan oleh gaya yang berubah-ubah, baik besar maupun arahnya dapat terjadi pada pegas (per) seperti Gambar 6. </string>
+    <string name="usahagambar6">Gambar 6. Sebuah pegas (a) sebelum dan (b) sesudah diberi beban.</string>
+    <string name="materiusaha11">Gambar 6(a) menunjukkan keadaaan pegas mula-mula digantung vertikal tanpa beban. Gambar 6(b) menunjukkan keadaan pegas setelah setelah digantungi benda sebesar w = mg, sehingga pegas meregang sejauh x dan keadaan benda yang tergantung pada pegas dalam keadaan setimbang.</string>
+    <string name="materiusaha12">Berdasarkan hukum Hooke, bahwa besar gaya F berbanding lurus dengan pertambahan panjang pegas. Secara matematis dapat dinyatakan dengan persamaan sebagai berikut.</string>
+    <string name="f2">F =  gaya pegas (N)</string>
+    <string name="x">x	= pertambahan panjang pegas (m), dan</string>
+    <string name="k">k	= konstanta pegas (N/m)</string>
+    <string name="materiusaha13">Berdasarkan Persamaan 3 dapat disimpulkan bahwa gaya F  berbanding lurus dengan pertambahan panjang pegas (x) yang dapat dinyatakan dalam bentuk grafik F−x seperti Gambar 7. </string>
+    <string name="usahagambar7">Gambar 7. Grafik hubungan gaya F  dan pertambahan pegas x.</string>
+    <string name="materiusaha14">Usaha yang dilakukan oleh gaya tidak tetap. Usaha yang dilakukan agar pegas bertambah panjang sebesar x  dapat ditentukan  dengan menghitung luas segitiga AOB pada Gambar 7.</string>
+    <string name="materiusaha15">Asumsikan F = kx, sehingga:</string>
+    <string name="w2">W = usaha (J),</string>
+    <string name="k2">k	= tetapan pegas (N/m), dan</string>
+    <string name="x2">x	= pertambahan panjang pegas (m).</string>
+    <string name="materiusaha16">Sebuah pegas dengan panjang 20 cm digantung secara vertikal. Selanjutnya, sebuah beban dengan massa 100 g digantungkan pada ujung pegas sehingga panjang pegas menjadi 30 cm. jika g = 10 m/s2, tentukan usaha yang dilakukan oleh gaya tersebut.</string>
+    <string name="materiusaha17">Grafik di atas menunjukkan hubungan antara gaya F dengan pertambahan panjang pegas (x). Hitunglah besar usaha yang dilakukan gaya berdasarkan data grafik di samping.</string>
+    
+    <string name="materi2">Energi</string>
+    <string name="materienergi1">Suatu benda dikatakan mempunyai energi jika benda tersebut mempunyai kemampuan untuk melakukan usaha. Energi tidak dapat dilihat atau disentuh, tetapi dapat dirasakan. Selain itu, energi juga tidak dapat dimusnahkan, tetapi dapat berubah ke bentuk energi lainnya. Energi mempunyai bentuk beranekaragam tergantung dari sumbernya.</string>
+    <string name="materienergi2">Contohnya, energi kimia, energi panas, energi mekanik, energi listrik, energi inti, energi cahaya, energi panas bumi, dan energi yang berasal dari fosil. Beberapa contoh energi yang dapat berubah bentuk, yaitu sebagai berikut.</string>
+    <string name="materienergi2a1">Energi kimia dapat berubah menjadi energi panas.</string>
+    <string name="materienergi2a2"><b>Contoh:</b> aki, baterai.</string>
+    <string name="materienergi2b1">Energi listrik dapat berubah menjadi energi panas.</string>
+    <string name="materienergi2b2"><b>Contoh:</b> kompor listrik, setrika listrik, solder listrik.</string>
+    <string name="materienergi2c1">Energi mekanik dapat berubah bentuk menjadi energi listrik.</string>
+    <string name="materienergi2c2"><b>Contoh:</b> air danau di pegunungan dapat dialirkan ke dalam bendungan untuk menggerakkan turbin. Akibatnya, energi putaran turbin dapat digunakan untuk memutar generator yang berfungsi sebagai pembangkit listrik. Bendungan saguling di Jawa Barat.</string>
+    <string name="energigambar1">Gambar 1. Benda bermassa m yang digantungkan pada ketinggian h.</string>
+    <string name="energigambar2">Gambar 2. Energi potensial yang terjadi pada pegas</string>
+    <string name="energigambar3">Gambar 3. Energi kinetik pada benda yang sedang bergerak.</string>
+    <string name="materienergi3">Jika sebuah benda berada pada ketinggian tertentu terhadap permukaan tanah, maka benda tersebut mempunyai energi potensial. Misalnya, benda bermassa m digantungkan dengan seutas tali. Benda tersebut pada ketinggian h dari permukaan tanah seperti Gambar 1. </string>
+    <string name="materienergi4">Saat tali diputus, benda akan jatuh, maka timbul usaha yang dilakukan oleh gaya beratnya. Ini berarti sebelum benda jatuh, benda memiliki tenaga. Jenis energi ini disebut energi potensial. Secara matematis dapat dinyatakan dalam persamaan sebagai berikut. </string>
+    <string name="m">m	= massa benda (kg),</string>
+    <string name="g">g	= percepatan gravitasi (m/s2)</string>
+    <string name="h">h	= tinggi benda di atas permukaan tanah (m), dan</string>
+    <string name="ep">EP	= energi potensial (kg⋅m2/s2 atau joule).</string>
+    <string name="materienergi5">Dengan demikian, besar energi potensial sama dengan usaha yang dilakukan gaya berat selama jatuh. Energi potensial juga dapat dimiliki oleh suatu benda yang tergantung pada pegas, seperti Gambar 2.</string>
+    <string name="materienergi6">Energi potensial yang terjadi pada pegas atau benda elastis, seperti busur atau ketapel yang terbuat dari karet merupakan usaha yang dilakukan oleh gaya tarik untuk mengubah panjang pegas. Berdasarkan persamaan hukum Hooke, di mana gaya F sebanding dengan pertambahan panjang pegas, maka besar energi potensial pada pegas sama dengan usaha yang dilakukan oleh gaya tarik.</string>
+    <string name="materienergi7">Energi kinetik adalah energi yang dimiliki benda karena gerakannya.</string>
+    <string name="materienergi8">Misalkan, bola yang massanya m terletak di atas bidang datar licin dan bekerja dengan gaya konstan sebesar F, sehingga benda berpindah sejauh s, maka akan timbul percepatan sebagai berikut.</string>
+    <string name="materienergi9">Besar kecepatan bola setelah berpindah sejauh s dari keadaan diam adalah sebagai berikut.</string>
+    <string name="materienergi10">Dengan demikian, energi kinetik yang diterimah bola dapat dinyatakan dengan persamaan berikut.</string>
+    <string name="v">v = kecepatan benda (m/s), dan</string>
+    <string name="ek">EK = energi kinetik benda (J).</string>
+
+    <string name="materi3">Hubungan Usaha dan Energi</string>
+    <string name="materihubungan1">Usaha dan energi adalah besaran dalam fisika yang saling berkaitan. Usaha merupakan kerja yang dilakukan oleh gaya untuk memindahkan benda, sedangkan energi adalah kemampuan untuk melakukan usaha. Dengan demikian, terdapat hubungan antara usaha dan energi yang akan dipelajari berikut.</string>
+    <string name="materihubungan2">Sebuah benda bermassa m dilepaskan dari ketinggian h1 dari permukaan tanah. Benda bergerak vertikal ke bawah karena pengaruh gaya gravitasi bumi (gaya berat) sebesar w. Selanjutnya, untuk mencapai ketinggian h2 dari permukaan tanah, gaya berat melakukan usaha sebagai berikut.</string>
+    <string name="ep1">EP1	= energi potensial pada ketinggian h1 (J),</string>
+    <string name="ep2">EP2	= energi potensial h2 (J), dan</string>
+    <string name="wab">WAB	= usaha yang dilakukan gaya berat dari A ke B (J).</string>
+    <string name="materihubungan3">Berdasarkan persamaan tersebut usaha yang dilakukan oleh gaya berat pada sebuah benda merupakan pengurangan dari energi potensial.</string>
+    <string name="materihubungan4">Jika sebuah benda bermassa m mula-mula bergerak dengan kecepatan , kemudian diberikan gaya tetap sebesar F yang searah dengan gerakan benda sehingga benda berpindah sejauh s dan kecepatan benda menjadi   seperti Gambar 1.</string>
+    <string name="hubungangambar1">Gambar 1. Energi kinetik pada benda yang sedang bergerak</string>
+    <string name="materihubungan5">Usaha yang dilakukan oleh gaya F  untuk memindahkan benda sejauh s  dari A ke B dapat ditentukan dengan persamaan berikut.</string>
+    <string name="materihubungan6">Usaha yang dilakukan oleh gaya F untuk berpindah dari posisi A ke posisi B,</string>
+    <string name="materihubungan7">Substitusi persamaan (1) ke persamaan (2)</string>
+    <string name="ek1">= energi kinetik awal (J),</string>
+    <string name="ek2">	= energi kinetik akhir (J),</string>
+    <string name="wab2">	= usaha yang dilakukan gaya (J), dan</string>
+    <string name="sek2">= perubahan energi kinetik (J).</string>
+    <string name="delta">U+0394</string>
+    <string name="materihubungan8">Dengan demikian, usaha yang dilakukan oleh suatu gaya terhadap suatu benda sama dengan perubahan energi kinetik dari benda tersebut.</string>
+    <string name="materihubungan9">Sebuah balok kayu bermassa 2 kg dijatuhkan dari ketinggian 30 m di atas permukaan tanah. Hitunglah perubahan energi potensial pada ketinggian 10 m dari permukaan tanah. (g = 10 m/s2)</string>
+    
+    <string name="materi4">Hukum Kekekalan Energi</string>
+    <string name="materihukum1">Salah satu sifat dari energi adalah kekal, artinya tidak dapat dihilangkan, tetapi dapat berubah bentuk menjadi energi yang lain. Misalkan, sebuah bola dilempar vertikal ke atas. Mula-mula bola mempunyai energi kinetik, semakin tinggi posisi bola, energi kinetiknya berkurang dan berubah menjadi energi potensial. Di titik tertinggi, bola hanya mempunyai energi potensial saja. Namun, saat bola jatuh kembali maka energi potensialnya berkurang dan berubah menjadi energi kinetik. Jika bola sampai di permukaan tanah, energi potensialnya nol dan bola hanya mempunyai energi kinetik saja.</string>
+    <string name="materihukum2">Penjumlahan dari energi potensial dan energi kinetik disebut <b>energi mekanik</b>. Jika tidak ada gaya luar yang bekerja pada benda, maka jumlah energi potensial dan energi kinetik adalah tetap. Pernyataan tersebut dikenal dengan <b>hukum kekekalan energi mekanik.</b></string>
+    <string name="hukumgambar1">Gambar 1. Balok jatuh bebas dari posisi A ke posisi B.</string>
+    <string name="materihukum3">Untuk memahami hukum kekekalan energi mekanik, perhatikan Gambar 1. Sebuah benda bermassa m bergerak vertikal ke bawah karena pengaruh gaya beratnya. Pada saat di posisi A, kecepatan dan tinggi benda dari tanah adalah dan . Sementara itu, pada saat di posisi B kecepatan dan tingginya adalah  dan . Usaha dari gaya berat selama benda berpindah dari A ke B adalah sebagai berikut.</string>
+    <string name="materihukum4">Berdasarkan perubahan energi potensial usaha dari A ke B</string>
+    <string name="materihukum5">Berdasarkan perubahan energi kinetik, usaha dari A ke B</string>
+    <string name="materihukum5.5">Berdasarkan Persamaan (1) dan Persamaan (2) diperoleh hubungan sebagai berikut.</string>
+    <string name="materihukum6">Jumlah energi potensial dan energi kinetik disebut <b>energi mekanik</b>, sehingga Persamaan (3) dapat dinyatakan sebagai berikut.</string>
+    <string name="materihukum7">Sebuah bola bermassa 200 g dilempar vertikal ke atas dari permukaan tanah dengan kecepatan awal 50 m/s. Jika g = 10 m/s2, hitunglah:</string>
+    <string name="materihukum8">Energi kinetik dan energi potensial setelah bergerak 2 s,</string>
+    <string name="materihukum9">Energi potensial dan energi mekanik saat mencapai titik tertinggi</string>
+    <string name="ek1hukum">EK1= energi kinetik awal (J),</string>
+    <string name="ek2hukum">EK2= energi kinetik akhir (J),</string>
+    <string name="ep1hukum">EP1	= energi kinetik akhir (J), dan</string>
+    <string name="ep2hukum">EP2= energi potensial akhir (J).</string>
+    
+    <string name="materi5">Daya</string>
+    <string name="materidaya1"><b>Daya</b> adalah kemampuan untuk melakukan usaha tiap satu satuan waktu. Secara matematis dapat dinyatakan dengan persamaan berikut.</string>
+    <string name="materidaya2">Berdasarkan persamaan (1), satuan daya dalam Sistem Internasional (SI) adalah J/s = watt. Definisi satu watt adalah besarnya daya yang menimbulkan usaha sebesar 1 joule tiap sekon. Satuan lain dari daya adalah kilowatt (kW). Berdasarkan Persamaan (1) juga dapat diturunkan satuan usaha yang lain, yaitu sebagai berikut.</string>
+    <string name="materidaya3">Dengan 1 J = 1 W⋅s.</string>
+    <string name="materidaya4">Selain watt⋅sekon, satuan energi yang sering digunakan adalah kWh (kilowatt⋅jam). Satuan kWh ini digunakan pada energi listrik. Oleh karena 1 kW = 1.000 W dan 1 jam = 3.600 s, maka:</string>
+    <string name="materidaya5">Satuan lain dari daya yang sering digunakan dalam bidang teknik mesin adalah hp (horse power) atau dk (daya kuda) 1 hp = 746 watt. </string>
+    <string name="materidaya6">Oleh karena persamaan usaha dan daya masing-masing sebagai berikut.</string>
+    <string name="materidaya7">Dengan demikian, diperoleh hubungan daya dengan kecepatan gerak suatu benda sebagai berikut.</string>
+    <string name="materidaya8">sehingga persamaan daya menjadi sebagai berikut.</string>
+    <string name="materidaya9">Energi memiliki sifat dapat berubah bentuk menjadi bentuk energi yang lain. Akan tetapi, saat terjadi perubahan energi, tidak semua energi diubah menjadi energi yang bermanfaat, karena ada sebagaian yang berubah menjadi energi yang tidak bermanfaat. Misalnya energi panas yang dihasilkan oleh mesin mobil. Artinya, tidak mungkin membuat mesin yang dapat mengubah seluruh energi menjadi energi dalam bentuk lain yang bermanfaat.</string>
+    <string name="materidaya10">Perbandingan antara energi yang diubah dalam bentuk lain dengan energi yang diterima disebut <b>daya guna</b> atau <b>efisiensi</b> (ƞ) yang dapat ditulis dalam bentuk persamaan:</string>
+    <string name="materidaya11">Sebuah benda yang bermassa 40 kg diangkat ke atas melewati tangga yang tingginya 15 m dalam waktu 10 s. Jika g = 10 m/s2, tentukan daya yang diperlukan untuk mengangkat beban tersebut.</string>
+    <string name="w_daya">W	= usaha (J),</string>
+    <string name="t_daya">t = waktu (s), dan</string>
+    <string name="p_daya">P	= daya (W).</string>
+    <string name="f_daya">F	= gaya yang bekerja pada benda (N),</string>
+    <string name="v_daya">v	= kecepatan benda setelah mendapat gaya (m/s), dan</string>
+
+    <string name="text1result">Jawaban anda </string>
+    <string name="text2result">Seharusnya  </string>
+
+    <string name="soaltes1">Hasil kali gaya dengan perpindahan disebut dengan usaha. Jika gaya searah dengan perpindahan maka usaha bernilai positif, contohnya oleh gaya dorong. Jika gaya berlawanan arah dengan perpindahan maka usaha bernilai negatif, contohnya oleh gaya gesek. </string>
+    <string name="soaltes2">Usaha didefinisikan sebagai besarnya gaya yang dikenakan pada suatu benda sehingga benda tersebut mengalami perubahan posisi. Jadi rumus usaha bisa ditulis</string>
+    <string name="soaltes3">Energi potensial yakni merupakan suatu energi yang terdapat pada suatu benda yang diam, dan dapat berpotensi menghasilkan suatu energi disebabkan oleh posisi benda tersebut. Selain itu definisi energi potensiial juga bisa diartikan sebagai sebuah energi yang dimiliki terhadap sebuah benda dalam kondisi diam.  </string>
+    <string name="soaltes4">Usaha di indikasikan oleh gaya dan perpindahan, pernyataan 1 ami tidak melakukan usaha karena perpindahannya 0, dan pernyataan 3 meskipun moni mengeluarkan gaya untuk mendorong tembok tetapi tetap tembok tidak bergerak (perpindahannya 0</string>
+    <string name="soaltes5">Energi Mekanik adalah total penjumlahan dari Energi potensial (Ep) dan Energi kinetik (Ek) suatu sistem yang sama. Apabila sistem tidak dipengaruhi oleh gaya luar, maka Energi mekanik yang dimiliki sistem bersifat kekal, yang berarti energi mekanik awal sistem akan sama dengan energi mekanik akhir sistem. (Hukum Kekekalan Energi Mekanik) Dari penjelasan di atas, maka: Pernyataan 1 dan 2 salah sedangkan pernyataan 3 benar, karena Em adalah hasil penjumlahan Ep dan Ek, bukan Ep ataupun Ek yg merupakan hasil penjumlahan dan pernyataan 4 benar, sesuai konsep Hukum Kekekalan Energi Mekanik.</string>
+    <string name="soaltes6">Perubahan energi yang terjadi pada saat bola lampu menyala adalah: Energi Kimia dari baterei mula - mula akan di ubah menjadi Energi Listrik yang mengalir pada rangkaian listrik tertutup. Selanjutnya Energi Listrik ini berubah menjadi Energi Cahaya + Energi Kalor pada bola lampu menyala. Kesimpulan: Perubahan energi yang terjadi pada saat bola lampu menyala adalah: energi kimia → energi listrik → energi cahaya + energi kalor</string>
+    <string name="soaltes7">Ketika menuruni jalan yang terjal dengan bersepeda tanpa mengayuh, sepeda akan meluncur dengan sendirinya karena semula berada di suatu tempat yang lebih tinggi, saat ini energi potensial besar. Ketika meluncur ke bawah, ketinggian sepeda berkurang yang berarti energi potensialnya juga berkurang. Berkurangnya energi potensial ini di ubah menjadi energi kinetik. Sehingga sepeda memiliki kecepatan.</string>
+    //ada gambar
+    <string name="soaltes8">Usaha adalah luas daerah dibawah grafik F-s (luas daerah yang diarsir)</string>
+    <string name="soaltes9"></string>//pake gambar (ada 2)
+    <string name="soaltes10">Usaha total adalah 75.000 Joule.Tanda negatif artinya resultan gaya yang bekerja pada mobil berlawanan arah dengan perpindahan mobil. Usaha negatif juga berarti energi kinetik mobile berkurang.</string>
+    <string name="soaltes17">Karena tanpa gesekan maka berlaku hukum kekekalan energi mekanik:</string>
+    <string name="soaltes18">Karena bidang kasar, maka tidak bisa menggunakan hukum kekekalan energi mekanik, gunakan:</string>
+    <string name="soaltes19">Ingat! Gaya normal (N) ada jika bersentuhan, arahnya tegak lurus bidang. Menurut Newton pada benda diam atau bergerak dengan kecepatan tetap, maka resultan gaya ΣF = 0. Besar gaya normal pada balok:</string>
+    <string name="soaltes20">Menggunakan persamaan energi potensial pegas (pers. 1)</string>
+    <string name="soaltes20a">Menggunakan persamaan kekekalan energi mekanik (pers. 2)</string>
+    <string name="soaltes20b">Menentukan Panjang lintasan dengan menggunakan persamaan (pers. 3)</string>
+    <string name="soaltes20c">Dengan mensubstitusi persamaan 2 dan 3 ke persamaan 1, maka didapat Panjang lintasan balok yaitu:</string>
 
 </resources>

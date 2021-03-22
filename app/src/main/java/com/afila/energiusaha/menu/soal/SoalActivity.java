@@ -73,7 +73,7 @@ public class SoalActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
                 soal1 = "b";
-                sendData.putExtra("key",soal1);
+                Preferences.setSoal1(getBaseContext(),soal1);
                 startActivity(intent);
             }
         });
@@ -83,7 +83,7 @@ public class SoalActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
                 soal1 = "c";
-                sendData.putExtra("key",soal1);
+                Preferences.setSoal1(getBaseContext(),soal1);
                 startActivity(intent);
             }
         });
@@ -93,7 +93,7 @@ public class SoalActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
                 soal1 = "d";
-                sendData.putExtra("key",soal1);
+                Preferences.setSoal1(getBaseContext(),soal1);
                 startActivity(intent);
             }
         });
@@ -103,7 +103,7 @@ public class SoalActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
                 soal1 = "e";
-                sendData.putExtra("key",soal1);
+                Preferences.setSoal1(getBaseContext(),soal1);
                 startActivity(intent);
             }
         });

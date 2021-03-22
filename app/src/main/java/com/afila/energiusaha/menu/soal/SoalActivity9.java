@@ -52,7 +52,8 @@ public class SoalActivity9 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
-                modelJawaban.setSoal9("a");
+                soal9 = "a";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -61,7 +62,8 @@ public class SoalActivity9 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
-                modelJawaban.setSoal9("b");
+                soal9 = "b";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -70,7 +72,8 @@ public class SoalActivity9 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
-                modelJawaban.setSoal9("c");
+                soal9 = "c";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -79,7 +82,8 @@ public class SoalActivity9 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
-                modelJawaban.setSoal9("d");
+                soal9 = "d";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -88,7 +92,8 @@ public class SoalActivity9 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
-                modelJawaban.setSoal9("e");
+                soal9 = "e";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });

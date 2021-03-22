@@ -1,9 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu.MateriActivity">
+    tools:context=".menu.materi.MateriActivity"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar_materi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_materi"
+            android:background="@drawable/iconmenu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/materi1"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:paddingHorizontal="12dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_usaha"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="32dp"
+                android:paddingVertical="16dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_materi"
+            android:background="@drawable/iconmenu2"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/materi2"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:paddingHorizontal="12dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_energi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="32dp"
+                android:paddingVertical="16dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_materi"
+            android:background="@drawable/iconmenu3"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/materi3"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:paddingHorizontal="12dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_hubungan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="32dp"
+                android:paddingVertical="16dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_materi"
+            android:background="@drawable/iconmenu4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/materi4"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:paddingHorizontal="12dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_hukum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="32dp"
+                android:paddingVertical="16dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_materi"
+            android:background="@drawable/iconmenu5"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/materi5"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:paddingHorizontal="12dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_daya"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="32dp"
+                android:paddingVertical="16dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -5,13 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afila.energiusaha.menu.ApersActivity;
 import com.afila.energiusaha.menu.KIActivity;
-import com.afila.energiusaha.menu.MateriActivity;
+import com.afila.energiusaha.menu.materi.MateriActivity;
 import com.afila.energiusaha.menu.PetaActivity;
 import com.afila.energiusaha.menu.ProfilActivity;
 import com.afila.energiusaha.menu.TokohActivity;

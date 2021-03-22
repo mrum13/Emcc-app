@@ -51,8 +51,9 @@ public class SoalActivity10 extends AppCompatActivity {
         btna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity10.this, ResultActivity.class);
-                modelJawaban.setSoal10("a");
+                Intent intent = new Intent(SoalActivity10.this, SoalActivity11.class);
+                soal10 = "a";
+                Preferences.setSoal10(getBaseContext(),soal10);
                 startActivity(intent);
             }
         });
@@ -60,8 +61,9 @@ public class SoalActivity10 extends AppCompatActivity {
         btnb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity10.this, ResultActivity.class);
-                modelJawaban.setSoal10("b");
+                Intent intent = new Intent(SoalActivity10.this, SoalActivity11.class);
+                soal10 = "b";
+                Preferences.setSoal10(getBaseContext(),soal10);
                 startActivity(intent);
             }
         });
@@ -69,8 +71,9 @@ public class SoalActivity10 extends AppCompatActivity {
         btnc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity10.this, ResultActivity.class);
-                modelJawaban.setSoal10("c");
+                Intent intent = new Intent(SoalActivity10.this, SoalActivity11.class);
+                soal10 = "c";
+                Preferences.setSoal10(getBaseContext(),soal10);
                 startActivity(intent);
             }
         });
@@ -78,8 +81,9 @@ public class SoalActivity10 extends AppCompatActivity {
         btnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity10.this, ResultActivity.class);
-                modelJawaban.setSoal10("d");
+                Intent intent = new Intent(SoalActivity10.this, SoalActivity11.class);
+                soal10 = "d";
+                Preferences.setSoal10(getBaseContext(),soal10);
                 startActivity(intent);
             }
         });
@@ -87,8 +91,9 @@ public class SoalActivity10 extends AppCompatActivity {
         btne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity10.this, ResultActivity.class);
-                modelJawaban.setSoal10("e");
+                Intent intent = new Intent(SoalActivity10.this, SoalActivity11.class);
+                soal10 = "e";
+                Preferences.setSoal10(getBaseContext(),soal10);
                 startActivity(intent);
             }
         });

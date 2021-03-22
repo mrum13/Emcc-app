@@ -52,7 +52,8 @@ public class SoalActivity5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity5.this, SoalActivity6.class);
-                modelJawaban.setSoal5("a");
+                soal5 = "a";
+                Preferences.setSoal5(getBaseContext(),soal5);
                 startActivity(intent);
             }
         });
@@ -61,7 +62,8 @@ public class SoalActivity5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity5.this, SoalActivity6.class);
-                modelJawaban.setSoal5("b");
+                soal5 = "b";
+                Preferences.setSoal5(getBaseContext(),soal5);
                 startActivity(intent);
             }
         });
@@ -70,7 +72,8 @@ public class SoalActivity5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity5.this, SoalActivity6.class);
-                modelJawaban.setSoal5("c");
+                soal5 = "c";
+                Preferences.setSoal5(getBaseContext(),soal5);
                 startActivity(intent);
             }
         });
@@ -79,7 +82,8 @@ public class SoalActivity5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity5.this, SoalActivity6.class);
-                modelJawaban.setSoal5("d");
+                soal5 = "d";
+                Preferences.setSoal5(getBaseContext(),soal5);
                 startActivity(intent);
             }
         });
@@ -88,7 +92,8 @@ public class SoalActivity5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SoalActivity5.this, SoalActivity6.class);
-                modelJawaban.setSoal5("e");
+                soal5 = "e";
+                Preferences.setSoal5(getBaseContext(),soal5);
                 startActivity(intent);
             }
         });
