@@ -7,7 +7,7 @@
     tools:context=".menu.materi.energi.MateriEnergiActivity">
 
     <include
-        layout="@layout/toolbar"
+        layout="@layout/toolbar_materi_video_tes"
         android:id="@+id/toolbar_materi_energi"/>
 
     <ScrollView

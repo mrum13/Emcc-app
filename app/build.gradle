@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.afila.energiusaha"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -40,5 +40,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.2'
     implementation 'androidx.navigation:navigation-ui:2.3.2'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
 
 }

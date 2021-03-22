@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.materi.hukum.HukunLatihanActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar_soal_energi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latihanhukum1"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="14sp"
+        android:layout_marginTop="65dp"
+        android:id="@+id/txt1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/imglatihanhukum1"
+        android:layout_below="@id/txt1"
+        android:layout_alignLeft="@id/txt1"
+        android:id="@+id/gambar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latihanhukum2"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="14sp"
+        android:id="@+id/txt2"
+        android:layout_below="@id/gambar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/latihanhukum1a"/>
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/latihanhukum1b"/>
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/latihanhukum1c"/>
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/latihanhukum1d"/>
+
+        <Button
+            android:id="@+id/btnE"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/latihanhukum1e"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -255,7 +255,7 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="x2">x	= pertambahan panjang pegas (m).</string>
     <string name="materiusaha16">Sebuah pegas dengan panjang 20 cm digantung secara vertikal. Selanjutnya, sebuah beban dengan massa 100 g digantungkan pada ujung pegas sehingga panjang pegas menjadi 30 cm. jika g = 10 m/s2, tentukan usaha yang dilakukan oleh gaya tersebut.</string>
     <string name="materiusaha17">Grafik di atas menunjukkan hubungan antara gaya F dengan pertambahan panjang pegas (x). Hitunglah besar usaha yang dilakukan gaya berdasarkan data grafik di samping.</string>
-    
+
     <string name="materi2">Energi</string>
     <string name="materienergi1">Suatu benda dikatakan mempunyai energi jika benda tersebut mempunyai kemampuan untuk melakukan usaha. Energi tidak dapat dilihat atau disentuh, tetapi dapat dirasakan. Selain itu, energi juga tidak dapat dimusnahkan, tetapi dapat berubah ke bentuk energi lainnya. Energi mempunyai bentuk beranekaragam tergantung dari sumbernya.</string>
     <string name="materienergi2">Contohnya, energi kimia, energi panas, energi mekanik, energi listrik, energi inti, energi cahaya, energi panas bumi, dan energi yang berasal dari fosil. Beberapa contoh energi yang dapat berubah bentuk, yaitu sebagai berikut.</string>
@@ -302,7 +302,7 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="delta">U+0394</string>
     <string name="materihubungan8">Dengan demikian, usaha yang dilakukan oleh suatu gaya terhadap suatu benda sama dengan perubahan energi kinetik dari benda tersebut.</string>
     <string name="materihubungan9">Sebuah balok kayu bermassa 2 kg dijatuhkan dari ketinggian 30 m di atas permukaan tanah. Hitunglah perubahan energi potensial pada ketinggian 10 m dari permukaan tanah. (g = 10 m/s2)</string>
-    
+
     <string name="materi4">Hukum Kekekalan Energi</string>
     <string name="materihukum1">Salah satu sifat dari energi adalah kekal, artinya tidak dapat dihilangkan, tetapi dapat berubah bentuk menjadi energi yang lain. Misalkan, sebuah bola dilempar vertikal ke atas. Mula-mula bola mempunyai energi kinetik, semakin tinggi posisi bola, energi kinetiknya berkurang dan berubah menjadi energi potensial. Di titik tertinggi, bola hanya mempunyai energi potensial saja. Namun, saat bola jatuh kembali maka energi potensialnya berkurang dan berubah menjadi energi kinetik. Jika bola sampai di permukaan tanah, energi potensialnya nol dan bola hanya mempunyai energi kinetik saja.</string>
     <string name="materihukum2">Penjumlahan dari energi potensial dan energi kinetik disebut <b>energi mekanik</b>. Jika tidak ada gaya luar yang bekerja pada benda, maka jumlah energi potensial dan energi kinetik adalah tetap. Pernyataan tersebut dikenal dengan <b>hukum kekekalan energi mekanik.</b></string>
@@ -319,7 +319,7 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="ek2hukum">EK2= energi kinetik akhir (J),</string>
     <string name="ep1hukum">EP1	= energi kinetik akhir (J), dan</string>
     <string name="ep2hukum">EP2= energi potensial akhir (J).</string>
-    
+
     <string name="materi5">Daya</string>
     <string name="materidaya1"><b>Daya</b> adalah kemampuan untuk melakukan usaha tiap satu satuan waktu. Secara matematis dapat dinyatakan dengan persamaan berikut.</string>
     <string name="materidaya2">Berdasarkan persamaan (1), satuan daya dalam Sistem Internasional (SI) adalah J/s = watt. Definisi satu watt adalah besarnya daya yang menimbulkan usaha sebesar 1 joule tiap sekon. Satuan lain dari daya adalah kilowatt (kW). Berdasarkan Persamaan (1) juga dapat diturunkan satuan usaha yang lain, yaitu sebagai berikut.</string>
@@ -359,5 +359,76 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="soaltes20a">Menggunakan persamaan kekekalan energi mekanik (pers. 2)</string>
     <string name="soaltes20b">Menentukan Panjang lintasan dengan menggunakan persamaan (pers. 3)</string>
     <string name="soaltes20c">Dengan mensubstitusi persamaan 2 dan 3 ke persamaan 1, maka didapat Panjang lintasan balok yaitu:</string>
+
+    <string name="latihanusaha1">Seorang anak dan mobil mainan dengan seutas tali dengan gaya tarik 30 N. Mobil berpindah sejauh 5 m. Usaha yang dilakukan anak itu jika tali membentuk sudut 37° terdapat jalan mendatar adalah….</string>
+    <string name="latihanusaha1a">A. 220 J</string>
+    <string name="latihanusaha1b">B. 200 J</string>
+    <string name="latihanusaha1c">C. 150 J</string>
+    <string name="latihanusaha1d">D. 120 J</string>
+    <string name="latihanusaha1e">E. 100 J</string>
+
+    <string name="latihanusaha2">Benda bermassa 10 kg pada mulanya bergerak dengan kelajuan 5 m/s. Sesaat kemudian benda itu bergerak dengan kelajuan 10 m/s. Tentukan usaha total yang dikerjakan pada benda tersebut….</string>
+    <string name="latihanusaha2a">A. 371</string>
+    <string name="latihanusaha2b">B. 374</string>
+    <string name="latihanusaha2c">C. 375</string>
+    <string name="latihanusaha2d">D. 218</string>
+    <string name="latihanusaha2e">E. 901</string>
+
+    <string name="latihanenergi1">Sebuah balok bermassa 4 kg bergerak dengan kecepatan awal 10 m/s di atas lantai yang kasar. Karena kekasaran lantai tersebut, kecepatan balok bisa turun menjadi 5 m/s setelah menempuh jarak tertentu. Perubahan energi kinetik balok sebesar.... </string>
+    <string name="latihanenergi1a">A. turun 150 joule</string>
+    <string name="latihanenergi1b">B. naik 150 joule</string>
+    <string name="latihanenergi1c">C. turun 50 joule</string>
+    <string name="latihanenergi1d">D. naik 50 joule</string>
+    <string name="latihanenergi1e">E. naik 250 joule</string>
+
+    <string name="latihanenergi2">Semakin Benda yang bermassa 700 gram dilempar ke atas hingga mencapai ketinggian 9 m. Perubahan energi potensial benda ketika berada pada ketinggian 5 m sampai 9 m adalah (g = 10 m/s²)….</string>
+    <string name="latihanenergi2a">A. 28J</string>
+    <string name="latihanenergi2b">B. 35J</string>
+    <string name="latihanenergi2c">C. 42J</string>
+    <string name="latihanenergi2d">D. 54J</string>
+    <string name="latihanenergi2e">E. 63J</string>
+
+    <string name="latihanhubungan1">Sebuah benda massanya 2 kg jatuh bebas dari puncak gedung bertingkat yang tingginya 100 m. Apabila gesekan dengan udara diabaikan dan g = 10 m/s2 maka usaha yang dilakukan oleh gaya berat sampai pada ketinggian 20 m dari tanah adalah….</string>
+    <string name="latihanhubungan1a">A. 200 joule</string>
+    <string name="latihanhubungan1b">B. 400 joule</string>
+    <string name="latihanhubungan1c">C. 600 joule</string>
+    <string name="latihanhubungan1d">D. 1600 joule</string>
+    <string name="latihanhubungan1e">E. 2400 joule</string>
+
+    <string name="latihanhubungan2">Sebuah benda memiliki energi kinetik sebesar 5000 Joule. Jika kecepatan benda tersebut dijadikan setengah dari kecepatan benda mula-mula, energi kinetiknya sekarang.....  </string>
+    <string name="latihanhubungan2a">A. 1250 joule</string>
+    <string name="latihanhubungan2b">B. 1240 joule</string>
+    <string name="latihanhubungan2c">C. 1230 joule</string>
+    <string name="latihanhubungan2d">D. 1220 joule</string>
+    <string name="latihanhubungan2e">E. 1210 joule</string>
+
+    <string name="latihanhukum1">Sebuah bola yang massanya 2 kg jatuh bebas dari posisi A seperti pada gambar.</string>
+    <string name="latihanhukum11">Ketika sampai di B, energi kinetik bola tersebut 2 kali energi potensialnya. Hitunglah tinggi titik B dari permukaan tanah!</string>
+    <string name="latihanhukum1a">A. 20 m</string>
+    <string name="latihanhukum1b">B. 30 m</string>
+    <string name="latihanhukum1c">C. 40 m</string>
+    <string name="latihanhukum1d">D. 50 m</string>
+    <string name="latihanhukum1e">E. 60 m</string>
+
+    <string name="latihanhukum2">Pada musim dingin di Negara Swedia diadakan perlombaan ski es di daerah pegunungan. Pemain ski es meluncur dari ketinggian A seperti pada gambar. Jika kecepatan awal pemain ski = nol, dan percepatan gravitasi = 10 m/s2, maka kecepatan pemain pada saat ketinggian B adalah….</string>
+    <string name="latihanhukum2a">A. akar2m.s-1</string>
+    <string name="latihanhukum2b">B. 5akar2m.s-1</string>
+    <string name="latihanhukum2c">C. 10akar2m.s-1</string>
+    <string name="latihanhukum2d">D. 20akar2m.s-1</string>
+    <string name="latihanhukum2e">E. 25akar2m.s-1</string>
+
+    <string name="latihandaya1">Seorang yang massanya 60 kg menaiki tangga yang tingginya 20 m dalam selang waktu 2 menit. Bila g = 10 m/s2, berapa daya yang dikeluarkan oleh orang tersebut….</string>
+    <string name="latihandaya1a">A. 120</string>
+    <string name="latihandaya1b">B. 100</string>
+    <string name="latihandaya1c">C. 900</string>
+    <string name="latihandaya1d">D. 300</string>
+    <string name="latihandaya1e">E. 200</string>
+
+    <string name="latihandaya2">Balok dengan massa 1.800 gram (g =10 m/s2) ditarik secara vertikal selama 4 sekon. Jika balok berpindah setinggi 2 m, daya yang dihasilkan adalah....</string>
+    <string name="latihandaya2a">A. 3600 W</string>
+    <string name="latihandaya2b">B. 900 W</string>
+    <string name="latihandaya2c">C. 225 W</string>
+    <string name="latihandaya2d">D. 36 W</string>
+    <string name="latihandaya2e">E. 9 W</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.afila.energiusaha.menu.soal;
+package com.afila.energiusaha.menu.materi.usaha;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,34 +10,22 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afila.energiusaha.R;
+import com.afila.energiusaha.menu.soal.Preferences;
 
-public class SoalActivity extends AppCompatActivity {
+public class UsahaLatihanActivity2 extends AppCompatActivity {
     private TextView tvToolbarSoal;
     private String toolbarText;
     private ImageView toolbarback;
-
-
-    private ModelJawaban modelJawaban;
-
     private Button btna,btnb,btnc,btnd,btne;
-
-    private String soal1,soal2,soal3,soal4,soal5,soal6,soal7,soal8,soal9,soal10
-            ,soal11,soal12,soal13,soal14,soal15,soal16,soal17,soal18,soal19,soal20;
-
-    private Intent sendData;
+    private String soal2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soal);
+        setContentView(R.layout.activity_usaha_latihan2);
 
         tvToolbarSoal = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
-
-        sendData = new Intent(SoalActivity.this,ResultActivity.class);
-
-        modelJawaban = new ModelJawaban(soal1,soal2,soal3,soal4,soal5,soal6,soal7,soal8,soal9,soal10
-                ,soal11,soal12,soal13,soal14,soal15,soal16,soal17,soal18,soal19,soal20);
 
         btna = findViewById(R.id.btnA);
         btnb = findViewById(R.id.btnB);
@@ -45,65 +33,67 @@ public class SoalActivity extends AppCompatActivity {
         btnd = findViewById(R.id.btnD);
         btne = findViewById(R.id.btnE);
 
-        if(getIntent().hasExtra("toolbarText")) {
-            toolbarText = getIntent().getStringExtra("toolbarText");
-            tvToolbarSoal.setText(toolbarText);
-        }
+        tvToolbarSoal.setText("Latihan-Usaha 2");
 
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SoalActivity.this.finish();
+                UsahaLatihanActivity2.this.finish();
             }
         });
 
         btna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "a";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(UsahaLatihanActivity2.this, ResultActivityUsaha.class);
+                soal2 = "a";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
+                UsahaLatihanActivity2.this.finish();
             }
         });
 
         btnb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "b";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(UsahaLatihanActivity2.this, ResultActivityUsaha.class);
+                soal2 = "b";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
+                UsahaLatihanActivity2.this.finish();
             }
         });
 
         btnc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "c";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(UsahaLatihanActivity2.this, ResultActivityUsaha.class);
+                soal2 = "c";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
+                UsahaLatihanActivity2.this.finish();
             }
         });
 
         btnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "d";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(UsahaLatihanActivity2.this, ResultActivityUsaha.class);
+                soal2 = "d";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
+                UsahaLatihanActivity2.this.finish();
             }
         });
 
         btne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "e";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(UsahaLatihanActivity2.this, ResultActivityUsaha.class);
+                soal2 = "e";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
+                UsahaLatihanActivity2.this.finish();
             }
         });
     }

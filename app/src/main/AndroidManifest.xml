@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.afila.energiusaha">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EnergiUsaha">
-        <activity android:name=".menu.materi.daya.MateriDataActivity"></activity>
+        <activity android:name=".menu.materi.daya.ResaultActivityDaya"></activity>
+        <activity android:name=".menu.materi.daya.DayaLatihanActivity2" />
+        <activity android:name=".menu.materi.daya.DayaLatihanActivity" />
+        <activity android:name=".menu.materi.hukum.ResultActivityHukum" />
+        <activity android:name=".menu.materi.hukum.HukumLatihanActivity2" />
+        <activity android:name=".menu.materi.hukum.HukunLatihanActivity" />
+        <activity android:name=".menu.materi.hubungansahaenergi.ResultActivityHubungan" />
+        <activity android:name=".menu.materi.hubungansahaenergi.HubunganLatihanActivity2" />
+        <activity android:name=".menu.materi.hubungansahaenergi.HubunganLatihanActivity" />
+        <activity android:name=".menu.materi.energi.ResultActivityEnergi" />
+        <activity android:name=".menu.materi.energi.EnergiLatihanActivity2" />
+        <activity android:name=".menu.materi.energi.EnergiLatihanActivity" />
+        <activity android:name=".menu.materi.usaha.ResultActivityUsaha" />
+        <activity android:name=".menu.materi.usaha.UsahaLatihanActivity2" />
+        <activity android:name=".menu.materi.usaha.UsahaLatihanActivity" />
+        <activity android:name=".menu.materi.WadahVideoActivity" />
+        <activity android:name=".menu.materi.daya.MateriDataActivity" />
         <activity android:name=".menu.materi.hukum.HukumKekelanEnergiMekanikActivity" />
         <activity android:name=".menu.materi.hubungansahaenergi.HubunganUsahaEnergiActivity" />
         <activity android:name=".menu.materi.energi.MateriEnergiActivity" />
