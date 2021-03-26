@@ -104,46 +104,46 @@ public class ResultActivity extends AppCompatActivity {
         hrs20 = findViewById(R.id.txtharusnya20);
 
         benar1 = findViewById(R.id.benar1);
-        benar1.setText("c");
+        benar1.setText("C");
         benar2 = findViewById(R.id.benar2);
-        benar2.setText("a");
+        benar2.setText("A");
         benar3 = findViewById(R.id.benar3);
-        benar3.setText("a");
+        benar3.setText("A");
         benar4 = findViewById(R.id.benar4);
-        benar4.setText("d");
+        benar4.setText("D");
         benar5 = findViewById(R.id.benar5);
-        benar5.setText("e");
+        benar5.setText("E");
         benar6 = findViewById(R.id.benar6);
-        benar6.setText("d");
+        benar6.setText("D");
         benar7 = findViewById(R.id.benar7);
-        benar7.setText("d");
+        benar7.setText("D");
         benar8 = findViewById(R.id.benar8);
-        benar8.setText("e");
+        benar8.setText("E");
         benar9 = findViewById(R.id.benar9);
-        benar9.setText("a");
+        benar9.setText("A");
         benar10 = findViewById(R.id.benar10);
-        benar10.setText("a");
+        benar10.setText("A");
 
         benar11 = findViewById(R.id.benar11);
-        benar11.setText("c");
+        benar11.setText("C");
         benar12 = findViewById(R.id.benar12);
-        benar12.setText("d");
+        benar12.setText("D");
         benar13 = findViewById(R.id.benar13);
-        benar13.setText("a");
+        benar13.setText("A");
         benar14 = findViewById(R.id.benar14);
-        benar14.setText("b");
+        benar14.setText("B");
         benar15 = findViewById(R.id.benar15);
-        benar15.setText("b");
+        benar15.setText("B");
         benar16 = findViewById(R.id.benar16);
-        benar16.setText("a");
+        benar16.setText("A");
         benar17 = findViewById(R.id.benar17);
-        benar17.setText("e");
+        benar17.setText("E");
         benar18 = findViewById(R.id.benar18);
-        benar18.setText("c");
+        benar18.setText("C");
         benar19 = findViewById(R.id.benar19);
-        benar19.setText("e");
+        benar19.setText("E");
         benar20 = findViewById(R.id.benar20);
-        benar20.setText("c");
+        benar20.setText("C");
 
         imgbenar1 = findViewById(R.id.ic_benar1);
         imgbenar2 = findViewById(R.id.ic_benar2);
@@ -216,7 +216,7 @@ public class ResultActivity extends AppCompatActivity {
 
 
         jwb1.setText(s1);
-        if (s1.equals("c")){
+        if (s1.equals("C")){
             imgsalah1.setVisibility(View.GONE);
             hrs1.setVisibility(View.GONE);
             benar1.setVisibility(View.GONE);
@@ -227,7 +227,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb2.setText(Preferences.getSoal2(getBaseContext()));
-        if (s2.equals("a")){
+        if (s2.equals("A")){
             imgsalah2.setVisibility(View.GONE);
             hrs2.setVisibility(View.GONE);
             benar2.setVisibility(View.GONE);
@@ -238,7 +238,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb3.setText(Preferences.getSoal3(getBaseContext()));
-        if (s3.equals("a")){
+        if (s3.equals("A")){
             imgsalah3.setVisibility(View.GONE);
             hrs3.setVisibility(View.GONE);
             benar3.setVisibility(View.GONE);
@@ -249,7 +249,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb4.setText(Preferences.getSoal4(getBaseContext()));
-        if (s4.equals("d")){
+        if (s4.equals("D")){
             imgsalah4.setVisibility(View.GONE);
             hrs4.setVisibility(View.GONE);
             benar4.setVisibility(View.GONE);
@@ -260,7 +260,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb5.setText(Preferences.getSoal5(getBaseContext()));
-        if (s5.equals("e")){
+        if (s5.equals("E")){
             imgsalah5.setVisibility(View.GONE);
             hrs5.setVisibility(View.GONE);
             benar5.setVisibility(View.GONE);
@@ -271,7 +271,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb6.setText(Preferences.getSoal6(getBaseContext()));
-        if (s6.equals("d")){
+        if (s6.equals("D")){
             imgsalah6.setVisibility(View.GONE);
             hrs6.setVisibility(View.GONE);
             benar6.setVisibility(View.GONE);
@@ -282,7 +282,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb7.setText(Preferences.getSoal7(getBaseContext()));
-        if (s7.equals("d")){
+        if (s7.equals("D")){
             imgsalah7.setVisibility(View.GONE);
             hrs7.setVisibility(View.GONE);
             benar7.setVisibility(View.GONE);
@@ -293,7 +293,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb8.setText(Preferences.getSoal8(getBaseContext()));
-        if (s8.equals("e")){
+        if (s8.equals("E")){
             imgsalah8.setVisibility(View.GONE);
             hrs8.setVisibility(View.GONE);
             benar8.setVisibility(View.GONE);
@@ -304,7 +304,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb9.setText(Preferences.getSoal9(getBaseContext()));
-        if (s9.equals("a")){
+        if (s9.equals("A")){
             imgsalah9.setVisibility(View.GONE);
             hrs9.setVisibility(View.GONE);
             benar9.setVisibility(View.GONE);
@@ -315,7 +315,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb10.setText(Preferences.getSoal10(getBaseContext()));
-        if (s10.equals("a")){
+        if (s10.equals("A")){
             imgsalah10.setVisibility(View.GONE);
             hrs10.setVisibility(View.GONE);
             benar10.setVisibility(View.GONE);
@@ -326,7 +326,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb11.setText(Preferences.getSoal11(getBaseContext()));
-        if (s11.equals("c")){
+        if (s11.equals("C")){
             imgsalah11.setVisibility(View.GONE);
             hrs11.setVisibility(View.GONE);
             benar11.setVisibility(View.GONE);
@@ -337,7 +337,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb12.setText(Preferences.getSoal12(getBaseContext()));
-        if (s12.equals("d")){
+        if (s12.equals("D")){
             imgsalah12.setVisibility(View.GONE);
             hrs12.setVisibility(View.GONE);
             benar12.setVisibility(View.GONE);
@@ -348,7 +348,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb13.setText(Preferences.getSoal13(getBaseContext()));
-        if (s13.equals("a")){
+        if (s13.equals("A")){
             imgsalah13.setVisibility(View.GONE);
             hrs13.setVisibility(View.GONE);
             benar13.setVisibility(View.GONE);
@@ -359,7 +359,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb14.setText(Preferences.getSoal14(getBaseContext()));
-        if (s14.equals("b")){
+        if (s14.equals("B")){
             imgsalah14.setVisibility(View.GONE);
             hrs14.setVisibility(View.GONE);
             benar14.setVisibility(View.GONE);
@@ -370,7 +370,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb15.setText(Preferences.getSoal15(getBaseContext()));
-        if (s15.equals("b")){
+        if (s15.equals("B")){
             imgsalah15.setVisibility(View.GONE);
             hrs15.setVisibility(View.GONE);
             benar15.setVisibility(View.GONE);
@@ -381,7 +381,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb16.setText(Preferences.getSoal16(getBaseContext()));
-        if (s16.equals("a")){
+        if (s16.equals("A")){
             imgsalah16.setVisibility(View.GONE);
             hrs16.setVisibility(View.GONE);
             benar16.setVisibility(View.GONE);
@@ -392,7 +392,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb17.setText(Preferences.getSoal17(getBaseContext()));
-        if (s17.equals("e")){
+        if (s17.equals("E")){
             imgsalah17.setVisibility(View.GONE);
             hrs17.setVisibility(View.GONE);
             benar17.setVisibility(View.GONE);
@@ -403,7 +403,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb18.setText(Preferences.getSoal18(getBaseContext()));
-        if (s18.equals("c")){
+        if (s18.equals("C")){
             imgsalah18.setVisibility(View.GONE);
             hrs18.setVisibility(View.GONE);
             benar18.setVisibility(View.GONE);
@@ -414,7 +414,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb19.setText(Preferences.getSoal19(getBaseContext()));
-        if (s19.equals("e")){
+        if (s19.equals("E")){
             imgsalah19.setVisibility(View.GONE);
             hrs19.setVisibility(View.GONE);
             benar19.setVisibility(View.GONE);
@@ -425,7 +425,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         jwb20.setText(Preferences.getSoal20(getBaseContext()));
-        if (s20.equals("c")){
+        if (s20.equals("C")){
             imgsalah20.setVisibility(View.GONE);
             hrs20.setVisibility(View.GONE);
             benar20.setVisibility(View.GONE);
