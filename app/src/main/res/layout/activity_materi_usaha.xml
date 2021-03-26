@@ -32,33 +32,41 @@
                 android:justificationMode="inter_word"
                 android:textColor="@color/black"/>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:paddingVertical="12dp">
 
                 <ImageView
-                    android:layout_width="150dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:src="@drawable/img_1_usaha"
-                    android:scaleType="fitXY"/>
+                    android:scaleType="fitXY"
+                    android:layout_toLeftOf="@id/pembatas1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pembatas1"
+                    android:layout_centerInParent="true"/>
 
                 <ImageView
                     android:layout_marginLeft="12dp"
-                    android:layout_width="150dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:src="@drawable/img_2_usaha"
-                    android:scaleType="fitXY"/>
-            </LinearLayout>
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@id/pembatas1"/>
+            </RelativeLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/usahagambar1"
                 android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal|center" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -70,10 +78,20 @@
                 android:layout_marginTop="8dp"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
                 android:src="@drawable/img_3_usaha"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(1)"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal|center" />
 
 
             <TextView
@@ -111,13 +129,14 @@
                 android:layout_marginLeft="24dp"/>
 
             <ImageView
-                android:layout_width="200dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:src="@drawable/img_4_usaha"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/usahagambar2"
                 android:textAlignment="center"
@@ -133,10 +152,11 @@
                 android:text="@string/materiusaha3"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
                 android:src="@drawable/img_5_usaha"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -147,10 +167,11 @@
                 android:justificationMode="inter_word"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
                 android:src="@drawable/img_6_usaha"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -161,64 +182,74 @@
                 android:justificationMode="inter_word"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
                 android:src="@drawable/img_7_usaha_"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:paddingVertical="12dp">
 
                 <ImageView
-                    android:layout_width="100dp"
+                    android:id="@+id/gambarkiri"
+                    android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:src="@drawable/img_8_usaha"
-                    android:scaleType="fitXY"/>
-
-                <ImageView
-                    android:layout_marginLeft="6dp"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/img_9_usaha"
-                    android:scaleType="fitXY"/>
-
-                <ImageView
-                    android:layout_marginLeft="6dp"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/img_10_usaha"
-                    android:scaleType="fitXY"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    android:scaleType="fitXY"
+                    android:layout_toLeftOf="@id/gambartengah"/>
 
                 <TextView
-                    android:layout_width="100dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="(a)"
                     android:textAlignment="center"
-                    android:gravity="center_horizontal" />
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/gambarkiri"
+                    android:layout_alignLeft="@id/gambarkiri"
+                    android:layout_alignRight="@id/gambarkiri"/>
+
+                <ImageView
+                    android:id="@+id/gambartengah"
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_9_usaha"
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
-                    android:layout_width="100dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="(b)"
                     android:textAlignment="center"
-                    android:gravity="center_horizontal" />
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/gambartengah"
+                    android:layout_alignLeft="@id/gambartengah"
+                    android:layout_alignRight="@id/gambartengah"/>
+
+                <ImageView
+                    android:id="@+id/gambarkanan"
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_10_usaha"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@id/gambartengah"/>
 
                 <TextView
-                    android:layout_width="100dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="(b)"
+                    android:text="(c)"
                     android:textAlignment="center"
-                    android:gravity="center_horizontal" />
-            </LinearLayout>
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/gambarkanan"
+                    android:layout_alignLeft="@id/gambarkanan"
+                    android:layout_alignRight="@id/gambarkanan"/>
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -230,7 +261,7 @@
                 android:justificationMode="inter_word"/>
 
             <ImageView
-                android:layout_width="200dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:src="@drawable/img_11_usaha"
                 android:layout_gravity="center"
@@ -255,8 +286,8 @@
                 android:justificationMode="inter_word"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
                 android:src="@drawable/img_12_usaha"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"/>
@@ -271,8 +302,8 @@
                 android:justificationMode="inter_word"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
                 android:src="@drawable/img_13_usaha"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"/>
@@ -283,6 +314,14 @@
                 android:src="@drawable/img_14_usaha"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(2)"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal|center" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -349,12 +388,20 @@
                 android:justificationMode="inter_word"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
                 android:src="@drawable/img_16_usaha"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(3)"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal|center" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -427,8 +474,8 @@
                 android:justificationMode="inter_word" />
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_width="125dp"
+                android:layout_height="80dp"
                 android:src="@drawable/img_18_usaha"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
@@ -444,8 +491,8 @@
                 android:justificationMode="inter_word" />
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_width="125dp"
+                android:layout_height="80dp"
                 android:src="@drawable/img_19_usaha"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
@@ -531,10 +578,9 @@
                         android:textColor="@color/black"/>
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
                         android:src="@drawable/img_20_usaha"
-                        android:layout_gravity="center"
                         android:layout_marginTop="8dp"
                         android:scaleType="fitXY"/>
 
@@ -586,16 +632,24 @@
                         android:textColor="@color/black"/>
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
                         android:src="@drawable/img_22_usaha"
-                        android:layout_gravity="center"
                         android:layout_marginTop="8dp"
                         android:scaleType="fitXY"/>
 
                 </LinearLayout>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center"
+                android:text="(1)"
+                android:textAlignment="center"
+                android:textSize="14sp" />
 
         </LinearLayout>
 

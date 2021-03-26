@@ -32,8 +32,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
                 android:src="@drawable/img_1_daya"
                 android:layout_gravity="center"
                 android:layout_marginTop="12dp"/>
@@ -98,10 +98,11 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
                 android:src="@drawable/img_2_daya"
                 android:layout_gravity="center"
+                android:scaleType="fitXY"
                 android:layout_marginTop="12dp"/>
 
             <TextView
@@ -122,7 +123,7 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:src="@drawable/img_3_daya"
                 android:layout_gravity="center"
@@ -154,8 +155,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
                 android:src="@drawable/img_4_daya"
                 android:layout_gravity="center"
                 android:layout_marginTop="12dp"/>
@@ -169,8 +170,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
                 android:src="@drawable/img_5_daya"
                 android:layout_gravity="center"
                 android:layout_marginTop="12dp"/>
@@ -206,10 +207,18 @@
             </LinearLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
                 android:src="@drawable/img_7_daya"
                 android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(2)"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -271,8 +280,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
                 android:src="@drawable/img_8_daya"
                 android:layout_gravity="center"/>
 
@@ -285,15 +294,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="(2)"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Dengan"
                 android:textSize="14sp"
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="100dp"
                 android:src="@drawable/daya1"
-                android:paddingLeft="24dp"/>
+                android:paddingLeft="24dp"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -322,8 +340,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
                 android:src="@drawable/img_10_daya"
                 android:layout_gravity="center"
                 android:layout_marginTop="12dp"/>

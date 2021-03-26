@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <LinearLayout
+            <RelativeLayout
                 android:id="@+id/linear1"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
@@ -29,22 +29,30 @@
                 android:paddingHorizontal="12dp">
 
                 <ImageView
-                    android:layout_width="140dp"
+                    android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:scaleType="fitXY"
                     android:layout_marginHorizontal="12dp"
-                    android:src="@drawable/apersepsi1"/>
+                    android:src="@drawable/apersepsi1"
+                    android:layout_toLeftOf="@id/pembatas1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pembatas1"
+                    android:layout_centerInParent="true"/>
 
                 <ImageView
-                    android:layout_width="140dp"
+                    android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:scaleType="fitXY"
                     android:layout_marginHorizontal="12dp"
+                    android:layout_toRightOf="@id/pembatas1"
                     android:src="@drawable/apersepsi2"/>
 
-            </LinearLayout>
+            </RelativeLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_marginTop="12dp"
                 android:id="@+id/linear2"
                 android:layout_width="match_parent"
@@ -54,20 +62,28 @@
                 android:layout_below="@id/linear1">
 
                 <ImageView
-                    android:layout_width="140dp"
+                    android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:scaleType="fitXY"
                     android:layout_marginHorizontal="12dp"
+                    android:layout_toLeftOf="@id/pembatas2"
                     android:src="@drawable/apersepsi3"/>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pembatas2"
+                    android:layout_centerInParent="true"/>
+
                 <ImageView
-                    android:layout_width="140dp"
+                    android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:layout_toRightOf="@id/pembatas2"
                     android:scaleType="fitXY"
                     android:layout_marginHorizontal="12dp"
                     android:src="@drawable/apersepsi4"/>
 
-            </LinearLayout>
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="match_parent"
