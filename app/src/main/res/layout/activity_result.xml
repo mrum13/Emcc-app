@@ -1078,14 +1078,14 @@
                     android:textColor="@color/black"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:id="@+id/benar17"
-                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
                     android:layout_marginLeft="8dp"
                     android:text="1"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="24dp"
@@ -1518,8 +1518,8 @@
                         android:src="@drawable/tes9"/>
 
                     <ImageView
-                        android:layout_width="180dp"
-                        android:layout_height="150dp"
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
                         android:src="@drawable/img_4"/>
 
                 </LinearLayout>
@@ -1588,8 +1588,8 @@
                         android:src="@drawable/tes11"/>
 
                     <ImageView
-                        android:layout_width="180dp"
-                        android:layout_height="150dp"
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
                         android:src="@drawable/img_6"/>
 
 
@@ -1619,8 +1619,8 @@
                         android:src="@drawable/tes12"/>
 
                     <ImageView
-                        android:layout_width="180dp"
-                        android:layout_height="150dp"
+                        android:layout_width="200dp"
+                        android:layout_height="230dp"
                         android:src="@drawable/img_7"
                         android:scaleType="fitXY"/>
 
@@ -1678,8 +1678,8 @@
                         android:scaleType="fitXY"/>
 
                     <ImageView
-                        android:layout_width="180dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
                         android:src="@drawable/img_9"
                         android:scaleType="fitXY"/>
 
@@ -1705,8 +1705,8 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="150dp"
+                        android:layout_width="350dp"
+                        android:layout_height="180dp"
                         android:src="@drawable/tes15"
                         android:scaleType="fitXY"/>
 
@@ -1744,7 +1744,7 @@
                         android:scaleType="fitXY"/>
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="350dp"
                         android:layout_height="300dp"
                         android:src="@drawable/img_12"
                         android:scaleType="fitXY"/>
@@ -1894,8 +1894,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:layout_marginTop="12dp"
                 android:src="@drawable/img_19"
                 android:scaleType="fitXY"
@@ -1918,8 +1918,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
                         android:src="@drawable/tes20"
                         android:scaleType="fitXY"/>
 
@@ -1933,8 +1933,8 @@
                         android:textColor="@color/black"/>
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
                         android:src="@drawable/img_21"
                         android:scaleType="fitXY"/>
 
@@ -1953,8 +1953,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
                 android:layout_marginTop="12dp"
                 android:src="@drawable/img_22"
                 android:scaleType="fitXY"
@@ -1970,8 +1970,8 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
                 android:layout_marginTop="12dp"
                 android:src="@drawable/img_23"
                 android:scaleType="fitXY"
@@ -1987,7 +1987,7 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_marginTop="12dp"
                 android:src="@drawable/img_24"
