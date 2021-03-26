@@ -74,6 +74,7 @@
                     android:text="1"
                     android:layout_marginLeft="8dp"
                     android:textStyle="bold"
+                    android:textAllCaps="true"
                     android:textColor="@color/black"/>
 
                 <TextView
@@ -136,6 +137,7 @@
                     android:text="1"
                     android:layout_marginLeft="8dp"
                     android:textStyle="bold"
+                    android:textAllCaps="true"
                     android:textColor="@color/black"/>
 
                 <TextView
@@ -196,6 +198,7 @@
                     android:id="@+id/jawaban3"
                     android:textSize="14sp"
                     android:layout_marginLeft="8dp"
+                    android:textAllCaps="true"
                     android:text="1"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -257,6 +260,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/jawaban4"
                     android:textSize="14sp"
+                    android:textAllCaps="true"
                     android:text="1"
                     android:layout_marginLeft="8dp"
                     android:textStyle="bold"
@@ -320,6 +324,7 @@
                     android:id="@+id/jawaban5"
                     android:textSize="14sp"
                     android:text="1"
+                    android:textAllCaps="true"
                     android:layout_marginLeft="8dp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -384,6 +389,7 @@
                     android:layout_marginLeft="8dp"
                     android:text="1"
                     android:textStyle="bold"
+                    android:textAllCaps="true"
                     android:textColor="@color/black"/>
 
                 <TextView
@@ -446,6 +452,7 @@
                     android:layout_marginLeft="8dp"
                     android:text="1"
                     android:textStyle="bold"
+                    android:textAllCaps="true"
                     android:textColor="@color/black"/>
 
                 <TextView
@@ -507,6 +514,7 @@
                     android:layout_marginLeft="8dp"
                     android:textSize="14sp"
                     android:text="1"
+                    android:textAllCaps="true"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
 
@@ -566,6 +574,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/jawaban9"
+                    android:textAllCaps="true"
                     android:textSize="14sp"
                     android:layout_marginLeft="8dp"
                     android:text="1"
@@ -629,6 +638,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:id="@+id/jawaban10"
+                    android:textAllCaps="true"
                     android:textSize="14sp"
                     android:text="1"
                     android:textStyle="bold"
@@ -693,6 +703,7 @@
                     android:textSize="14sp"
                     android:layout_marginLeft="8dp"
                     android:text="1"
+                    android:textAllCaps="true"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
 
@@ -755,6 +766,7 @@
                     android:layout_marginLeft="8dp"
                     android:textSize="14sp"
                     android:text="1"
+                    android:textAllCaps="true"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
 
@@ -817,6 +829,7 @@
                     android:textSize="14sp"
                     android:layout_marginLeft="8dp"
                     android:text="1"
+                    android:textAllCaps="true"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
 
@@ -879,6 +892,7 @@
                     android:layout_marginLeft="8dp"
                     android:textSize="14sp"
                     android:text="1"
+                    android:textAllCaps="true"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
 
@@ -940,6 +954,7 @@
                     android:id="@+id/jawaban15"
                     android:layout_marginLeft="8dp"
                     android:textSize="14sp"
+                    android:textAllCaps="true"
                     android:text="1"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -1002,6 +1017,7 @@
                     android:id="@+id/jawaban16"
                     android:layout_marginLeft="8dp"
                     android:textSize="14sp"
+                    android:textAllCaps="true"
                     android:text="1"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -1126,6 +1142,7 @@
                     android:id="@+id/jawaban18"
                     android:layout_marginLeft="8dp"
                     android:textSize="14sp"
+                    android:textAllCaps="true"
                     android:text="1"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -1188,6 +1205,7 @@
                     android:id="@+id/jawaban19"
                     android:textSize="14sp"
                     android:layout_marginLeft="8dp"
+                    android:textAllCaps="true"
                     android:text="1"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -1246,6 +1264,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
+                    android:textAllCaps="true"
                     android:layout_height="wrap_content"
                     android:id="@+id/jawaban20"
                     android:textSize="14sp"
