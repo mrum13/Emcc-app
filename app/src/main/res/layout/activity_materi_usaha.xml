@@ -191,18 +191,18 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:paddingVertical="12dp">
 
                 <ImageView
                     android:id="@+id/gambarkiri"
-                    android:layout_width="100dp"
+                    android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:src="@drawable/img_8_usaha"
-                    android:scaleType="fitXY"
-                    android:layout_toLeftOf="@id/gambartengah"/>
+                    android:scaleType="fitXY"/>
 
                 <TextView
+                    android:id="@+id/ketgambarkiri"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="(a)"
@@ -215,16 +215,17 @@
                 <ImageView
                     android:id="@+id/gambartengah"
                     android:layout_marginLeft="6dp"
-                    android:layout_width="100dp"
+                    android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:src="@drawable/img_9_usaha"
                     android:scaleType="fitXY"
-                    android:layout_centerHorizontal="true"/>
+                    android:layout_below="@id/ketgambarkiri"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="(b)"
+                    android:id="@+id/ketgambartengah"
                     android:textAlignment="center"
                     android:gravity="center_horizontal"
                     android:layout_below="@id/gambartengah"
@@ -234,11 +235,11 @@
                 <ImageView
                     android:id="@+id/gambarkanan"
                     android:layout_marginLeft="6dp"
-                    android:layout_width="100dp"
+                    android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:src="@drawable/img_10_usaha"
                     android:scaleType="fitXY"
-                    android:layout_toRightOf="@id/gambartengah"/>
+                    android:layout_below="@id/ketgambartengah"/>
 
                 <TextView
                     android:layout_width="wrap_content"
