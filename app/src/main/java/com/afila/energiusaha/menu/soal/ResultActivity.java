@@ -25,7 +25,7 @@ public class ResultActivity extends AppCompatActivity {
 
     TextView benar1,benar2,benar3,benar4,benar5,benar6,benar7,benar8,benar9,benar10,
             benar11,benar12,benar13,benar14,benar15,benar16,benar17,benar18,benar19,benar20;
-
+    
     ImageView imgbenar1,imgbenar2,imgbenar3,imgbenar4,imgbenar5,imgbenar6,imgbenar7,imgbenar8,imgbenar9,imgbenar10,
             imgbenar11,imgbenar12,imgbenar13,imgbenar14,imgbenar15,imgbenar16,imgbenar17,imgbenar18,imgbenar19,imgbenar20;
 
