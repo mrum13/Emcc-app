@@ -17,7 +17,7 @@
 
     <string name="apersepsi_detail">Jumlah energi atau kalori yang masuk serta keluar menentukan berat badan kita. Saat berlari, kita dapat mengurangi kalori dan lemak tubuh melalui pengeluaran energi. Berlari juga memperkuat tulang dan otot serta membantu metabolism. Tetapi pada titik tertentu, kita dapat membangun otot hanya dengan berlari saja.
 	Energi yang Anda habiskan tersebut tidak akan hilang, tetapi berubah bentuk menjadi energi yang lain. Misalnya, panas, suara, dan bentuk energi lain. Hasil dari penggunaan energi yang menghasilkan perubahan tertentu, seperti perpindahan disebut sebagai usaha atau kerja.
-	Contoh dari perubahan energi yang menghasilkan usaha terdapat pada pembangkit listrik. Untuk menghasilkan listrik, diperlukan konversi atau perubahan energi dari bentuk awal. Contohnya, angina, air, panas bumi, atau nuklir. Pada pembangkit listrik bertenaga angin dan air, energi dari hasil perubahan kecepatan (energi kinetik) dipergunakan untuk menggerakkan turbin sehingga generator dapat bekerja untuk menyimpan energi listrik. Sementara itu, pembangkit listrik tenaga panas bumi atau nuklir, memanfaatkan energi panas dari inti Bumi atau reaksi peluruhan sehingga menciptakan uap bertekanan tinggi untuk menggerakkan turbin dan menyalakan generator. Energi listrik tersebut terbentuk akibat usaha dari berbagai konservasi energi. </string>
+	Contoh dari perubahan energi yang menghasilkan usaha terdapat pada pembangkit listrik. Untuk menghasilkan listrik, diperlukan konversi atau perubahan energi dari bentuk awal. Contohnya, angin, air, panas bumi, atau nuklir. Pada pembangkit listrik bertenaga angin dan air, energi dari hasil perubahan kecepatan (energi kinetik) dipergunakan untuk menggerakkan turbin sehingga generator dapat bekerja untuk menyimpan energi listrik. Sementara itu, pembangkit listrik tenaga panas bumi atau nuklir, memanfaatkan energi panas dari inti Bumi atau reaksi peluruhan sehingga menciptakan uap bertekanan tinggi untuk menggerakkan turbin dan menyalakan generator. Energi listrik tersebut terbentuk akibat usaha dari berbagai konservasi energi. </string>
 
     <string name="hubungi">Hubungi Saya</string>
 
@@ -274,6 +274,9 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="g">g	= percepatan gravitasi (m/s2)</string>
     <string name="h">h	= tinggi benda di atas permukaan tanah (m), dan</string>
     <string name="ep">EP	= energi potensial (kg⋅m2/s2 atau joule).</string>
+    <string name="k_energi">k	= tetapan pegas (N/m).</string>
+    <string name="x_energi">x	= pertambahan panjang pegas (m), dan</string>
+    <string name="e_energi">E	= energi potensial pegas (J).</string>
     <string name="materienergi5">Dengan demikian, besar energi potensial sama dengan usaha yang dilakukan gaya berat selama jatuh. Energi potensial juga dapat dimiliki oleh suatu benda yang tergantung pada pegas, seperti Gambar 2.</string>
     <string name="materienergi6">Energi potensial yang terjadi pada pegas atau benda elastis, seperti busur atau ketapel yang terbuat dari karet merupakan usaha yang dilakukan oleh gaya tarik untuk mengubah panjang pegas. Berdasarkan persamaan hukum Hooke, di mana gaya F sebanding dengan pertambahan panjang pegas, maka besar energi potensial pada pegas sama dengan usaha yang dilakukan oleh gaya tarik.</string>
     <string name="materienergi7">Energi kinetik adalah energi yang dimiliki benda karena gerakannya.</string>

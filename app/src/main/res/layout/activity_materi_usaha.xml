@@ -643,15 +643,6 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal|center"
-                android:text="(1)"
-                android:textAlignment="center"
-                android:textSize="14sp" />
-
         </LinearLayout>
 
     </ScrollView>
