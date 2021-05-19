@@ -198,8 +198,7 @@
                     android:id="@+id/gambarkiri"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:src="@drawable/img_8_usaha"
-                    android:scaleType="fitXY"/>
+                    android:src="@drawable/img_8_usaha"/>
 
                 <TextView
                     android:id="@+id/ketgambarkiri"
@@ -214,11 +213,9 @@
 
                 <ImageView
                     android:id="@+id/gambartengah"
-                    android:layout_marginLeft="6dp"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:src="@drawable/img_9_usaha"
-                    android:scaleType="fitXY"
                     android:layout_below="@id/ketgambarkiri"/>
 
                 <TextView
@@ -234,11 +231,9 @@
 
                 <ImageView
                     android:id="@+id/gambarkanan"
-                    android:layout_marginLeft="6dp"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:src="@drawable/img_10_usaha"
-                    android:scaleType="fitXY"
                     android:layout_below="@id/ketgambartengah"/>
 
                 <TextView
