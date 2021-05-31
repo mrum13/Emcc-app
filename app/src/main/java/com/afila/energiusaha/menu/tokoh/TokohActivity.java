@@ -1,4 +1,4 @@
-package com.afila.energiusaha.menu;
+package com.afila.energiusaha.menu.tokoh;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.afila.energiusaha.R;
 
-public class PetaActivity extends AppCompatActivity {
+public class TokohActivity extends AppCompatActivity {
     private TextView tvToolbar;
     private String toolbarText;
     private ImageView toolbarback;
@@ -17,7 +17,7 @@ public class PetaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_peta);
+        setContentView(R.layout.activity_tokoh);
 
         tvToolbar = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
@@ -30,7 +30,7 @@ public class PetaActivity extends AppCompatActivity {
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PetaActivity.this.finish();
+                TokohActivity.this.finish();
             }
         });
     }

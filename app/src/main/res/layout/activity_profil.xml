@@ -10,177 +10,191 @@
         layout="@layout/toolbar"
         android:id="@+id/toolbar_about"/>
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/profile_image"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/dp"
-        app:civ_border_width="2dp"
-        app:civ_border_color="#2D7DFF"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:layout_below="@id/toolbar_about"/>
-
-    <androidx.cardview.widget.CardView
-        android:layout_marginTop="12dp"
-        android:id="@+id/card_bio"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginHorizontal="24dp"
-        android:layout_below="@id/profile_image"
-        app:cardCornerRadius="10dp"
-        android:background="@color/white">
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_below="@id/toolbar_about"
+        android:layout_marginVertical="12dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/ic_akun"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="12dp"
-                android:src="@drawable/ic_baseline_account_circle_24"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#2D7DFF"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"/>
 
-            <TextView
-                android:layout_toRightOf="@id/ic_akun"
-                android:id="@+id/tv_nama"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/nama"
-                android:layout_marginTop="24dp"
-                android:layout_marginLeft="12dp"
-                android:textSize="14sp"
-                android:textColor="@color/black"/>
-
-            <TextView
-                android:id="@+id/tv_nim"
-                android:layout_toRightOf="@id/ic_akun"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/nim"
+            <androidx.cardview.widget.CardView
                 android:layout_marginTop="12dp"
-                android:layout_marginLeft="12dp"
-                android:textSize="14sp"
-                android:textColor="@color/black"
-                android:layout_below="@id/tv_nama"/>
+                android:id="@+id/card_bio"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_below="@id/profile_image"
+                app:cardCornerRadius="10dp"
+                android:background="@color/white">
 
-            <TextView
-                android:id="@+id/tv_jurusan"
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ic_akun"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/ic_baseline_account_circle_24"/>
+
+                    <TextView
+                        android:layout_toRightOf="@id/ic_akun"
+                        android:id="@+id/tv_nama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nama"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tv_nim"
+                        android:layout_toRightOf="@id/ic_akun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nim"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/tv_nama"/>
+
+                    <TextView
+                        android:id="@+id/tv_jurusan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jurusan"
+                        android:layout_toRightOf="@id/ic_akun"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/tv_nim"/>
+
+                    <TextView
+                        android:id="@+id/tv_fakultas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fakultas"
+                        android:layout_toRightOf="@id/ic_akun"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/tv_jurusan"/>
+
+                    <TextView
+                        android:id="@+id/tv_kampus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kampus"
+                        android:layout_toRightOf="@id/ic_akun"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/tv_fakultas"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_below="@id/card_bio"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/white">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="12dp">
+
+                    <ImageView
+                        android:id="@+id/ic_skripsi"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_baseline_menu_book_24"/>
+
+                    <TextView
+                        android:layout_toRightOf="@id/ic_skripsi"
+                        android:id="@+id/tv_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/judul"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_wa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/jurusan"
-                android:layout_toRightOf="@id/ic_akun"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                app:cardCornerRadius="24dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginLeft="12dp"
-                android:textSize="14sp"
-                android:textColor="@color/black"
-                android:layout_below="@id/tv_nim"/>
+                app:cardBackgroundColor="@color/biru">
 
-            <TextView
-                android:id="@+id/tv_fakultas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/fakultas"
-                android:layout_toRightOf="@id/ic_akun"
-                android:layout_marginTop="12dp"
-                android:layout_marginLeft="12dp"
-                android:textSize="14sp"
-                android:textColor="@color/black"
-                android:layout_below="@id/tv_jurusan"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/tv_kampus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/kampus"
-                android:layout_toRightOf="@id/ic_akun"
-                android:layout_marginTop="12dp"
-                android:layout_marginLeft="12dp"
-                android:textSize="14sp"
-                android:textColor="@color/black"
-                android:layout_below="@id/tv_fakultas"/>
+                    <ImageView
+                        android:id="@+id/wa"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/wa"
+                        android:layout_margin="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hubungi"
+                        android:textSize="14sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/wa"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
 
         </RelativeLayout>
 
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginHorizontal="24dp"
-        android:layout_below="@id/card_bio"
-        app:cardCornerRadius="10dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/white">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingHorizontal="12dp">
-
-            <ImageView
-                android:id="@+id/ic_skripsi"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerVertical="true"
-                android:src="@drawable/ic_baseline_menu_book_24"/>
-
-            <TextView
-                android:layout_toRightOf="@id/ic_skripsi"
-                android:id="@+id/tv_judul"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/judul"
-                android:layout_marginTop="24dp"
-                android:layout_marginLeft="12dp"
-                android:textSize="14sp"
-                android:gravity="center"
-                android:layout_centerVertical="true"
-                android:textColor="@color/black"/>
-
-        </RelativeLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_wa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="12dp"
-        android:layout_marginBottom="12dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        app:cardCornerRadius="24dp"
-        android:layout_marginTop="12dp"
-        app:cardBackgroundColor="@color/biru">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/wa"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/wa"
-                android:layout_margin="12dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/hubungi"
-                android:textSize="14sp"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:layout_toRightOf="@id/wa"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="12dp"/>
-
-        </RelativeLayout>
-
-    </androidx.cardview.widget.CardView>
+    </ScrollView>
 
 </RelativeLayout>

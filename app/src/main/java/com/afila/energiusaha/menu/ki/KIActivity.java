@@ -1,4 +1,4 @@
-package com.afila.energiusaha.menu;
+package com.afila.energiusaha.menu.ki;
 
 import androidx.appcompat.app.AppCompatActivity;
 

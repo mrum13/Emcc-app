@@ -1,4 +1,4 @@
-package com.afila.energiusaha.menu.soal;
+package com.afila.energiusaha.menu.soal.soal2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,12 +10,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afila.energiusaha.R;
+import com.afila.energiusaha.menu.soal.ModelJawaban;
+import com.afila.energiusaha.menu.soal.Preferences;
+import com.afila.energiusaha.menu.soal.ResultActivity;
+import com.afila.energiusaha.menu.soal.SoalActivity3;
 
-public class SoalActivity extends AppCompatActivity {
+public class SoalActivity2 extends AppCompatActivity {
     private TextView tvToolbarSoal;
     private String toolbarText;
     private ImageView toolbarback;
-
 
     private ModelJawaban modelJawaban;
 
@@ -29,40 +32,43 @@ public class SoalActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soal);
+        setContentView(R.layout.activity_soal2);
+
+        sendData = new Intent(SoalActivity2.this, ResultActivity.class);
+
 
         tvToolbarSoal = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
 
-        sendData = new Intent(SoalActivity.this,ResultActivity.class);
+//        modelJawaban = new ModelJawaban(soal1,soal2,soal3,soal4,soal5,soal6,soal7,soal8,soal9,soal10
+//                ,soal11,soal12,soal13,soal14,soal15,soal16,soal17,soal18,soal19,soal20);
 
-        modelJawaban = new ModelJawaban(soal1,soal2,soal3,soal4,soal5,soal6,soal7,soal8,soal9,soal10
-                ,soal11,soal12,soal13,soal14,soal15,soal16,soal17,soal18,soal19,soal20);
+
+//        Bundle extra = getIntent().getExtras();
+//        soal1 = extra.getString("key");
+
+        System.out.println("jawabannya : "+soal1);
 
         btna = findViewById(R.id.btnA);
         btnb = findViewById(R.id.btnB);
         btnc = findViewById(R.id.btnC);
         btnd = findViewById(R.id.btnD);
         btne = findViewById(R.id.btnE);
-
-        if(getIntent().hasExtra("toolbarText")) {
-            toolbarText = getIntent().getStringExtra("toolbarText");
-            tvToolbarSoal.setText(toolbarText);
-        }
+        tvToolbarSoal.setText("Soal Tes 2");
 
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SoalActivity.this.finish();
+                SoalActivity2.this.finish();
             }
         });
 
         btna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "a";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
+                soal2 = "a";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });
@@ -70,9 +76,9 @@ public class SoalActivity extends AppCompatActivity {
         btnb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "b";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
+                soal2 = "b";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });
@@ -80,9 +86,9 @@ public class SoalActivity extends AppCompatActivity {
         btnc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "c";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
+                soal2 = "c";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });
@@ -90,9 +96,9 @@ public class SoalActivity extends AppCompatActivity {
         btnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "d";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
+                soal2 = "d";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });
@@ -100,9 +106,9 @@ public class SoalActivity extends AppCompatActivity {
         btne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity.this, SoalActivity2.class);
-                soal1 = "e";
-                Preferences.setSoal1(getBaseContext(),soal1);
+                Intent intent = new Intent(SoalActivity2.this, SoalActivity3.class);
+                soal2 = "e";
+                Preferences.setSoal2(getBaseContext(),soal2);
                 startActivity(intent);
             }
         });

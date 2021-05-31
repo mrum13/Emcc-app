@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu.tokoh.TokohActivity">
+    tools:context=".menu.tokoh.TokohFragment">
 
-    <include
-        layout="@layout/toolbar"
-        android:id="@+id/toolbar_tokoh"/>
-
+    <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar_tokoh"
         android:scrollbars="none"
-        android:layout_marginVertical="24dp">
+        android:layout_marginVertical="12dp">
 
         <RelativeLayout
             android:layout_width="match_parent"

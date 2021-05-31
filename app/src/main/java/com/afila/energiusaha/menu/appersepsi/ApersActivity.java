@@ -1,4 +1,4 @@
-package com.afila.energiusaha.menu;
+package com.afila.energiusaha.menu.appersepsi;
 
 import androidx.appcompat.app.AppCompatActivity;
 

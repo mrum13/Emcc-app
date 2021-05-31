@@ -9,8 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afila.energiusaha.R;
-import com.afila.energiusaha.menu.ApersActivity;
-import com.afila.energiusaha.menu.materi.MateriActivity;
 import com.afila.energiusaha.menu.materi.WadahVideoActivity;
 
 public class MateriUsahaActivity extends AppCompatActivity {

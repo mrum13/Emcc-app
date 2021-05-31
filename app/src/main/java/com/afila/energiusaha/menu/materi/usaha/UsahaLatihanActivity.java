@@ -11,9 +11,6 @@ import android.widget.TextView;
 
 import com.afila.energiusaha.R;
 import com.afila.energiusaha.menu.soal.Preferences;
-import com.afila.energiusaha.menu.soal.ResultActivity;
-import com.afila.energiusaha.menu.soal.SoalActivity;
-import com.afila.energiusaha.menu.soal.SoalActivity2;
 
 public class UsahaLatihanActivity extends AppCompatActivity {
     private TextView tvToolbarSoal;
