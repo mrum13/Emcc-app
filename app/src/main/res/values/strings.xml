@@ -74,78 +74,78 @@
     <string name="soal1d">D. Energi</string>
     <string name="soal1e">E. Gaya</string>
 
-    <string name="soal2">Persamaan usaha yang bekerja pada suatu benda adalah.....</string>
-    <string name="soal2a">A. W = F. S</string>
-    <string name="soal2b">B. W = F cos α s</string>
-    <string name="soal2c">C. W = F sin α s</string>
-    <string name="soal2d">D. W = m. g</string>
-    <string name="soal2e">E. W = m.a</string>
+    <!--    <string name="soal2">Persamaan usaha yang bekerja pada suatu benda adalah.....</string>-->
+    <!--    <string name="soal2a">A. W = F. S</string>-->
+    <!--    <string name="soal2b">B. W = F cos α s</string>-->
+    <!--    <string name="soal2c">C. W = F sin α s</string>-->
+    <!--    <string name="soal2d">D. W = m. g</string>-->
+    <!--    <string name="soal2e">E. W = m.a</string>-->
 
-    <string name="soal3">Energi yang disebabkan oleh posisis benda adalah...</string>
-    <string name="soal3a">A. Energi potensial</string>
-    <string name="soal3b">B. Energi kinetik</string>
-    <string name="soal3c">C. Energi listrik</string>
-    <string name="soal3d">D. Energi mekanik</string>
-    <string name="soal3e">E. Energi kimia</string>
+    <string name="soal3">Rina mendorong sebuah pintu dengan gaya tertentu, ternyata pintu yang didorong Rina bersifat elastis, sehingga kembali ke posisi semula, besarnya usaha Rina terhadap pintu tersebut adalah...</string>
+    <string name="soal3a">A. Sebesar gaya yang diberikan Rina</string>
+    <string name="soal3b">B. Sebesar batas elastisitas pintu</string>
+    <string name="soal3c">C. Usahanya tidak sama dengan nol</string>
+    <string name="soal3d">D. Usahanya sama dengan nol</string>
+    <string name="soal3e">E. Sebesar perpindahan pintu dari posisinya</string>
 
-    <string name="soal4">4.Perhatikan pernyataan berikut:<br />
+    <string name="soal2">Perhatikan pernyataan berikut:<br />
 1)Ami bersepeda dari rumah menuju lapangan dan kembali lagi ke rumah<br />
 2)Suga mencetak gol dari tendangan jarak jauh<br />
 3)Moni mendorong tembok dengan sekuat tenaga<br /> 
 4)Lisa mendorong meja sejauh 2 meter<br />
 Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</string>
-    <string name="soal4a">A. 1) dan 2)</string>
-    <string name="soal4b">B. 1) dan 4)</string>
-    <string name="soal4c">C. 2) dan 3)</string>
-    <string name="soal4d">D. 2) dan 4)</string>
-    <string name="soal4e">E. 3) dan 4)</string>
+    <string name="soal2a">A. 1) dan 2)</string>
+    <string name="soal2b">B. 1) dan 4)</string>
+    <string name="soal2c">C. 2) dan 3)</string>
+    <string name="soal2d">D. 2) dan 4)</string>
+    <string name="soal2e">E. 3) dan 4)</string>
 
-    <string name="soal5">5.Perhatikan pernyataan berikut ini!<br />
-1)Energi kinetik dan energi mekanik mempengaruhi nilai dari energi potensial<br />
-2)Energi mekanik dan energi potensial mempengaruhi nilai energi kinetik benda<br />
-3)Energi mekanik merupakan perpaduan dari energi kinetik dan potensial dalam sistem yang sama<br />
-4)Energi mekanik pada awal sistem akan sama dengan energi mekanik diakhir sistem <br />
-Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
-    <string name="soal5a">A. 1) dan 2)</string>
-    <string name="soal5b">B. 1) dan 4)</string>
-    <string name="soal5c">C. 2) dan 3)</string>
-    <string name="soal5d">D. 2) dan 4)</string>
-    <string name="soal5e">E. 3) dan 4)</string>
+    <!--    <string name="soal5">5.Perhatikan pernyataan berikut ini!<br />-->
+    <!--1)Energi kinetik dan energi mekanik mempengaruhi nilai dari energi potensial<br />-->
+    <!--2)Energi mekanik dan energi potensial mempengaruhi nilai energi kinetik benda<br />-->
+    <!--3)Energi mekanik merupakan perpaduan dari energi kinetik dan potensial dalam sistem yang sama<br />-->
+    <!--4)Energi mekanik pada awal sistem akan sama dengan energi mekanik diakhir sistem <br />-->
+    <!--Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>-->
+    <!--    <string name="soal5a">A. 1) dan 2)</string>-->
+    <!--    <string name="soal5b">B. 1) dan 4)</string>-->
+    <!--    <string name="soal5c">C. 2) dan 3)</string>-->
+    <!--    <string name="soal5d">D. 2) dan 4)</string>-->
+    <!--    <string name="soal5e">E. 3) dan 4)</string>-->
 
-    <string name="soal6">Proses perubahan Energi yang terjadi pada sebuah bola lampu yang menyala saat dihubungkan dengan sumber tegangan berupa baterei adalah….</string>
-    <string name="soal6a">A. energi kimia→ energi kalor→ energi listrik + energi cahaya</string>
-    <string name="soal6b">B. energi listrik→ energi kimia→ energi cahaya + energi kalor</string>
-    <string name="soal6c">C. energi listrik→ energi kimia→ energi kalor + energi cahaya</string>
-    <string name="soal6d">D. energi kimia→ energi listrik→ energi cahaya + energi kalor</string>
-    <string name="soal6e">E. energi listrik→ energi kalor→ energi kimia + energi cahaya</string>
+    <!--    <string name="soal6">Proses perubahan Energi yang terjadi pada sebuah bola lampu yang menyala saat dihubungkan dengan sumber tegangan berupa baterei adalah….</string>-->
+    <!--    <string name="soal6a">A. energi kimia→ energi kalor→ energi listrik + energi cahaya</string>-->
+    <!--    <string name="soal6b">B. energi listrik→ energi kimia→ energi cahaya + energi kalor</string>-->
+    <!--    <string name="soal6c">C. energi listrik→ energi kimia→ energi kalor + energi cahaya</string>-->
+    <!--    <string name="soal6d">D. energi kimia→ energi listrik→ energi cahaya + energi kalor</string>-->
+    <!--    <string name="soal6e">E. energi listrik→ energi kalor→ energi kimia + energi cahaya</string>-->
 
-    <string name="soal7">Pada saat kita bersepeda menuruni jalan yang terjal, kecepatan sepeda akan bertambah. Pertambahan kecepatan ini berasal dari perubahan….</string>
-    <string name="soal7a">A. Energi gerak menjadi energi diam</string>
-    <string name="soal7b">B. Energi gerak menjadi energi potensial</string>
-    <string name="soal7c">C. Energi kinetik menjadi energi gravitasi</string>
-    <string name="soal7d">D. Energi potensial menjadi energi kinetik</string>
-    <string name="soal7e">E. Energi kinetik menjadi energi potensial</string>
+    <string name="soal7">Sebuah mobil bermassa 1 ton dipacu dari kecepatan 36 km/jam menjadi berkecepatan 144 km/jam dalam 4 sekon. Jika efisiensi mobil 80 %, tentukan daya yang dihasilkan mobil! </string>
+    <string name="soal7a">A. 150.000 watt</string>
+    <string name="soal7b">B. 200 watt</string>
+    <string name="soal7c">C. 5 watt</string>
+    <string name="soal7d">D. 30000 watt</string>
+    <string name="soal7e">E. 1309 watt</string>
 
-    <string name="soal8">Sebuah balok bermassa 50 gr bergerak sepanjang garis lurus pada permukaan mendatar akibat pengaruh gaya yang berubah-ubah terhadap kedudukan seperti ditunjukkan pada gambar. Hitunglah usaha yang dilakukan gaya tersebut untuk memindahkan balok sejauh 14 m!</string>
-    <string name="soal8a">A. 20 Joule</string>
-    <string name="soal8b">B. 30 Joule</string>
-    <string name="soal8c">C. 40 Joule</string>
-    <string name="soal8d">D. 50 Joule</string>
-    <string name="soal8e">E. 60 Joule</string>
+    <string name="soal4">Sebuah balok bermassa 50 gr bergerak sepanjang garis lurus pada permukaan mendatar akibat pengaruh gaya yang berubah-ubah terhadap kedudukan seperti ditunjukkan pada gambar. Hitunglah usaha yang dilakukan gaya tersebut untuk memindahkan balok sejauh 14 m!</string>
+    <string name="soal4a">A. 20 Joule</string>
+    <string name="soal4b">B. 30 Joule</string>
+    <string name="soal4c">C. 40 Joule</string>
+    <string name="soal4d">D. 50 Joule</string>
+    <string name="soal4e">E. 60 Joule</string>
 
-    <string name="soal9">Benda pertama memiliki massa m dan kecepatan v. Benda kedua memiliki massa 3 kali benda pertama dan kecepatan 2 kali benda pertama. Perbandingan energi kinetik yang dimiliki oleh benda kedua dan benda pertama adalah....</string>
-    <string name="soal9a">A. 12 : 1</string>
-    <string name="soal9b">B. 12 : 2</string>
-    <string name="soal9c">C. 12 : 3</string>
-    <string name="soal9d">D. 12 : 4</string>
-    <string name="soal9e">E. 12: 5</string>
+    <string name="soal5">Benda pertama memiliki massa m dan kecepatan v. Benda kedua memiliki massa 3 kali benda pertama dan kecepatan 2 kali benda pertama. Perbandingan energi kinetik yang dimiliki oleh benda kedua dan benda pertama adalah....</string>
+    <string name="soal5a">A. 12 : 1</string>
+    <string name="soal5b">B. 12 : 2</string>
+    <string name="soal5c">C. 12 : 3</string>
+    <string name="soal5d">D. 12 : 4</string>
+    <string name="soal5e">E. 12: 5</string>
 
-    <string name="soal10">Sebuah mobil bermassa 2000 kg bergerak dengan kelajuan 10 m/s pada arah mendatar. Tiba-tiba pengemudi mengurangi kelajuan mobil menjadi 5 m/s. Usaha yang dilakukan pengemudi pada mobil adalah….</string>
-    <string name="soal10a">A. 75.000 Joule</string>
-    <string name="soal10b">B. 20.000 Joule</string>
-    <string name="soal10c">C. 25.000 Joule</string>
-    <string name="soal10d">D. 12.000 Joule</string>
-    <string name="soal10e">E. 21.000 Joule</string>
+    <!--    <string name="soal10">Sebuah mobil bermassa 2000 kg bergerak dengan kelajuan 10 m/s pada arah mendatar. Tiba-tiba pengemudi mengurangi kelajuan mobil menjadi 5 m/s. Usaha yang dilakukan pengemudi pada mobil adalah….</string>-->
+    <!--    <string name="soal10a">A. 75.000 Joule</string>-->
+    <!--    <string name="soal10b">B. 20.000 Joule</string>-->
+    <!--    <string name="soal10c">C. 25.000 Joule</string>-->
+    <!--    <string name="soal10d">D. 12.000 Joule</string>-->
+    <!--    <string name="soal10e">E. 21.000 Joule</string>-->
 
     <string name="soal11">Sebuah benda 2 kg bergerak pada permukaan licin dengan kecepatan 2 m/s dan dikerjakan usaha sebesar 21 joule. Kecepatan akhir benda tersebut adalah…</string>
     <string name="soal11a">A. 3 m/s</string>
@@ -162,12 +162,12 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="soal12e">E. 360 joule</string>
 
     //ada gambar diatas soal
-    <string name="soal13">Benda seberat 10 N berada pada bidang miring yang licin dengan sudut kemiringan 30°. Bila benda meluncur sejauh 1 m, maka usaha yang dilakukan gaya berat adalah....</string>
-    <string name="soal13a">A. 10 sin 30° joule</string>
-    <string name="soal13b">B. 10 cos 30° joule</string>
-    <string name="soal13c">C. 10 sin 60° joule</string>
-    <string name="soal13d">D. 10 tan 30° joule</string>
-    <string name="soal13e">E. 10 tan 60° joule</string>
+    <string name="soal6">Benda seberat 10 N berada pada bidang miring yang licin dengan sudut kemiringan 30°. Bila benda meluncur sejauh 1 m, maka usaha yang dilakukan gaya berat adalah....</string>
+    <string name="soal6a">A. 10 sin 30° joule</string>
+    <string name="soal6b">B. 10 cos 30° joule</string>
+    <string name="soal6c">C. 10 sin 60° joule</string>
+    <string name="soal6d">D. 10 tan 30° joule</string>
+    <string name="soal6e">E. 10 tan 60° joule</string>
 
     <string name="soal14">Sebuah trem mempergunakan daya 10 kW sehingga dapat bergerak dengan kelajuan tetap 8 m/s. Gaya penggerakannya adalah….</string>
     <string name="soal14a">A. 800 Newton</string>
@@ -184,12 +184,12 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="soal15d">D. 2 : 1</string>
     <string name="soal15e">E. 3 : 1</string>
 
-    <string name="soal16">Sebongkah balok es bermassa 2000 gram didorong dengan gaya F di atas permukaan lantai sehingga resultan gaya yang bekerja pada balok es 10 N selama 2 sekon. Setelah 2 sekon gaya dorong tersebut dihilangkan kemudian balok es tersebut mampu menempuh jarak 5 meter lalu berhenti. Berapa besar gaya dorong yang diberikan pada balok es tersebut .... N</string>
-    <string name="soal16a">A. 30</string>
-    <string name="soal16b">B. 20</string>
-    <string name="soal16c">C. 15</string>
-    <string name="soal16d">D. 10</string>
-    <string name="soal16e">E. 5</string>
+    <string name="soal8">Sebongkah balok es bermassa 2000 gram didorong dengan gaya F di atas permukaan lantai sehingga resultan gaya yang bekerja pada balok es 10 N selama 2 sekon. Setelah 2 sekon gaya dorong tersebut dihilangkan kemudian balok es tersebut mampu menempuh jarak 5 meter lalu berhenti. Berapa besar gaya dorong yang diberikan pada balok es tersebut .... N</string>
+    <string name="soal8a">A. 30</string>
+    <string name="soal8b">B. 20</string>
+    <string name="soal8c">C. 15</string>
+    <string name="soal8d">D. 10</string>
+    <string name="soal8e">E. 5</string>
 
     <string name="soal17">Sebuah benda meluncur pada permukaan datar dengan kecepatan v = 4 m/s dan kemudian benda naik pada bidang miring dengan kemiringan 30°. Bila tidak ada gesekan antara benda dan bidang luncur, maka panjang lintasan benda pada bidang miring adalah….</string>
     <string name="soal17a">A. 40</string>
@@ -198,12 +198,12 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="soal17d">D. 120</string>
     <string name="soal17e">E. 160</string>
 
-    <string name="soal18">Sebuah balok bermassa 3 kg bergerak ke atas pada bidang miring yang sudut miringnya 60°, dengan energi kinetik awal 18 J. Jika koefisien gesekannya 0,3 maka jarak terjauh yang dicapai balok saat meluncur pada bidang miring adalah sekitar …. m.</string>
-    <string name="soal18a">A. 1</string>
-    <string name="soal18b">B. 0,8</string>
-    <string name="soal18c">C. 0,6</string>
-    <string name="soal18d">D. 0,4</string>
-    <string name="soal18e">E. 0,2</string>
+    <string name="soal9">Sebuah balok bermassa 3 kg bergerak ke atas pada bidang miring yang sudut miringnya 60°, dengan energi kinetik awal 18 J. Jika koefisien gesekannya 0,3 maka jarak terjauh yang dicapai balok saat meluncur pada bidang miring adalah sekitar …. m.</string>
+    <string name="soal9a">A. 1</string>
+    <string name="soal9b">B. 0,8</string>
+    <string name="soal9c">C. 0,6</string>
+    <string name="soal9d">D. 0,4</string>
+    <string name="soal9e">E. 0,2</string>
 
     <string name="soal19atas">Sebuah balok bermassa 1 kg meluncur pada bidang miring kasar dari keadaan diam seperti gambar.</string>
     //ada gambar disini
@@ -215,12 +215,12 @@ Pernyataan yang benar terkait hukum kekekalan Energi yaitu . . .</string>
     <string name="soal19e">E. 12,00 N</string>
 
     //ada gambar diatas soal
-    <string name="soal20">Suatu pegas (massa diabaikan) jika diberi gaya 100 N akan menekan sejauh 1 meter. Pegas ini diletakkan di dasar bidang miring licin (α = 30⁰). Suatu balok dengan massa 10 kg dilepas dari puncak bidang miring sehingga menyebabkan pegas tertekan sejauh 2 meter. Berapa jauhkah jarak yang ditempuh balok dari posisi awal hingga posisi akhir?</string>
-    <string name="soal20a">A. 2 m</string>
-    <string name="soal20b">B. 3 m</string>
-    <string name="soal20c">C. 4 m</string>
-    <string name="soal20d">D. 6 m</string>
-    <string name="soal20e">E. 8 m</string>
+    <string name="soal10">Suatu pegas (massa diabaikan) jika diberi gaya 100 N akan menekan sejauh 1 meter. Pegas ini diletakkan di dasar bidang miring licin (α = 30⁰). Suatu balok dengan massa 10 kg dilepas dari puncak bidang miring sehingga menyebabkan pegas tertekan sejauh 2 meter. Berapa jauhkah jarak yang ditempuh balok dari posisi awal hingga posisi akhir?</string>
+    <string name="soal10a">A. 2 m</string>
+    <string name="soal10b">B. 3 m</string>
+    <string name="soal10c">C. 4 m</string>
+    <string name="soal10d">D. 6 m</string>
+    <string name="soal10e">E. 8 m</string>
 
     <string name="materi1">Usaha</string>
     <string name="materiusaha">Usaha adalah kerja yang dilakukan oleh gaya untuk memindahkan benda. Misalnya, kuda menarik pedati, lokomotif menarik gerbong kereta api, seorang siswa mengangkat buku dari lantai ke atas meja. Dari contoh tersebut pedati, gerbong, dan buku berpindah tempat karena suatu gaya. Dengan demikian, usaha adalah besarnya gaya yang bekerja pada suatu benda sehingga benda tersebut mengalami perpindahan. Usaha merupakan hasil perkalian titik (dot product) antara gaya dengan perpindahan. Usaha merupakan besar skalar.</string>

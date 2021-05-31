@@ -8,11 +8,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.afila.energiusaha.MainActivity;
 import com.afila.energiusaha.R;
 import com.afila.energiusaha.menu.materi.MateriActivity;
 import com.afila.energiusaha.menu.soal.Preferences;
-import com.afila.energiusaha.menu.soal.ResultActivity;
 
 public class ResultActivityUsaha extends AppCompatActivity {
     private TextView tvToolbar;

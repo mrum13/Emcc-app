@@ -1,4 +1,4 @@
-package com.afila.energiusaha.menu.soal;
+package com.afila.energiusaha.menu.soal.result;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.afila.energiusaha.MainActivity;
 import com.afila.energiusaha.R;
-import com.afila.energiusaha.menu.materi.usaha.MateriUsahaActivity;
+import com.afila.energiusaha.menu.soal.Preferences;
 
 public class ResultActivity extends AppCompatActivity {
     private TextView tvToolbar;

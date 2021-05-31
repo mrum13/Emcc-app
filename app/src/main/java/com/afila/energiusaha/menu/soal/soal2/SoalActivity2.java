@@ -12,8 +12,8 @@ import android.widget.TextView;
 import com.afila.energiusaha.R;
 import com.afila.energiusaha.menu.soal.ModelJawaban;
 import com.afila.energiusaha.menu.soal.Preferences;
-import com.afila.energiusaha.menu.soal.ResultActivity;
-import com.afila.energiusaha.menu.soal.SoalActivity3;
+import com.afila.energiusaha.menu.soal.result.ResultActivity;
+import com.afila.energiusaha.menu.soal.soal3.SoalActivity3;
 
 public class SoalActivity2 extends AppCompatActivity {
     private TextView tvToolbarSoal;

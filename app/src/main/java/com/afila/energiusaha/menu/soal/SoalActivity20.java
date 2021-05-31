@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afila.energiusaha.R;
+import com.afila.energiusaha.menu.soal.result.ResultActivity;
 
 public class SoalActivity20 extends AppCompatActivity {
     private TextView tvToolbarSoal;

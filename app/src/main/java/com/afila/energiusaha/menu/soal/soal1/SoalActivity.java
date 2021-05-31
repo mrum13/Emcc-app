@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.afila.energiusaha.R;
 import com.afila.energiusaha.menu.soal.ModelJawaban;
 import com.afila.energiusaha.menu.soal.Preferences;
-import com.afila.energiusaha.menu.soal.ResultActivity;
+import com.afila.energiusaha.menu.soal.result.ResultActivity;
 import com.afila.energiusaha.menu.soal.soal2.SoalActivity2;
 
 public class SoalActivity extends AppCompatActivity {

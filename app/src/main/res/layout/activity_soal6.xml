@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu.soal.SoalActivity6">
+    tools:context=".menu.soal.soal6.SoalActivity6">
 
     <include
         layout="@layout/toolbar"

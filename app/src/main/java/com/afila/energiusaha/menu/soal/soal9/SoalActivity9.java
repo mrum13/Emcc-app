@@ -1,4 +1,4 @@
-package com.afila.energiusaha.menu.soal;
+package com.afila.energiusaha.menu.soal.soal9;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,8 +10,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afila.energiusaha.R;
+import com.afila.energiusaha.menu.soal.ModelJawaban;
+import com.afila.energiusaha.menu.soal.Preferences;
+import com.afila.energiusaha.menu.soal.soal10.SoalActivity10;
 
-public class SoalActivity3 extends AppCompatActivity {
+public class SoalActivity9 extends AppCompatActivity {
     private TextView tvToolbarSoal;
     private String toolbarText;
     private ImageView toolbarback;
@@ -26,7 +29,7 @@ public class SoalActivity3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soal3);
+        setContentView(R.layout.activity_soal9);
 
         tvToolbarSoal = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
@@ -39,21 +42,21 @@ public class SoalActivity3 extends AppCompatActivity {
         btnc = findViewById(R.id.btnC);
         btnd = findViewById(R.id.btnD);
         btne = findViewById(R.id.btnE);
-        tvToolbarSoal.setText("Soal Tes 3");
+        tvToolbarSoal.setText("Soal Tes 9");
 
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SoalActivity3.this.finish();
+                SoalActivity9.this.finish();
             }
         });
 
         btna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity3.this, SoalActivity4.class);
-                soal3 = "a";
-                Preferences.setSoal3(getBaseContext(),soal3);
+                Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
+                soal9 = "a";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -61,9 +64,9 @@ public class SoalActivity3 extends AppCompatActivity {
         btnb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity3.this, SoalActivity4.class);
-                soal3 = "b";
-                Preferences.setSoal3(getBaseContext(),soal3);
+                Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
+                soal9 = "b";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -71,9 +74,9 @@ public class SoalActivity3 extends AppCompatActivity {
         btnc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity3.this, SoalActivity4.class);
-                soal3 = "c";
-                Preferences.setSoal3(getBaseContext(),soal3);
+                Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
+                soal9 = "c";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -81,9 +84,9 @@ public class SoalActivity3 extends AppCompatActivity {
         btnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity3.this, SoalActivity4.class);
-                soal3 = "d";
-                Preferences.setSoal3(getBaseContext(),soal3);
+                Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
+                soal9 = "d";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
@@ -91,9 +94,9 @@ public class SoalActivity3 extends AppCompatActivity {
         btne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SoalActivity3.this, SoalActivity4.class);
-                soal3 = "e";
-                Preferences.setSoal3(getBaseContext(),soal3);
+                Intent intent = new Intent(SoalActivity9.this, SoalActivity10.class);
+                soal9 = "e";
+                Preferences.setSoal9(getBaseContext(),soal9);
                 startActivity(intent);
             }
         });
