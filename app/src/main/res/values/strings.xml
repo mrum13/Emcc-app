@@ -205,14 +205,14 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="soal9d">D. 0,4</string>
     <string name="soal9e">E. 0,2</string>
 
-    <string name="soal19atas">Sebuah balok bermassa 1 kg meluncur pada bidang miring kasar dari keadaan diam seperti gambar.</string>
-    //ada gambar disini
-    <string name="soal19bawah">Setelah menempuh jarak 3,75 m, kecepatan balok = 7,5 m/s. Diketahui g = 10 m/s2, koefisien gesekan kinetis 3/16 dan tan θ = 3/4, maka besar gaya tahan F agar balok berhenti tepat di kaki bidang miring adalah …</string>
-    <string name="soal19a">A. 3,75 N</string>
-    <string name="soal19b">B. 5,75 N</string>
-    <string name="soal19c">C. 7,50 N</string>
-    <string name="soal19d">D. 9,50 N</string>
-    <string name="soal19e">E. 12,00 N</string>
+<!--    <string name="soal19atas">Sebuah balok bermassa 1 kg meluncur pada bidang miring kasar dari keadaan diam seperti gambar.</string>-->
+<!--    //ada gambar disini-->
+<!--    <string name="soal19bawah">Setelah menempuh jarak 3,75 m, kecepatan balok = 7,5 m/s. Diketahui g = 10 m/s2, koefisien gesekan kinetis 3/16 dan tan θ = 3/4, maka besar gaya tahan F agar balok berhenti tepat di kaki bidang miring adalah …</string>-->
+<!--    <string name="soal19a">A. 3,75 N</string>-->
+<!--    <string name="soal19b">B. 5,75 N</string>-->
+<!--    <string name="soal19c">C. 7,50 N</string>-->
+<!--    <string name="soal19d">D. 9,50 N</string>-->
+<!--    <string name="soal19e">E. 12,00 N</string>-->
 
     //ada gambar diatas soal
     <string name="soal10">Suatu pegas (massa diabaikan) jika diberi gaya 100 N akan menekan sejauh 1 meter. Pegas ini diletakkan di dasar bidang miring licin (α = 30⁰). Suatu balok dengan massa 10 kg dilepas dari puncak bidang miring sehingga menyebabkan pegas tertekan sejauh 2 meter. Berapa jauhkah jarak yang ditempuh balok dari posisi awal hingga posisi akhir?</string>
@@ -345,15 +345,15 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="text2result">Seharusnya  </string>
 
     <string name="soaltes1">Hasil kali gaya dengan perpindahan disebut dengan usaha. Jika gaya searah dengan perpindahan maka usaha bernilai positif, contohnya oleh gaya dorong. Jika gaya berlawanan arah dengan perpindahan maka usaha bernilai negatif, contohnya oleh gaya gesek. </string>
-    <string name="soaltes2">Usaha didefinisikan sebagai besarnya gaya yang dikenakan pada suatu benda sehingga benda tersebut mengalami perubahan posisi. Jadi rumus usaha bisa ditulis</string>
-    <string name="soaltes3">Energi potensial yakni merupakan suatu energi yang terdapat pada suatu benda yang diam, dan dapat berpotensi menghasilkan suatu energi disebabkan oleh posisi benda tersebut. Selain itu definisi energi potensiial juga bisa diartikan sebagai sebuah energi yang dimiliki terhadap sebuah benda dalam kondisi diam.  </string>
-    <string name="soaltes4">Usaha di indikasikan oleh gaya dan perpindahan, pernyataan 1 ami tidak melakukan usaha karena perpindahannya 0, dan pernyataan 3 meskipun moni mengeluarkan gaya untuk mendorong tembok tetapi tetap tembok tidak bergerak (perpindahannya 0</string>
-    <string name="soaltes5">Energi Mekanik adalah total penjumlahan dari Energi potensial (Ep) dan Energi kinetik (Ek) suatu sistem yang sama. Apabila sistem tidak dipengaruhi oleh gaya luar, maka Energi mekanik yang dimiliki sistem bersifat kekal, yang berarti energi mekanik awal sistem akan sama dengan energi mekanik akhir sistem. (Hukum Kekekalan Energi Mekanik) Dari penjelasan di atas, maka: Pernyataan 1 dan 2 salah sedangkan pernyataan 3 benar, karena Em adalah hasil penjumlahan Ep dan Ek, bukan Ep ataupun Ek yg merupakan hasil penjumlahan dan pernyataan 4 benar, sesuai konsep Hukum Kekekalan Energi Mekanik.</string>
+<!--    <string name="soaltes2">Usaha didefinisikan sebagai besarnya gaya yang dikenakan pada suatu benda sehingga benda tersebut mengalami perubahan posisi. Jadi rumus usaha bisa ditulis</string>-->
+    <string name="soaltes3">Ketika benda kembali ke posisi semula maka tidak terjadi perpindahan sehingga usahanya dikatakan tidak ada atau sama dengan nol.</string>
+    <string name="soaltes2">Usaha di indikasikan oleh gaya dan perpindahan, pernyataan 1 ami tidak melakukan usaha karena perpindahannya 0, dan pernyataan 3 meskipun moni mengeluarkan gaya untuk mendorong tembok tetapi tetap tembok tidak bergerak (perpindahannya 0</string>
+<!--    <string name="soaltes5">Energi Mekanik adalah total penjumlahan dari Energi potensial (Ep) dan Energi kinetik (Ek) suatu sistem yang sama. Apabila sistem tidak dipengaruhi oleh gaya luar, maka Energi mekanik yang dimiliki sistem bersifat kekal, yang berarti energi mekanik awal sistem akan sama dengan energi mekanik akhir sistem. (Hukum Kekekalan Energi Mekanik) Dari penjelasan di atas, maka: Pernyataan 1 dan 2 salah sedangkan pernyataan 3 benar, karena Em adalah hasil penjumlahan Ep dan Ek, bukan Ep ataupun Ek yg merupakan hasil penjumlahan dan pernyataan 4 benar, sesuai konsep Hukum Kekekalan Energi Mekanik.</string>-->
     <string name="soaltes6">Perubahan energi yang terjadi pada saat bola lampu menyala adalah: Energi Kimia dari baterei mula - mula akan di ubah menjadi Energi Listrik yang mengalir pada rangkaian listrik tertutup. Selanjutnya Energi Listrik ini berubah menjadi Energi Cahaya + Energi Kalor pada bola lampu menyala. Kesimpulan: Perubahan energi yang terjadi pada saat bola lampu menyala adalah: energi kimia → energi listrik → energi cahaya + energi kalor</string>
     <string name="soaltes7">Ketika menuruni jalan yang terjal dengan bersepeda tanpa mengayuh, sepeda akan meluncur dengan sendirinya karena semula berada di suatu tempat yang lebih tinggi, saat ini energi potensial besar. Ketika meluncur ke bawah, ketinggian sepeda berkurang yang berarti energi potensialnya juga berkurang. Berkurangnya energi potensial ini di ubah menjadi energi kinetik. Sehingga sepeda memiliki kecepatan.</string>
     //ada gambar
-    <string name="soaltes8">Usaha adalah luas daerah dibawah grafik F-s (luas daerah yang diarsir)</string>
-    <string name="soaltes9"></string>//pake gambar (ada 2)
+    <string name="soaltes4">Usaha adalah luas daerah dibawah grafik F-s (luas daerah yang diarsir)</string>
+    <string name="soaltes5"></string>//pake gambar (ada 2)
     <string name="soaltes10">Usaha total adalah 75.000 Joule.Tanda negatif artinya resultan gaya yang bekerja pada mobil berlawanan arah dengan perpindahan mobil. Usaha negatif juga berarti energi kinetik mobile berkurang.</string>
     <string name="soaltes17">Karena tanpa gesekan maka berlaku hukum kekekalan energi mekanik:</string>
     <string name="soaltes18">Karena bidang kasar, maka tidak bisa menggunakan hukum kekekalan energi mekanik, gunakan:</string>

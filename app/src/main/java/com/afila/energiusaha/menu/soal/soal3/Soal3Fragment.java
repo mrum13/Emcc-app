@@ -15,6 +15,8 @@ import com.afila.energiusaha.R;
 import com.afila.energiusaha.menu.soal.ModelJawaban;
 import com.afila.energiusaha.menu.soal.Preferences;
 import com.afila.energiusaha.menu.soal.soal1.SoalFragment;
+import com.afila.energiusaha.menu.soal.soal2.Soal2Fragment;
+import com.afila.energiusaha.menu.soal.soal4.Soal4Fragment;
 
 public class Soal3Fragment extends Fragment {
     private TextView tvToolbarSoal;
@@ -49,8 +51,8 @@ public class Soal3Fragment extends Fragment {
         btne = root.findViewById(R.id.btnE);
         tvToolbarSoal.setText("Soal Tes 3");
 
-        fragment2 = new SoalFragment();
-        fragment4 = new Soal3Fragment();
+        fragment2 = new Soal2Fragment ();
+        fragment4 = new Soal4Fragment ();
 
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override

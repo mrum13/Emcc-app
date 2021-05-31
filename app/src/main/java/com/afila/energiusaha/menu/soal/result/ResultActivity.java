@@ -70,17 +70,6 @@ public class ResultActivity extends AppCompatActivity {
         jwb9 = findViewById(R.id.jawaban9);
         jwb10 = findViewById(R.id.jawaban10);
 
-        jwb11 = findViewById(R.id.jawaban11);
-        jwb12 = findViewById(R.id.jawaban12);
-        jwb13 = findViewById(R.id.jawaban13);
-        jwb14 = findViewById(R.id.jawaban14);
-        jwb15 = findViewById(R.id.jawaban15);
-        jwb16 = findViewById(R.id.jawaban16);
-        jwb17 = findViewById(R.id.jawaban17);
-        jwb18 = findViewById(R.id.jawaban18);
-        jwb19 = findViewById(R.id.jawaban19);
-        jwb20 = findViewById(R.id.jawaban20);
-
         hrs1 = findViewById(R.id.txtharusnya1);
         hrs2 = findViewById(R.id.txtharusnya2);
         hrs3 = findViewById(R.id.txtharusnya3);
@@ -91,17 +80,6 @@ public class ResultActivity extends AppCompatActivity {
         hrs8 = findViewById(R.id.txtharusnya8);
         hrs9 = findViewById(R.id.txtharusnya9);
         hrs10 = findViewById(R.id.txtharusnya10);
-
-        hrs11 = findViewById(R.id.txtharusnya11);
-        hrs12 = findViewById(R.id.txtharusnya12);
-        hrs13 = findViewById(R.id.txtharusnya13);
-        hrs14 = findViewById(R.id.txtharusnya14);
-        hrs15 = findViewById(R.id.txtharusnya15);
-        hrs16 = findViewById(R.id.txtharusnya16);
-        hrs17 = findViewById(R.id.txtharusnya17);
-        hrs18 = findViewById(R.id.txtharusnya18);
-        hrs19 = findViewById(R.id.txtharusnya19);
-        hrs20 = findViewById(R.id.txtharusnya20);
 
         benar1 = findViewById(R.id.benar1);
         benar1.setText("C");
@@ -124,27 +102,6 @@ public class ResultActivity extends AppCompatActivity {
         benar10 = findViewById(R.id.benar10);
         benar10.setText("A");
 
-        benar11 = findViewById(R.id.benar11);
-        benar11.setText("C");
-        benar12 = findViewById(R.id.benar12);
-        benar12.setText("D");
-        benar13 = findViewById(R.id.benar13);
-        benar13.setText("A");
-        benar14 = findViewById(R.id.benar14);
-        benar14.setText("B");
-        benar15 = findViewById(R.id.benar15);
-        benar15.setText("B");
-        benar16 = findViewById(R.id.benar16);
-        benar16.setText("A");
-        benar17 = findViewById(R.id.benar17);
-        benar17.setText("E");
-        benar18 = findViewById(R.id.benar18);
-        benar18.setText("C");
-        benar19 = findViewById(R.id.benar19);
-        benar19.setText("E");
-        benar20 = findViewById(R.id.benar20);
-        benar20.setText("C");
-
         imgbenar1 = findViewById(R.id.ic_benar1);
         imgbenar2 = findViewById(R.id.ic_benar2);
         imgbenar3 = findViewById(R.id.ic_benar3);
@@ -156,17 +113,6 @@ public class ResultActivity extends AppCompatActivity {
         imgbenar9 = findViewById(R.id.ic_benar9);
         imgbenar10 = findViewById(R.id.ic_benar10);
 
-        imgbenar11 = findViewById(R.id.ic_benar11);
-        imgbenar12 = findViewById(R.id.ic_benar12);
-        imgbenar13 = findViewById(R.id.ic_benar13);
-        imgbenar14 = findViewById(R.id.ic_benar14);
-        imgbenar15 = findViewById(R.id.ic_benar15);
-        imgbenar16 = findViewById(R.id.ic_benar16);
-        imgbenar17 = findViewById(R.id.ic_benar17);
-        imgbenar18 = findViewById(R.id.ic_benar18);
-        imgbenar19 = findViewById(R.id.ic_benar19);
-        imgbenar20 = findViewById(R.id.ic_benar20);
-
         imgsalah1 = findViewById(R.id.ic_salah1);
         imgsalah2 = findViewById(R.id.ic_salah2);
         imgsalah3 = findViewById(R.id.ic_salah3);
@@ -177,17 +123,6 @@ public class ResultActivity extends AppCompatActivity {
         imgsalah8 = findViewById(R.id.ic_salah8);
         imgsalah9 = findViewById(R.id.ic_salah9);
         imgsalah10 = findViewById(R.id.ic_salah10);
-
-        imgsalah11 = findViewById(R.id.ic_salah11);
-        imgsalah12 = findViewById(R.id.ic_salah12);
-        imgsalah13 = findViewById(R.id.ic_salah13);
-        imgsalah14 = findViewById(R.id.ic_salah14);
-        imgsalah15 = findViewById(R.id.ic_salah15);
-        imgsalah16 = findViewById(R.id.ic_salah16);
-        imgsalah17 = findViewById(R.id.ic_salah17);
-        imgsalah18 = findViewById(R.id.ic_salah18);
-        imgsalah19 = findViewById(R.id.ic_salah19);
-        imgsalah20 = findViewById(R.id.ic_salah20);
 
         s1 = Preferences.getSoal1(getBaseContext());
         s2 = Preferences.getSoal2(getBaseContext());

@@ -9,15 +9,6 @@
         layout="@layout/toolbar"
         android:id="@+id/toolbar_soal"/>
 
-    <ImageView
-        android:id="@+id/img8"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/toolbar_soal"
-        android:src="@drawable/img8"
-        android:layout_marginHorizontal="24dp"
-        android:layout_marginTop="24dp"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +16,7 @@
         android:textColor="@color/black"
         android:layout_marginHorizontal="24dp"
         android:textSize="14sp"
-        android:layout_below="@id/img8"
+        android:layout_below="@id/toolbar_soal"
         android:textAllCaps="false"/>
 
     <LinearLayout

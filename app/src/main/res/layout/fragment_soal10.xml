@@ -9,6 +9,15 @@
         layout="@layout/toolbar"
         android:id="@+id/toolbar_soal"/>
 
+    <ImageView
+        android:id="@+id/img10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img20"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/toolbar_soal"
+        android:layout_marginLeft="24dp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,8 +25,10 @@
         android:textColor="@color/black"
         android:layout_marginHorizontal="24dp"
         android:textSize="18sp"
-        android:layout_marginTop="100dp"
-        android:textAllCaps="false"/>
+        android:layout_marginTop="12dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/toolbar_soal"
+        android:layout_toRightOf="@id/img10"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +36,7 @@
         android:orientation="vertical"
         android:paddingHorizontal="24dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="24dp">
+        android:layout_marginBottom="12dp">
 
         <Button
             android:id="@+id/btnA"
