@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".menu.materi.usaha.UsahaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:paddingVertical="12dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusahajudul"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha2"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/img1usahanew"
+                    android:scaleType="fitXY"
+                    android:layout_toLeftOf="@id/pembatas1"
+                    android:id="@+id/gambar1usaha" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usahagambar1"
+                    android:textAlignment="center"
+                    android:layout_alignRight="@id/gambar1usaha"
+                    android:textSize="14sp"
+                    android:layout_below="@id/gambar1usaha"
+                    android:gravity="center_horizontal|center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pembatas1"
+                    android:layout_centerInParent="true"/>
+
+                <ImageView
+                    android:id="@+id/gambar2usaha"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/img2usahanew"
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@id/pembatas1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usahagambar1"
+                    android:textAlignment="center"
+                    android:layout_alignLeft="@id/gambar2usaha"
+                    android:textSize="14sp"
+                    android:layout_below="@id/gambar2usaha"
+                    android:gravity="center_horizontal|center" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha3"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha4"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img3usahanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usahagambar3"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal|center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha5"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/img4usahanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dengan"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/f"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/w"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha7"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/img5usahanew"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usahagambar4"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:text="@string/materiusaha8"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img6usahanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usahagambar5"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/img7usahanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha9"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img8usahanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usahagambar6"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha10"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img9usahanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usahagambar7"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha11"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:paddingVertical="12dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/gambarkiri"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/img_8_usaha"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/ketgambarkiri"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="(a)"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:layout_below="@id/gambarkiri"-->
+<!--                    android:layout_alignLeft="@id/gambarkiri"-->
+<!--                    android:layout_alignRight="@id/gambarkiri"/>-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/gambartengah"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/img_9_usaha"-->
+<!--                    android:layout_below="@id/ketgambarkiri"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="(b)"-->
+<!--                    android:id="@+id/ketgambartengah"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:layout_below="@id/gambartengah"-->
+<!--                    android:layout_alignLeft="@id/gambartengah"-->
+<!--                    android:layout_alignRight="@id/gambartengah"/>-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/gambarkanan"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/img_10_usaha"-->
+<!--                    android:layout_below="@id/ketgambartengah"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="(c)"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:layout_below="@id/gambarkanan"-->
+<!--                    android:layout_alignLeft="@id/gambarkanan"-->
+<!--                    android:layout_alignRight="@id/gambarkanan"/>-->
+<!--            </RelativeLayout>-->
+
+            <ImageView
+                android:layout_width="400dp"
+                android:scaleType="fitXY"
+                android:layout_height="225dp"
+                android:src="@drawable/img10usahanew"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha13"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha14"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/img11usahanew"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/usahagambar4"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="14sp"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:justificationMode="inter_word"/>-->
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha15"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img12usahanew"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha16"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha17"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha18"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha19"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha20"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img13usahanew"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha21"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materiusaha22"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:justificationMode="inter_word" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="8dp"
+                    android:layout_marginTop="12dp"
+                    app:cardBackgroundColor="@color/merah"
+                    android:layout_toLeftOf="@id/batas"
+                    android:layout_marginRight="12dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_video"
+                            android:id="@+id/ic_video"
+                            android:layout_marginLeft="12dp"
+                            android:layout_centerVertical="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lihat Video"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp"
+                            android:layout_toRightOf="@id/ic_video"
+                            android:layout_centerVertical="true"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/btn_video"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/batas"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/biru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@id/batas">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_baseline_library_books_24"
+                            android:id="@+id/ic_latihan"
+                            android:layout_marginLeft="12dp"
+                            android:layout_centerVertical="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Latihan Soal"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_toRightOf="@id/ic_latihan"
+                            android:textColor="@color/white"
+                            android:layout_centerVertical="true"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/btn_latihan"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

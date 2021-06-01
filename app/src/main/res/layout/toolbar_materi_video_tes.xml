@@ -25,24 +25,24 @@
         android:layout_marginRight="124dp"
         android:layout_centerVertical="true"/>
 
-    <ImageView
-        android:id="@+id/btn_video"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/ic_video"
-        android:layout_centerVertical="true"
-        android:layout_toLeftOf="@id/btn_latihan"
-        android:layout_marginRight="24dp"
-        android:clickable="true"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/btn_video"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:src="@drawable/ic_video"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_toLeftOf="@id/btn_latihan"-->
+<!--        android:layout_marginRight="24dp"-->
+<!--        android:clickable="true"/>-->
 
-    <ImageView
-        android:id="@+id/btn_latihan"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/ic_baseline_library_books_24"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="24dp"
-        android:clickable="true"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/btn_latihan"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:src="@drawable/ic_baseline_library_books_24"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginRight="24dp"-->
+<!--        android:clickable="true"/>-->
 
 </RelativeLayout>

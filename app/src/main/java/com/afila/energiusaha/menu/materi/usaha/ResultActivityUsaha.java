@@ -36,8 +36,7 @@ public class ResultActivityUsaha extends AppCompatActivity {
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ResultActivityUsaha.this, MateriActivity.class);
-                startActivity(intent);
+
                 ResultActivityUsaha.this.finish();
             }
         });

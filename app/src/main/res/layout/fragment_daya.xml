@@ -3,14 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu.peta.PetaFragment">
+    tools:context=".menu.materi.daya.DayaFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:layout_below="@id/toolbar_peta"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/img_peta"
-        android:src="@drawable/gambar_peta_konsep"/>
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
