@@ -329,14 +329,17 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="materihubungan10">Substitusi persamaan (1) ke persamaan (2)</string>
 
     <string name="materi4">Hukum Kekekalan Energi</string>
-    <string name="materihukum1">Salah satu sifat dari energi adalah kekal, artinya tidak dapat dihilangkan, tetapi dapat berubah bentuk menjadi energi yang lain. Misalkan, sebuah bola dilempar vertikal ke atas. Mula-mula bola mempunyai energi kinetik, semakin tinggi posisi bola, energi kinetiknya berkurang dan berubah menjadi energi potensial. Di titik tertinggi, bola hanya mempunyai energi potensial saja. Namun, saat bola jatuh kembali maka energi potensialnya berkurang dan berubah menjadi energi kinetik. Jika bola sampai di permukaan tanah, energi potensialnya nol dan bola hanya mempunyai energi kinetik saja.</string>
-    <string name="materihukum2">Penjumlahan dari energi potensial dan energi kinetik disebut <b>energi mekanik</b>. Jika tidak ada gaya luar yang bekerja pada benda, maka jumlah energi potensial dan energi kinetik adalah tetap. Pernyataan tersebut dikenal dengan <b>hukum kekekalan energi mekanik.</b></string>
+    <string name="materihukum1">Salah satu sifat dari energi adalah kekal, artinya tidak dapat dihilangkan, tetapi dapat berubah bentuk menjadi energi yang lain. Misalkan, sebuah bola dilempar vertikal ke atas. Mula-mula bola mempunyai energi kinetik, semakin tinggi posisi bola, energi kinetiknya berkurang dan berubah menjadi energi potensial. Di titik tertinggi, bola hanya mempunyai energi potensial saja. Namun, saat bola jatuh kembali maka energi potensialnya berkurang dan berubah menjadi energi kinetik. Jika bola sampai di permukaan tanah, energi potensialnya nol dan bola hanya mempunyai energi kinetik saja.
+	Penjumlahan dari energi potensial dan energi kinetik disebut energi mekanik. Jika tidak ada gaya luar yang bekerja pada benda, maka jumlah energi potensial dan energi kinetik adalah tetap. Pernyataan tersebut dikenal dengan hukum kekekalan energi mekanik.</string>
+    <string name="materihukum2">Untuk memahami hukum kekekalan energi mekanik, perhatikan Gambar 1. Sebuah benda bermassa m bergerak vertikal ke bawah karena pengaruh gaya beratnya. Pada saat di posisi A, kecepatan dan tinggi benda dari tanah adalah dan . Sementara itu, pada saat di posisi B kecepatan dan tingginya adalah  dan . Usaha dari gaya berat selama benda berpindah dari A ke B adalah sebagai berikut.
+    a. Berdasarkan perubahan energi potensial usaha dari A ke B</string>
     <string name="hukumgambar1">Gambar 1. Balok jatuh bebas dari posisi A ke posisi B.</string>
-    <string name="materihukum3">Untuk memahami hukum kekekalan energi mekanik, perhatikan Gambar 1. Sebuah benda bermassa m bergerak vertikal ke bawah karena pengaruh gaya beratnya. Pada saat di posisi A, kecepatan dan tinggi benda dari tanah adalah dan . Sementara itu, pada saat di posisi B kecepatan dan tingginya adalah  dan . Usaha dari gaya berat selama benda berpindah dari A ke B adalah sebagai berikut.</string>
-    <string name="materihukum4">Berdasarkan perubahan energi potensial usaha dari A ke B</string>
-    <string name="materihukum5">Berdasarkan perubahan energi kinetik, usaha dari A ke B</string>
+    <string name="materihukum3">Berdasarkan perubahan energi kinetik, usaha dari A ke B</string>
+    <string name="materihukum4">Berdasarkan Persamaan (1) dan Persamaan (2) diperoleh hubungan sebagai berikut.</string>
+    <string name="materihukum5">Jumlah energi potensial dan energi kinetik disebut energi mekanik, sehingga Persamaan (3) dapat dinyatakan sebagai berikut.</string>
     <string name="materihukum5.5">Berdasarkan Persamaan (1) dan Persamaan (2) diperoleh hubungan sebagai berikut.</string>
-    <string name="materihukum6">Jumlah energi potensial dan energi kinetik disebut <b>energi mekanik</b>, sehingga Persamaan (3) dapat dinyatakan sebagai berikut.</string>
+    <string name="materihukum6">Persamaan di atas dikenal dengan hukum kekekalan energi mekanik. Hukum ini mengatakan bahwa pada suatu sistem yang terisolasi (tidak ada gaya dari luar) besar energi mekanik (energi potensial+energi kinetik) tidak berubah.
+	Berdasarkan hukum kekekalan energi mekanik usaha oleh gaya gravitasi dan gaya pegas tidak mengubah energi mekanik menjadi bentuk energi lain. Berbeda gaya gesek, bila gaya gesek melakukan usaha maka energi mekanik akan berkurang karena menjadi energi lain (kalor) sehingga dalam selang waktu tertentu energi mekanik akan habis. Gaya gravitasi dan gaya pegas termasuk ke dalam gaya konservatif sedangkan gaya gesek termasuk ke dalam gaya non konservatif.</string>
     <string name="materihukum7">Sebuah bola bermassa 200 g dilempar vertikal ke atas dari permukaan tanah dengan kecepatan awal 50 m/s. Jika g = 10 m/s2, hitunglah:</string>
     <string name="materihukum8">Energi kinetik dan energi potensial setelah bergerak 2 s,</string>
     <string name="materihukum9">Energi potensial dan energi mekanik saat mencapai titik tertinggi</string>
@@ -427,14 +430,19 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="latihanhubungan2d">D. 1220 joule</string>
     <string name="latihanhubungan2e">E. 1210 joule</string>
 
-    <string name="latihanhukum1">Sebuah bola yang massanya 2 kg jatuh bebas dari posisi A seperti pada gambar.</string>
-    <string name="latihanhukum1a">A. 20 m</string>
-    <string name="latihanhukum1b">B. 30 m</string>
-    <string name="latihanhukum1c">C. 40 m</string>
-    <string name="latihanhukum1d">D. 50 m</string>
-    <string name="latihanhukum1e">E. 60 m</string>
+    <string name="latihanhukum1">Dua buah benda menuruni lintasan dari titik A. Massa benda pertama m1 = 5 kg dan benda kedua m2 = 15 kg. Jika percepatan gravitasi g = 10 m/s2, maka perbandingan energi kinetik EK1 : EK2 di titik B adalah….</string>
+    <string name="latihanhukum1a">A. 1:2</string>
+    <string name="latihanhukum1b">B. 1:3</string>
+    <string name="latihanhukum1c">C. 1:9</string>
+    <string name="latihanhukum1d">D. 2:1</string>
+    <string name="latihanhukum1e">E. 3:1</string>
 
     <string name="latihanhukum2">Pada musim dingin di Negara Swedia diadakan perlombaan ski es di daerah pegunungan. Pemain ski es meluncur dari ketinggian A seperti pada gambar. Jika kecepatan awal pemain ski = nol, dan percepatan gravitasi = 10 m/s2, maka kecepatan pemain pada saat ketinggian B adalah….</string>
+    <string name="latihanhukum2a">A. Akar 2 m.s-1</string>
+    <string name="latihanhukum2b">B. 5 Akar 2 m.s-1</string>
+    <string name="latihanhukum2c">C. 10 Akar 2 m.s-1</string>
+    <string name="latihanhukum2d">D. 20 Akar 2 m.s-1</string>
+    <string name="latihanhukum2e">E. 25 Akar 2 m.s-1</string>
 
     <string name="latihandaya1">Seorang yang massanya 60 kg menaiki tangga yang tingginya 20 m dalam selang waktu 2 menit. Bila g = 10 m/s2, berapa daya yang dikeluarkan oleh orang tersebut….</string>
     <string name="latihandaya1a">A. 120</string>
@@ -449,5 +457,6 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="latihandaya2c">C. 225 W</string>
     <string name="latihandaya2d">D. 36 W</string>
     <string name="latihandaya2e">E. 9 W</string>
+    <string name="ek0hukum">EM = Energi Mekanik (J)</string>
 
 </resources>

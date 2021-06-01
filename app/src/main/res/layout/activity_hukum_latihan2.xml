@@ -39,31 +39,31 @@
             android:id="@+id/btnA"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/latihanhubungan2a"/>
+            android:text="@string/latihanhukum2a"/>
 
         <Button
             android:id="@+id/btnB"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/latihanhubungan2b"/>
+            android:text="@string/latihanhukum2b"/>
 
         <Button
             android:id="@+id/btnC"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/latihanhubungan2c"/>
+            android:text="@string/latihanhukum2c"/>
 
         <Button
             android:id="@+id/btnD"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/latihanhubungan2d"/>
+            android:text="@string/latihanhukum2d"/>
 
         <Button
             android:id="@+id/btnE"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/latihanhubungan2e"/>
+            android:text="@string/latihanhukum2e"/>
 
     </LinearLayout>
 
