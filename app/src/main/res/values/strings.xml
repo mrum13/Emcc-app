@@ -307,23 +307,26 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="materienergi12">Sifat energi mekanik adalah nilainya selalu tetap, meskipun energi kinetik dan energi potensialnya berubah-berubah. Jika energi kinetiknya minimum, maka energi potensialnya maksimum. Begitupun sebaliknya, jika energi kinetiknya maksimum, maka energi potensialnya minium. Hal inilah yang membuat nilai energi mekanik selalu tetap.</string>
 
     <string name="materi3">Hubungan Usaha dan Energi</string>
+    <string name="materihubunganjudul">HUBUNGAN USAHA DAN ENERGI</string>
     <string name="materihubungan1">Usaha dan energi adalah besaran dalam fisika yang saling berkaitan. Usaha merupakan kerja yang dilakukan oleh gaya untuk memindahkan benda, sedangkan energi adalah kemampuan untuk melakukan usaha. Dengan demikian, terdapat hubungan antara usaha dan energi yang akan dipelajari berikut.</string>
-    <string name="materihubungan2">Sebuah benda bermassa m dilepaskan dari ketinggian h1 dari permukaan tanah. Benda bergerak vertikal ke bawah karena pengaruh gaya gravitasi bumi (gaya berat) sebesar w. Selanjutnya, untuk mencapai ketinggian h2 dari permukaan tanah, gaya berat melakukan usaha sebagai berikut.</string>
+    <string name="materihubungan2">1. Usaha dan Energi Potensial</string>
+    <string name="hubungangambar1">Gambar 1. Buah kelapa jatuh dari pohon</string>
+    <string name="hubungangambar2">Gambar 2. Energi kinetik pada benda yang sedang bergerak</string>
     <string name="ep1">EP1	= energi potensial pada ketinggian h1 (J),</string>
     <string name="ep2">EP2	= energi potensial h2 (J), dan</string>
     <string name="wab">WAB	= usaha yang dilakukan gaya berat dari A ke B (J).</string>
-    <string name="materihubungan3">Berdasarkan persamaan tersebut usaha yang dilakukan oleh gaya berat pada sebuah benda merupakan pengurangan dari energi potensial.</string>
-    <string name="materihubungan4">Jika sebuah benda bermassa m mula-mula bergerak dengan kecepatan , kemudian diberikan gaya tetap sebesar F yang searah dengan gerakan benda sehingga benda berpindah sejauh s dan kecepatan benda menjadi   seperti Gambar 1.</string>
-    <string name="hubungangambar1">Gambar 1. Energi kinetik pada benda yang sedang bergerak</string>
-    <string name="materihubungan5">Usaha yang dilakukan oleh gaya F  untuk memindahkan benda sejauh s  dari A ke B dapat ditentukan dengan persamaan berikut.</string>
-    <string name="materihubungan6">Usaha yang dilakukan oleh gaya F untuk berpindah dari posisi A ke posisi B,</string>
-    <string name="materihubungan7">Substitusi persamaan (1) ke persamaan (2)</string>
+    <string name="materihubungan3">Pada awalnya buah kelapa tergantung di pohonnya pada ketinggian h1. Akibat adanya tarikan gaya gravitasi (w = mg) buah kelapa jatuh pada ketinggian h2. Maka besar usaha yang dilakukan oleh buah kelapa yang jatuh adalah</string>
+    <string name="materihubungan4">Bila ditinjau berdasarkan konsep energi potensial, anggap posisi awal buah kelapa di atas pohon memiliki energi potensial mula-mula Ep1 dan setelah mencapai keadaan h2 energi potensialnya menjadi Ep2. Perubahan energi potensial Ep1 menjadi Ep2 menghasilkan energi yang menyebabkan benda bergerak turun. Karena besarnya perubahan energi potensial sama dengan usaha gaya gravitasi W, maka</string>
+    <string name="materihubungan5">Didapatkanlah hubungan bahwa usaha oleh gaya berat (gravitasi) merupakan perubahan energi potensial gravitasi.</string>
+    <string name="materihubungan6">2. Hubungan Usaha dengan Energi Kinetik</string>
+    <string name="materihubungan7">Jika sebuah benda bermassa m mula-mula bergerak dengan kecepatan , kemudian diberikan gaya tetap sebesar F yang searah dengan gerakan benda sehingga benda berpindah sejauh s dan kecepatan benda menjadi   seperti Gambar 1.</string>
     <string name="ek1">= energi kinetik awal (J),</string>
     <string name="ek2">	= energi kinetik akhir (J),</string>
     <string name="wab2">	= usaha yang dilakukan gaya (J), dan</string>
     <string name="sek2">= perubahan energi kinetik (J).</string>
-    <string name="materihubungan8">Dengan demikian, usaha yang dilakukan oleh suatu gaya terhadap suatu benda sama dengan perubahan energi kinetik dari benda tersebut.</string>
-    <string name="materihubungan9">Sebuah balok kayu bermassa 2 kg dijatuhkan dari ketinggian 30 m di atas permukaan tanah. Hitunglah perubahan energi potensial pada ketinggian 10 m dari permukaan tanah. (g = 10 m/s2)</string>
+    <string name="materihubungan8">Usaha yang dilakukan oleh gaya F  untuk memindahkan benda sejauh s  dari A ke B dapat ditentukan dengan persamaan berikut.</string>
+    <string name="materihubungan9">Usaha yang dilakukan oleh gaya F untuk berpindah dari posisi A ke posisi B,</string>
+    <string name="materihubungan10">Substitusi persamaan (1) ke persamaan (2)</string>
 
     <string name="materi4">Hukum Kekekalan Energi</string>
     <string name="materihukum1">Salah satu sifat dari energi adalah kekal, artinya tidak dapat dihilangkan, tetapi dapat berubah bentuk menjadi energi yang lain. Misalkan, sebuah bola dilempar vertikal ke atas. Mula-mula bola mempunyai energi kinetik, semakin tinggi posisi bola, energi kinetiknya berkurang dan berubah menjadi energi potensial. Di titik tertinggi, bola hanya mempunyai energi potensial saja. Namun, saat bola jatuh kembali maka energi potensialnya berkurang dan berubah menjadi energi kinetik. Jika bola sampai di permukaan tanah, energi potensialnya nol dan bola hanya mempunyai energi kinetik saja.</string>

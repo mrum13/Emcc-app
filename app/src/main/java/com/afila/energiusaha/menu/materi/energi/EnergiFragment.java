@@ -40,7 +40,7 @@ public class EnergiFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getActivity(), UsahaLatihanActivity.class);
-                intent.putExtra("toolbarText","Latihan-Usaha 1");
+                intent.putExtra("toolbarText","Latihan-Energi 1");
                 startActivity(intent);
             }
         });
