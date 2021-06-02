@@ -1,14 +1,420 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".menu.materi.daya.DayaFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:scrollbars="none">
 
-</FrameLayout>
+        <LinearLayout
+            android:paddingVertical="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya1"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/img1dayanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dengan"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/w_daya"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t_daya"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/p_daya"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Satuan Daya"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya2"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img2dayanew"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya3"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya4"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_3_daya"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya5"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Hubungan Daya dengan Kecepatan Gerak Suatu Benda"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya6"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img3dayanew"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya7"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_4_daya"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:justificationMode="inter_word"
+                    android:text="Di mana"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginTop="12dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/img_5_daya"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/materidaya8"
+                    android:textSize="14sp"
+                    android:layout_marginTop="12dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_6_daya"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dengan"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s_daya1"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t_daya1"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/f_daya"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/v_daya"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/p_daya"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Efisiensi (Daya Guna)"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya9"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materidaya10"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img7dayanew"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img8dayanew"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(3)"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dengan"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img9dayanew"
+                android:paddingLeft="24dp"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img10dayanew"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="8dp"
+                    android:layout_marginTop="12dp"
+                    app:cardBackgroundColor="@color/merah"
+                    android:layout_toLeftOf="@id/batas"
+                    android:layout_marginRight="12dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_video"
+                            android:id="@+id/ic_video"
+                            android:layout_marginLeft="12dp"
+                            android:layout_centerVertical="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lihat Video"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp"
+                            android:layout_toRightOf="@id/ic_video"
+                            android:layout_centerVertical="true"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/btn_video"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/batas"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/biru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@id/batas">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_baseline_library_books_24"
+                            android:id="@+id/ic_latihan"
+                            android:layout_marginLeft="12dp"
+                            android:layout_centerVertical="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Latihan Soal"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_toRightOf="@id/ic_latihan"
+                            android:textColor="@color/white"
+                            android:layout_centerVertical="true"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/btn_latihan"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

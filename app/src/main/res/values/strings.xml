@@ -354,14 +354,16 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="materidaya3">Dengan 1 J = 1 W⋅s.</string>
     <string name="materidaya4">Selain watt⋅sekon, satuan energi yang sering digunakan adalah kWh (kilowatt⋅jam). Satuan kWh ini digunakan pada energi listrik. Oleh karena 1 kW = 1.000 W dan 1 jam = 3.600 s, maka:</string>
     <string name="materidaya5">Satuan lain dari daya yang sering digunakan dalam bidang teknik mesin adalah hp (horse power) atau dk (daya kuda) 1 hp = 746 watt. </string>
-    <string name="materidaya6">Oleh karena persamaan usaha dan daya masing-masing sebagai berikut.</string>
+    <string name="materidaya6">Persamaan usaha dan daya masing-masing sebagai berikut.</string>
     <string name="materidaya7">Dengan demikian, diperoleh hubungan daya dengan kecepatan gerak suatu benda sebagai berikut.</string>
     <string name="materidaya8">sehingga persamaan daya menjadi sebagai berikut.</string>
     <string name="materidaya9">Energi memiliki sifat dapat berubah bentuk menjadi bentuk energi yang lain. Akan tetapi, saat terjadi perubahan energi, tidak semua energi diubah menjadi energi yang bermanfaat, karena ada sebagaian yang berubah menjadi energi yang tidak bermanfaat. Misalnya energi panas yang dihasilkan oleh mesin mobil. Artinya, tidak mungkin membuat mesin yang dapat mengubah seluruh energi menjadi energi dalam bentuk lain yang bermanfaat.</string>
     <string name="materidaya10">Perbandingan antara energi yang diubah dalam bentuk lain dengan energi yang diterima disebut <b>daya guna</b> atau <b>efisiensi</b> (ƞ) yang dapat ditulis dalam bentuk persamaan:</string>
     <string name="materidaya11">Sebuah benda yang bermassa 40 kg diangkat ke atas melewati tangga yang tingginya 15 m dalam waktu 10 s. Jika g = 10 m/s2, tentukan daya yang diperlukan untuk mengangkat beban tersebut.</string>
     <string name="w_daya">W	= usaha (J),</string>
+    <string name="t_daya1">t = waktu (s),</string>
     <string name="t_daya">t = waktu (s), dan</string>
+    <string name="s_daya1">perpindahan suatu benda (m),</string>
     <string name="p_daya">P	= daya (W).</string>
     <string name="f_daya">F	= gaya yang bekerja pada benda (N),</string>
     <string name="v_daya">v	= kecepatan benda setelah mendapat gaya (m/s), dan</string>
