@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.os.CountDownTimer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,18 +18,20 @@ import com.afila.energiusaha.menu.soal.ModelJawaban;
 import com.afila.energiusaha.menu.soal.Preferences;
 import com.afila.energiusaha.menu.soal.SoalActivity11;
 import com.afila.energiusaha.menu.soal.result.ResultFragment;
+import com.afila.energiusaha.menu.soal.soal8.Soal8Fragment;
 import com.afila.energiusaha.menu.soal.soal9.Soal9Fragment;
 
 public class Soal10Fragment extends Fragment {
-    private TextView tvToolbarSoal;
+    private TextView tvToolbarSoal,tvCountdown;
     private String toolbarText;
     private ImageView toolbarback;
 
     private ModelJawaban modelJawaban;
+    private CountDownTimer timer;
 
     private Button btna,btnb,btnc,btnd,btne;
 
-    private Fragment fragment9,fragmentResult;
+    private Fragment fragment9,fragmentResult,fragmentHasil;
 
     private String soal1,soal2,soal3,soal4,soal5,soal6,soal7,soal8,soal9,soal10
             ,soal11,soal12,soal13,soal14,soal15,soal16,soal17,soal18,soal19,soal20;
@@ -54,6 +57,22 @@ public class Soal10Fragment extends Fragment {
 
         fragment9 = new Soal9Fragment();
         fragmentResult = new ResultFragment();
+
+        tvCountdown = root.findViewById(R.id.timecountdown);
+
+        timer = new CountDownTimer(60000,1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                tvCountdown.setText("Sisa Waktu: " +millisUntilFinished / 1000 +" detik");
+            }
+
+            @Override
+            public void onFinish() {
+                soal10 = "x";
+                Preferences.setSoal10(getActivity().getBaseContext(), soal10);
+                keHasil();
+            }
+        }.start();
 
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -122,10 +141,16 @@ public class Soal10Fragment extends Fragment {
     }
 
     private void keSoalSebelumnya(){
+        timer.cancel();
         getParentFragmentManager().beginTransaction().replace(R.id.container, fragment9).commit();
     }
 
     private void keSoalSelanjutnya(){
+        timer.cancel();
+        getParentFragmentManager().beginTransaction().replace(R.id.container, fragmentResult).commit();
+    }
+
+    private void keHasil(){
         getParentFragmentManager().beginTransaction().replace(R.id.container, fragmentResult).commit();
     }
 }

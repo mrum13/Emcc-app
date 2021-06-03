@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.os.CountDownTimer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,19 +16,21 @@ import android.widget.TextView;
 import com.afila.energiusaha.R;
 import com.afila.energiusaha.menu.soal.ModelJawaban;
 import com.afila.energiusaha.menu.soal.Preferences;
+import com.afila.energiusaha.menu.soal.result.ResultFragment;
 import com.afila.energiusaha.menu.soal.soal6.Soal6Fragment;
 import com.afila.energiusaha.menu.soal.soal8.Soal8Fragment;
 import com.afila.energiusaha.menu.soal.soal8.SoalActivity8;
 
 
 public class Soal7Fragment extends Fragment {
-    private TextView tvToolbarSoal;
+    private TextView tvToolbarSoal,tvCountdown;
     private String toolbarText;
     private ImageView toolbarback;
 
     private ModelJawaban modelJawaban;
+    private CountDownTimer timer;
 
-    private Fragment fragment6,fragment8;
+    private Fragment fragment6,fragment8,fragmentHasil;
 
     private Button btna,btnb,btnc,btnd,btne;
 
@@ -55,6 +58,30 @@ public class Soal7Fragment extends Fragment {
 
         fragment6 = new Soal6Fragment();
         fragment8 = new Soal8Fragment();
+
+        fragmentHasil = new ResultFragment();
+
+        tvCountdown = root.findViewById(R.id.timecountdown);
+
+        timer = new CountDownTimer(60000,1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                tvCountdown.setText("Sisa Waktu: " +millisUntilFinished / 1000 +" detik");
+            }
+
+            @Override
+            public void onFinish() {
+                soal7 = "x";
+                Preferences.setSoal7(getActivity().getBaseContext(), soal7);
+                soal8 = "x";
+                Preferences.setSoal8(getActivity().getBaseContext(), soal8);
+                soal9 = "x";
+                Preferences.setSoal9(getActivity().getBaseContext(), soal9);
+                soal10 = "x";
+                Preferences.setSoal10(getActivity().getBaseContext(), soal10);
+                keHasil();
+            }
+        }.start();
 
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -122,10 +149,16 @@ public class Soal7Fragment extends Fragment {
     }
 
     private void keSoalSebelumnya(){
+        timer.cancel();
         getParentFragmentManager().beginTransaction().replace(R.id.container, fragment6).commit();
     }
 
     private void keSoalSelanjutnya(){
+        timer.cancel();
         getParentFragmentManager().beginTransaction().replace(R.id.container, fragment8).commit();
+    }
+
+    private void keHasil(){
+        getParentFragmentManager().beginTransaction().replace(R.id.container, fragmentHasil).commit();
     }
 }

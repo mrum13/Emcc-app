@@ -15,7 +15,7 @@ import com.afila.energiusaha.menu.soal.Preferences;
 
 
 public class ResultFragment extends Fragment {
-    private TextView tvToolbar;
+    private TextView tvToolbar,tvCountdown;
     private String toolbarText;
     private ImageView toolbarback;
 
@@ -50,6 +50,9 @@ public class ResultFragment extends Fragment {
 
         tvToolbar = root.findViewById(R.id.tv_toolbar);
         toolbarback = root.findViewById(R.id.back_toolbar);
+
+        tvCountdown = root.findViewById(R.id.timecountdown);
+        tvCountdown.setVisibility(View.GONE);
 
         toolbarback.setVisibility ( View.GONE );
 

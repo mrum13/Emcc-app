@@ -27,7 +27,7 @@ import com.afila.energiusaha.menu.peta.PetaFragment;
 import com.afila.energiusaha.menu.tokoh.TokohFragment;
 
 public class MateriActivity extends AppCompatActivity {
-    private TextView tvToolbar;
+    private TextView tvToolbar,countdown;
     private String toolbarText;
     private ImageView toolbarback;
     private LinearLayout l1,l2,l3,l4,l5,l6;
@@ -43,6 +43,7 @@ public class MateriActivity extends AppCompatActivity {
 
         tvToolbar = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
+        countdown = findViewById(R.id.timecountdown);
 
         btn1 = findViewById(R.id.viewmateri1);
         btn2 = findViewById(R.id.viewmateri2);
@@ -62,6 +63,8 @@ public class MateriActivity extends AppCompatActivity {
         l3.setBackgroundColor(getResources().getColor(R.color.white));
         l4.setBackgroundColor(getResources().getColor(R.color.white));
         l5.setBackgroundColor(getResources().getColor(R.color.white));
+
+        countdown.setVisibility(View.GONE);
 
         if(getIntent().hasExtra("toolbarText")) {
             toolbarText = getIntent().getStringExtra("toolbarText");
