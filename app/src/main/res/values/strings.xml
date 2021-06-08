@@ -183,11 +183,11 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="soal15e">E. 3 : 1</string>
 
     <string name="soal8">Sebongkah balok es bermassa 2000 gram didorong dengan gaya F di atas permukaan lantai sehingga resultan gaya yang bekerja pada balok es 10 N selama 2 sekon. Setelah 2 sekon gaya dorong tersebut dihilangkan kemudian balok es tersebut mampu menempuh jarak 5 meter lalu berhenti. Berapa besar gaya dorong yang diberikan pada balok es tersebut .... N</string>
-    <string name="soal8a">A. 30</string>
-    <string name="soal8b">B. 20</string>
-    <string name="soal8c">C. 15</string>
-    <string name="soal8d">D. 10</string>
-    <string name="soal8e">E. 5</string>
+    <string name="soal8a">A. 30 N</string>
+    <string name="soal8b">B. 20 N</string>
+    <string name="soal8c">C. 15 N</string>
+    <string name="soal8d">D. 10 N</string>
+    <string name="soal8e">E. 5 N</string>
 
     <string name="soal17">Sebuah benda meluncur pada permukaan datar dengan kecepatan v = 4 m/s dan kemudian benda naik pada bidang miring dengan kemiringan 30°. Bila tidak ada gesekan antara benda dan bidang luncur, maka panjang lintasan benda pada bidang miring adalah….</string>
     <string name="soal17a">A. 40</string>
@@ -197,11 +197,11 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="soal17e">E. 160</string>
 
     <string name="soal9">Sebuah balok bermassa 3 kg bergerak ke atas pada bidang miring yang sudut miringnya 60°, dengan energi kinetik awal 18 J. Jika koefisien gesekannya 0,3 maka jarak terjauh yang dicapai balok saat meluncur pada bidang miring adalah sekitar …. m.</string>
-    <string name="soal9a">A. 1</string>
-    <string name="soal9b">B. 0,8</string>
-    <string name="soal9c">C. 0,6</string>
-    <string name="soal9d">D. 0,4</string>
-    <string name="soal9e">E. 0,2</string>
+    <string name="soal9a">A. 1 m</string>
+    <string name="soal9b">B. 0,8 m</string>
+    <string name="soal9c">C. 0,6 m</string>
+    <string name="soal9d">D. 0,4 m</string>
+    <string name="soal9e">E. 0,2 m</string>
 
     <!--    <string name="soal19atas">Sebuah balok bermassa 1 kg meluncur pada bidang miring kasar dari keadaan diam seperti gambar.</string>-->
     <!--    //ada gambar disini-->
@@ -288,12 +288,12 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="m">m	= massa benda (kg),</string>
     <string name="g">g	= percepatan gravitasi (m/s2)</string>
     <string name="h">h	= kedudukan benda terhadap permukaan bumi (m), dan</string>
-    <string name="ep">EP	= energi potensial (kg⋅m2/s2 atau joule).</string>
+    <string name="ep">EP	= energi potensial (J).</string>
     <string name="k_energi">k	= tetapan elastisitas pegas (N/m).</string>
     <string name="x_energi">x	= perubahan panjang pegas (m), dan</string>
     <string name="e_energi">Ep	= energi potensial pegas (J).</string>
-    <string name="materienergi5">Contohnya adalah orang menarik busur, pegas yang dipakai pada pena.
-	Energi potensial yang disebabkan karena kedudukannya terhadap permukaan bumi dinamakan energi potensial gravitasi, besarnya adalah:</string>
+    <string name="materienergi5">Contohnya adalah orang menarik busur, pegas yang dipakai pada pena.</string>
+	<string name="materienergi5.5">Energi potensial yang disebabkan karena kedudukannya terhadap permukaan bumi dinamakan energi potensial gravitasi, besarnya adalah:</string>
     <string name="materienergi6">contohnya adalah air terjun sebagai sumber PLTA dan kelapa yang jatuh dari pohonnya.</string>
     <string name="materienergi7">2. Energi Kinetik</string>
     <string name="materienergi8">Telah dibahas sebelumnya bahwa energi potensial adalah energi yang dimiliki benda karena kedudukannya terhadap titik acuan, maka energi kinetik adalah energi yang dimiliki benda karena gerakannya. Hanya benda yang bergerak (memiliki kecepatan) saja yang mempunyai energi kinetik. Beberapa contoh energi potensial terlihat pada gambar berikut:</string>
@@ -329,12 +329,13 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="materihubungan10">Substitusi persamaan (1) ke persamaan (2)</string>
 
     <string name="materi4">Hukum Kekekalan Energi</string>
+    <string name="materihukumjudul">Hukum Kekekalan Energi Mekanik</string>
     <string name="materihukum1">Salah satu sifat dari energi adalah kekal, artinya tidak dapat dihilangkan, tetapi dapat berubah bentuk menjadi energi yang lain. Misalkan, sebuah bola dilempar vertikal ke atas. Mula-mula bola mempunyai energi kinetik, semakin tinggi posisi bola, energi kinetiknya berkurang dan berubah menjadi energi potensial. Di titik tertinggi, bola hanya mempunyai energi potensial saja. Namun, saat bola jatuh kembali maka energi potensialnya berkurang dan berubah menjadi energi kinetik. Jika bola sampai di permukaan tanah, energi potensialnya nol dan bola hanya mempunyai energi kinetik saja.
 	Penjumlahan dari energi potensial dan energi kinetik disebut energi mekanik. Jika tidak ada gaya luar yang bekerja pada benda, maka jumlah energi potensial dan energi kinetik adalah tetap. Pernyataan tersebut dikenal dengan hukum kekekalan energi mekanik.</string>
-    <string name="materihukum2">Untuk memahami hukum kekekalan energi mekanik, perhatikan Gambar 1. Sebuah benda bermassa m bergerak vertikal ke bawah karena pengaruh gaya beratnya. Pada saat di posisi A, kecepatan dan tinggi benda dari tanah adalah dan . Sementara itu, pada saat di posisi B kecepatan dan tingginya adalah  dan . Usaha dari gaya berat selama benda berpindah dari A ke B adalah sebagai berikut.
-    a. Berdasarkan perubahan energi potensial usaha dari A ke B</string>
+    <string name="materihukum2">Untuk memahami hukum kekekalan energi mekanik, perhatikan Gambar 1. Sebuah benda bermassa m bergerak vertikal ke bawah karena pengaruh gaya beratnya. Pada saat di posisi A, kecepatan dan tinggi benda dari tanah adalah dan . Sementara itu, pada saat di posisi B kecepatan dan tingginya adalah  dan . Usaha dari gaya berat selama benda berpindah dari A ke B adalah sebagai berikut.</string>
+    <string name="materihukum2.2">a. Berdasarkan perubahan energi potensial usaha dari A ke B</string>
     <string name="hukumgambar1">Gambar 1. Balok jatuh bebas dari posisi A ke posisi B.</string>
-    <string name="materihukum3">Berdasarkan perubahan energi kinetik, usaha dari A ke B</string>
+    <string name="materihukum3">b. Berdasarkan perubahan energi kinetik, usaha dari A ke B</string>
     <string name="materihukum4">Berdasarkan Persamaan (1) dan Persamaan (2) diperoleh hubungan sebagai berikut.</string>
     <string name="materihukum5">Jumlah energi potensial dan energi kinetik disebut energi mekanik, sehingga Persamaan (3) dapat dinyatakan sebagai berikut.</string>
     <string name="materihukum5.5">Berdasarkan Persamaan (1) dan Persamaan (2) diperoleh hubungan sebagai berikut.</string>
@@ -349,6 +350,7 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="ep2hukum">EP2= energi potensial akhir (J).</string>
 
     <string name="materi5">Daya</string>
+    <string name="materidayajudul">Daya</string>
     <string name="materidaya1"><b>Daya</b> adalah kemampuan untuk melakukan usaha tiap satu satuan waktu. Secara matematis dapat dinyatakan dengan persamaan berikut.</string>
     <string name="materidaya2">Berdasarkan persamaan (1), satuan daya dalam Sistem Internasional (SI) adalah J/s = watt. Definisi satu watt adalah besarnya daya yang menimbulkan usaha sebesar 1 joule tiap sekon. Satuan lain dari daya adalah kilowatt (kW). Berdasarkan Persamaan (1) juga dapat diturunkan satuan usaha yang lain, yaitu sebagai berikut.</string>
     <string name="materidaya3">Dengan 1 J = 1 W⋅s.</string>
@@ -363,7 +365,7 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="w_daya">W	= usaha (J),</string>
     <string name="t_daya1">t = waktu (s),</string>
     <string name="t_daya">t = waktu (s), dan</string>
-    <string name="s_daya1">perpindahan suatu benda (m),</string>
+    <string name="s_daya1">s = perpindahan suatu benda (m),</string>
     <string name="p_daya">P	= daya (W).</string>
     <string name="f_daya">F	= gaya yang bekerja pada benda (N),</string>
     <string name="v_daya">v	= kecepatan benda setelah mendapat gaya (m/s), dan</string>
@@ -398,11 +400,11 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="latihanusaha1e">E. 100 J</string>
 
     <string name="latihanusaha2">Benda bermassa 10 kg pada mulanya bergerak dengan kelajuan 5 m/s. Sesaat kemudian benda itu bergerak dengan kelajuan 10 m/s. Tentukan usaha total yang dikerjakan pada benda tersebut….</string>
-    <string name="latihanusaha2a">A. 371</string>
-    <string name="latihanusaha2b">B. 374</string>
-    <string name="latihanusaha2c">C. 375</string>
-    <string name="latihanusaha2d">D. 218</string>
-    <string name="latihanusaha2e">E. 901</string>
+    <string name="latihanusaha2a">A. 371 Joule</string>
+    <string name="latihanusaha2b">B. 374 Joule</string>
+    <string name="latihanusaha2c">C. 375 Joule</string>
+    <string name="latihanusaha2d">D. 218 Joule</string>
+    <string name="latihanusaha2e">E. 901 Joule</string>
 
     <string name="latihanenergi1">Sebuah balok bermassa 4 kg bergerak dengan kecepatan awal 10 m/s di atas lantai yang kasar. Karena kekasaran lantai tersebut, kecepatan balok bisa turun menjadi 5 m/s setelah menempuh jarak tertentu. Perubahan energi kinetik balok sebesar.... </string>
     <string name="latihanenergi1a">A. turun 150 joule</string>

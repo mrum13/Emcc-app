@@ -397,8 +397,8 @@
                 android:justificationMode="inter_word"/>
 
             <ImageView
-                android:layout_width="125dp"
-                android:layout_height="100dp"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
                 android:src="@drawable/img12usahanew"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"/>
@@ -449,8 +449,8 @@
                 android:justificationMode="inter_word" />
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
                 android:src="@drawable/img13usahanew"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
@@ -464,6 +464,14 @@
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:justificationMode="inter_word" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/revisi1"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_marginTop="8dp"

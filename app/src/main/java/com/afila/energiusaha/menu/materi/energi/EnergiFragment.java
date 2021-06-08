@@ -39,7 +39,7 @@ public class EnergiFragment extends Fragment {
         btnLatihan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(getActivity(), UsahaLatihanActivity.class);
+                intent = new Intent(getActivity(), EnergiLatihanActivity.class);
                 intent.putExtra("toolbarText","Latihan-Energi 1");
                 startActivity(intent);
             }

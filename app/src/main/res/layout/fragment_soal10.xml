@@ -24,7 +24,7 @@
         android:text="@string/soal10"
         android:textColor="@color/black"
         android:layout_marginHorizontal="24dp"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:layout_marginTop="12dp"
         android:textAllCaps="false"
         android:layout_below="@id/toolbar_soal"
@@ -36,7 +36,7 @@
         android:orientation="vertical"
         android:paddingHorizontal="24dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="12dp">
+        android:layout_marginBottom="8dp">
 
         <Button
             android:id="@+id/btnA"

@@ -47,7 +47,7 @@ public class DayaFragment extends Fragment {
         btnLatihan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(getActivity(), UsahaLatihanActivity.class);
+                intent = new Intent(getActivity(), DayaLatihanActivity.class);
                 intent.putExtra("toolbarText","Latihan-Daya 1");
                 startActivity(intent);
             }

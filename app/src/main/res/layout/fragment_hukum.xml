@@ -21,6 +21,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/materihukumjudul"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@string/materihukum1"
                 android:textSize="14sp"
                 android:justificationMode="inter_word"
@@ -46,6 +55,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/materihukum2"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/materihukum2.2"
                 android:textSize="14sp"
                 android:justificationMode="inter_word"
                 android:textColor="@color/black"/>

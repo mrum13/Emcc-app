@@ -39,7 +39,7 @@ public class HubunganFragment extends Fragment {
         btnLatihan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(getActivity(), UsahaLatihanActivity.class);
+                intent = new Intent(getActivity(), HubunganLatihanActivity.class);
                 intent.putExtra("toolbarText","Latihan-Hubungan 1");
                 startActivity(intent);
             }

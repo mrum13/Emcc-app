@@ -156,7 +156,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb2.setText(s2);
-        if (s2.equals("a")){
+        if (s2.equals("d")){
             imgsalah2.setVisibility(View.GONE);
             hrs2.setVisibility(View.GONE);
             benar2.setVisibility(View.GONE);
@@ -167,7 +167,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb3.setText(s3);
-        if (s3.equals("a")){
+        if (s3.equals("d")){
             imgsalah3.setVisibility(View.GONE);
             hrs3.setVisibility(View.GONE);
             benar3.setVisibility(View.GONE);
@@ -178,7 +178,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb4.setText(s4);
-        if (s4.equals("d")){
+        if (s4.equals("e")){
             imgsalah4.setVisibility(View.GONE);
             hrs4.setVisibility(View.GONE);
             benar4.setVisibility(View.GONE);
@@ -189,7 +189,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb5.setText(s5);
-        if (s5.equals("e")){
+        if (s5.equals("a")){
             imgsalah5.setVisibility(View.GONE);
             hrs5.setVisibility(View.GONE);
             benar5.setVisibility(View.GONE);
@@ -200,7 +200,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb6.setText(s6);
-        if (s6.equals("d")){
+        if (s6.equals("a")){
             imgsalah6.setVisibility(View.GONE);
             hrs6.setVisibility(View.GONE);
             benar6.setVisibility(View.GONE);
@@ -211,7 +211,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb7.setText(s7);
-        if (s7.equals("d")){
+        if (s7.equals("a")){
             imgsalah7.setVisibility(View.GONE);
             hrs7.setVisibility(View.GONE);
             benar7.setVisibility(View.GONE);
@@ -222,7 +222,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb8.setText(s8);
-        if (s8.equals("e")){
+        if (s8.equals("a")){
             imgsalah8.setVisibility(View.GONE);
             hrs8.setVisibility(View.GONE);
             benar8.setVisibility(View.GONE);
@@ -233,7 +233,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb9.setText(s9);
-        if (s9.equals("a")){
+        if (s9.equals("c")){
             imgsalah9.setVisibility(View.GONE);
             hrs9.setVisibility(View.GONE);
             benar9.setVisibility(View.GONE);
@@ -244,7 +244,7 @@ public class ResultFragment extends Fragment {
         }
 
         jwb10.setText(s10);
-        if (s10.equals("a")){
+        if (s10.equals("c")){
             imgsalah10.setVisibility(View.GONE);
             hrs10.setVisibility(View.GONE);
             benar10.setVisibility(View.GONE);

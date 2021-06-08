@@ -49,7 +49,7 @@ public class HukumFragment extends Fragment {
         btnLatihan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(getActivity(), UsahaLatihanActivity.class);
+                intent = new Intent(getActivity(), HukunLatihanActivity.class);
                 intent.putExtra("toolbarText","Latihan-Hukum 1");
                 startActivity(intent);
             }
