@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu.appersepsi.ApersFragment">
+    tools:context=".menu.appersepsi.ApersFragment"
+    android:background="@drawable/bg_new"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
