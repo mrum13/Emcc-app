@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".menu.ki.KiFragment"
-    android:background="@drawable/bg_new">
+    android:background="@drawable/bg_new_blue">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView

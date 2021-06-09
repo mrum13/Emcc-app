@@ -38,8 +38,6 @@ public class ResultActivityEnergi extends AppCompatActivity {
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ResultActivityEnergi.this, MateriActivity.class);
-                startActivity(intent);
                 ResultActivityEnergi.this.finish();
             }
         });

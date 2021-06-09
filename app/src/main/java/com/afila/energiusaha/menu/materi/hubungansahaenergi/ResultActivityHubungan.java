@@ -38,8 +38,6 @@ public class ResultActivityHubungan extends AppCompatActivity {
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ResultActivityHubungan.this, MateriActivity.class);
-                startActivity(intent);
                 ResultActivityHubungan.this.finish();
             }
         });

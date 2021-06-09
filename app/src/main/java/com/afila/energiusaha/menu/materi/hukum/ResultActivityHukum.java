@@ -37,8 +37,6 @@ public class ResultActivityHukum extends AppCompatActivity {
         toolbarback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ResultActivityHukum.this, MateriActivity.class);
-                startActivity(intent);
                 ResultActivityHukum.this.finish();
             }
         });
