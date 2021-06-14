@@ -190,10 +190,11 @@
                 android:textColor="@color/black"/>
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_width="300dp"
+                android:layout_height="175dp"
                 android:src="@drawable/img5usahanew"
                 android:layout_gravity="center"
+                android:scaleType="fitXY"
                 android:layout_marginTop="12dp"/>
 
             <TextView
@@ -348,9 +349,9 @@
 <!--            </RelativeLayout>-->
 
             <ImageView
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:scaleType="fitXY"
-                android:layout_height="225dp"
+                android:layout_height="300dp"
                 android:src="@drawable/img10usahanew"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"/>
@@ -467,8 +468,8 @@
                 android:justificationMode="inter_word" />
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
                 android:src="@drawable/revisi1"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"

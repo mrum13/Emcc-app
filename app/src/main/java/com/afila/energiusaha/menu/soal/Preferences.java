@@ -12,19 +12,22 @@ public class Preferences {
             ,soal11 ="key11", soal12 ="key12", soal13 ="key13", soal14 ="key14", soal15 ="key15"
             , soal16 ="key16", soal17 ="key17", soal18 ="key18", soal19 ="key19", soal20 ="key20";
 
+    static final String nilai1 ="key1", nilai2 ="key2", nilai3 ="key3", nilai4 ="key4", nilai5 ="key5"
+            , nilai6 ="key6", nilai7 ="key7", nilai8 ="key8", nilai9 ="key9", nilai10 ="key10";
+
     /** Pendlakarasian Shared Preferences yang berdasarkan paramater context */
     private static SharedPreferences getSharedPreference(Context context){
         return PreferenceManager.getDefaultSharedPreferences(context);
     }
 
-    /** Deklarasi Edit Preferences dan mengubah data
-     *  yang memiliki key isi KEY_USER_TEREGISTER dengan parameter username */
+
+
     public static void setSoal1(Context context, String jwb1){
         SharedPreferences.Editor editor = getSharedPreference(context).edit();
         editor.putString(soal1, jwb1);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal1(Context context){
         return getSharedPreference(context).getString(soal1,"");
     }
@@ -34,7 +37,7 @@ public class Preferences {
         editor.putString(soal2, jwb2);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal2(Context context){
         return getSharedPreference(context).getString(soal2,"");
     }
@@ -44,7 +47,7 @@ public class Preferences {
         editor.putString(soal3, jwb3);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal3(Context context){
         return getSharedPreference(context).getString(soal3,"");
     }
@@ -54,7 +57,7 @@ public class Preferences {
         editor.putString(soal4, jwb4);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal4(Context context){
         return getSharedPreference(context).getString(soal4,"");
     }
@@ -64,7 +67,7 @@ public class Preferences {
         editor.putString(soal5, jwb5);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal5(Context context){
         return getSharedPreference(context).getString(soal5,"");
     }
@@ -84,7 +87,7 @@ public class Preferences {
         editor.putString(soal7, jwb7);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal7(Context context){
         return getSharedPreference(context).getString(soal7,"");
     }
@@ -94,7 +97,7 @@ public class Preferences {
         editor.putString(soal8, jwb8);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal8(Context context){
         return getSharedPreference(context).getString(soal8,"");
     }
@@ -104,7 +107,7 @@ public class Preferences {
         editor.putString(soal9, jwb9);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal9(Context context){
         return getSharedPreference(context).getString(soal9,"");
     }
@@ -114,7 +117,7 @@ public class Preferences {
         editor.putString(soal10, jwb10);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal10(Context context){
         return getSharedPreference(context).getString(soal10,"");
     }
@@ -124,7 +127,7 @@ public class Preferences {
         editor.putString(soal11, jwb11);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal11(Context context){
         return getSharedPreference(context).getString(soal11,"");
     }
@@ -134,7 +137,7 @@ public class Preferences {
         editor.putString(soal12, jwb12);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal12(Context context){
         return getSharedPreference(context).getString(soal12,"");
     }
@@ -144,7 +147,7 @@ public class Preferences {
         editor.putString(soal13, jwb13);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal13(Context context){
         return getSharedPreference(context).getString(soal13,"");
     }
@@ -154,7 +157,7 @@ public class Preferences {
         editor.putString(soal14, jwb14);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal14(Context context){
         return getSharedPreference(context).getString(soal14,"");
     }
@@ -164,7 +167,7 @@ public class Preferences {
         editor.putString(soal15, jwb15);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal15(Context context){
         return getSharedPreference(context).getString(soal15,"");
     }
@@ -184,7 +187,7 @@ public class Preferences {
         editor.putString(soal17, jwb17);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal17(Context context){
         return getSharedPreference(context).getString(soal17,"");
     }
@@ -194,7 +197,7 @@ public class Preferences {
         editor.putString(soal18, jwb18);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal18(Context context){
         return getSharedPreference(context).getString(soal18,"");
     }
@@ -204,7 +207,7 @@ public class Preferences {
         editor.putString(soal19, jwb19);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal19(Context context){
         return getSharedPreference(context).getString(soal19,"");
     }
@@ -214,17 +217,108 @@ public class Preferences {
         editor.putString(soal20, jwb20);
         editor.apply();
     }
-    /** Mengembalikan nilai dari key KEY_USER_TEREGISTER berupa String */
+
     public static String getSoal20(Context context){
         return getSharedPreference(context).getString(soal20,"");
     }
 
-//    /** Deklarasi Edit Preferences dan menghapus data, sehingga menjadikannya bernilai default
-//     *  khusus data yang memiliki key KEY_USERNAME_SEDANG_LOGIN dan KEY_STATUS_SEDANG_LOGIN */
-//    public static void clearLoggedInUser (Context context){
-//        SharedPreferences.Editor editor = getSharedPreference(context).edit();
-//        editor.remove(KEY_USERNAME_SEDANG_LOGIN);
-//        editor.remove(KEY_STATUS_SEDANG_LOGIN);
-//        editor.apply();
-//    }
+    public static void setNilai1(Context context, String nl1){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai1, nl1);
+        editor.apply();
+    }
+
+    public static String getNilai1(Context context){
+        return getSharedPreference(context).getString(nilai1,"");
+    }
+
+    public static void setNilai2(Context context, String nl2){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai2, nl2);
+        editor.apply();
+    }
+
+    public static String getNilai2(Context context){
+        return getSharedPreference(context).getString(nilai2,"");
+    }
+
+    public static void setNilai3(Context context, String nl3){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai3, nl3);
+        editor.apply();
+    }
+
+    public static String getNilai3(Context context){
+        return getSharedPreference(context).getString(nilai3,"");
+    }
+
+    public static void setNilai4(Context context, String nl4){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai4, nl4);
+        editor.apply();
+    }
+
+    public static String getNilai4(Context context){
+        return getSharedPreference(context).getString(nilai4,"");
+    }
+
+    public static void setNilai5(Context context, String nl5){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai5, nl5);
+        editor.apply();
+    }
+
+    public static String getNilai5(Context context){
+        return getSharedPreference(context).getString(nilai5,"");
+    }
+
+    public static void setNilai6(Context context, String nl6){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai6, nl6);
+        editor.apply();
+    }
+
+    public static String getNilai6(Context context){
+        return getSharedPreference(context).getString(nilai6,"");
+    }
+
+    public static void setNilai7(Context context, String nl7){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai7, nl7);
+        editor.apply();
+    }
+
+    public static String getNilai7(Context context){
+        return getSharedPreference(context).getString(nilai7,"");
+    }
+
+    public static void setNilai8(Context context, String nl8){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai8, nl8);
+        editor.apply();
+    }
+
+    public static String getNilai8(Context context){
+        return getSharedPreference(context).getString(nilai8,"");
+    }
+
+    public static void setNilai9(Context context, String nl9){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai9, nl9);
+        editor.apply();
+    }
+
+    public static String getNilai9(Context context){
+        return getSharedPreference(context).getString(nilai9,"");
+    }
+
+    public static void setNilai10(Context context, String nl10){
+        SharedPreferences.Editor editor = getSharedPreference(context).edit();
+        editor.putString(nilai10, nl10);
+        editor.apply();
+    }
+
+    public static String getNilai10(Context context){
+        return getSharedPreference(context).getString(nilai10,"");
+    }
 }

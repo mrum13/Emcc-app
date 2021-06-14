@@ -13,7 +13,7 @@ import com.afila.energiusaha.R;
 import com.afila.energiusaha.menu.soal.Preferences;
 
 public class UsahaLatihanActivity extends AppCompatActivity {
-    private TextView tvToolbarSoal;
+    private TextView tvToolbarSoal,time;
     private String toolbarText;
     private ImageView toolbarback;
     private Button btna,btnb,btnc,btnd,btne;
@@ -26,12 +26,15 @@ public class UsahaLatihanActivity extends AppCompatActivity {
 
         tvToolbarSoal = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
+        time = findViewById(R.id.timecountdown);
 
         btna = findViewById(R.id.btnA);
         btnb = findViewById(R.id.btnB);
         btnc = findViewById(R.id.btnC);
         btnd = findViewById(R.id.btnD);
         btne = findViewById(R.id.btnE);
+
+        time.setVisibility(View.GONE);
 
         if(getIntent().hasExtra("toolbarText")) {
             toolbarText = getIntent().getStringExtra("toolbarText");

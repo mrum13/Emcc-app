@@ -149,7 +149,7 @@ public class ResultFragment extends Fragment {
             imgsalah1.setVisibility(View.GONE);
             hrs1.setVisibility(View.GONE);
             benar1.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar1.setVisibility(View.GONE);
@@ -160,7 +160,7 @@ public class ResultFragment extends Fragment {
             imgsalah2.setVisibility(View.GONE);
             hrs2.setVisibility(View.GONE);
             benar2.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar2.setVisibility(View.GONE);
@@ -171,7 +171,7 @@ public class ResultFragment extends Fragment {
             imgsalah3.setVisibility(View.GONE);
             hrs3.setVisibility(View.GONE);
             benar3.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar3.setVisibility(View.GONE);
@@ -182,7 +182,7 @@ public class ResultFragment extends Fragment {
             imgsalah4.setVisibility(View.GONE);
             hrs4.setVisibility(View.GONE);
             benar4.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar4.setVisibility(View.GONE);
@@ -193,7 +193,7 @@ public class ResultFragment extends Fragment {
             imgsalah5.setVisibility(View.GONE);
             hrs5.setVisibility(View.GONE);
             benar5.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar5.setVisibility(View.GONE);
@@ -204,7 +204,7 @@ public class ResultFragment extends Fragment {
             imgsalah6.setVisibility(View.GONE);
             hrs6.setVisibility(View.GONE);
             benar6.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar6.setVisibility(View.GONE);
@@ -215,7 +215,7 @@ public class ResultFragment extends Fragment {
             imgsalah7.setVisibility(View.GONE);
             hrs7.setVisibility(View.GONE);
             benar7.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar7.setVisibility(View.GONE);
@@ -226,7 +226,7 @@ public class ResultFragment extends Fragment {
             imgsalah8.setVisibility(View.GONE);
             hrs8.setVisibility(View.GONE);
             benar8.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar8.setVisibility(View.GONE);
@@ -237,7 +237,7 @@ public class ResultFragment extends Fragment {
             imgsalah9.setVisibility(View.GONE);
             hrs9.setVisibility(View.GONE);
             benar9.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar9.setVisibility(View.GONE);
@@ -248,11 +248,13 @@ public class ResultFragment extends Fragment {
             imgsalah10.setVisibility(View.GONE);
             hrs10.setVisibility(View.GONE);
             benar10.setVisibility(View.GONE);
-            nilai = nilai+5;
+            nilai = nilai+10;
         }
         else {
             imgbenar10.setVisibility(View.GONE);
         }
+
+        tvnilai.setText(String.valueOf(nilai));
 
         return root;
     }

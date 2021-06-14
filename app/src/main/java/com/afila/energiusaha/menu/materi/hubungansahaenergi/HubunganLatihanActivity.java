@@ -15,7 +15,7 @@ import com.afila.energiusaha.menu.materi.energi.EnergiLatihanActivity2;
 import com.afila.energiusaha.menu.soal.Preferences;
 
 public class HubunganLatihanActivity extends AppCompatActivity {
-    private TextView tvToolbarSoal;
+    private TextView tvToolbarSoal,time;
     private String toolbarText;
     private ImageView toolbarback;
     private Button btna,btnb,btnc,btnd,btne;
@@ -28,6 +28,9 @@ public class HubunganLatihanActivity extends AppCompatActivity {
 
         tvToolbarSoal = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
+        time = findViewById(R.id.timecountdown);
+
+        time.setVisibility(View.GONE);
 
         btna = findViewById(R.id.btnA);
         btnb = findViewById(R.id.btnB);

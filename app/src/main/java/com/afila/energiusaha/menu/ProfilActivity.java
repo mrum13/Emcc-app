@@ -15,7 +15,7 @@ import com.afila.energiusaha.R;
 import org.w3c.dom.Text;
 
 public class ProfilActivity extends AppCompatActivity {
-    private TextView tvToolbar;
+    private TextView tvToolbar,time;
     private String toolbarText;
     private ImageView toolbarback;
     private CardView wa;
@@ -29,6 +29,9 @@ public class ProfilActivity extends AppCompatActivity {
         tvToolbar = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
         wa = findViewById(R.id.card_wa);
+        time = findViewById(R.id.timecountdown);
+
+        time.setVisibility(View.GONE);
 
         wa.setOnClickListener(new View.OnClickListener() {
             @Override

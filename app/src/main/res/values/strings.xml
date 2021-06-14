@@ -287,7 +287,7 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
 	Energi potensial yang disebabkan oleh perubahan panjang dinamakan energi potensial elastis, yang besarnya adalah:</string>
     <string name="m">m	= massa benda (kg),</string>
     <string name="g">g	= percepatan gravitasi (m/s2)</string>
-    <string name="h">h	= kedudukan benda terhadap permukaan bumi (m), dan</string>
+    <string name="h">h	= kedudukan benda terhadap permukaan bumi (m)</string>
     <string name="ep">EP	= energi potensial (J).</string>
     <string name="k_energi">k	= tetapan elastisitas pegas (N/m).</string>
     <string name="x_energi">x	= perubahan panjang pegas (m), dan</string>
@@ -346,7 +346,7 @@ Berdasarkan pernyataan diatas, kegiatan yang merupakan contoh usaha adalah ...</
     <string name="materihukum9">Energi potensial dan energi mekanik saat mencapai titik tertinggi</string>
     <string name="ek1hukum">EK1= energi kinetik awal (J),</string>
     <string name="ek2hukum">EK2= energi kinetik akhir (J),</string>
-    <string name="ep1hukum">EP1	= energi kinetik akhir (J), dan</string>
+    <string name="ep1hukum">EP1	= energi kinetik akhir (J),</string>
     <string name="ep2hukum">EP2= energi potensial akhir (J).</string>
 
     <string name="materi5">Daya</string>

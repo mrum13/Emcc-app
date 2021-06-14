@@ -15,7 +15,7 @@ import com.afila.energiusaha.menu.materi.usaha.ResultActivityUsaha;
 import com.afila.energiusaha.menu.soal.Preferences;
 
 public class ResultActivityEnergi extends AppCompatActivity {
-    private TextView tvToolbar;
+    private TextView tvToolbar,time;
     private String toolbarText;
     private ImageView toolbarback;
 
@@ -33,6 +33,9 @@ public class ResultActivityEnergi extends AppCompatActivity {
 
         tvToolbar = findViewById(R.id.tv_toolbar);
         toolbarback = findViewById(R.id.back_toolbar);
+        time = findViewById(R.id.timecountdown);
+
+        time.setVisibility(View.GONE);
 
         tvToolbar.setText("Hasil");
         toolbarback.setOnClickListener(new View.OnClickListener() {
