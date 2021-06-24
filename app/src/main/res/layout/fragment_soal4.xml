@@ -12,10 +12,9 @@
 
     <ImageView
         android:layout_width="150dp"
-        android:layout_height="120dp"
+        android:layout_height="90dp"
         android:src="@drawable/img_1"
         android:layout_below="@id/toolbar_soal"
-        android:layout_marginTop="12dp"
         android:layout_marginLeft="24dp"
         android:id="@+id/img4"/>
 
