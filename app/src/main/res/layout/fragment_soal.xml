@@ -10,16 +10,25 @@
         layout="@layout/toolbar"
         android:id="@+id/toolbar_soal"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/lytsoal"
+        android:layout_below="@id/toolbar_soal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soal1"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="24dp"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"/>
+
+    </RelativeLayout>
+
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/soal1"
-        android:textColor="@color/black"
-        android:layout_marginHorizontal="24dp"
-        android:textSize="18sp"
-        android:layout_below="@id/toolbar_soal"
-        android:layout_marginTop="12dp"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +36,8 @@
         android:orientation="vertical"
         android:paddingHorizontal="24dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="24dp">
+        android:layout_marginBottom="12dp"
+        android:id="@+id/lytsoal">
 
         <Button
             android:id="@+id/btnA"

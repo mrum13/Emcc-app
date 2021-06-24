@@ -11,310 +11,319 @@
         layout="@layout/toolbar_main"
         android:id="@+id/toolbar_main"/>
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar_main"
         android:id="@+id/navigation">
 
-        <LinearLayout
-            android:id="@+id/linear1"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingLeft="24dp"
-            android:layout_marginTop="12dp"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar_main">
 
-            <RelativeLayout
+            <LinearLayout
+                android:id="@+id/linear1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="50dp"
+                android:paddingLeft="24dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/img1"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_baseline_library_books_24"
-                    android:background="@drawable/iconmenu"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/apersepsi_main"
-                    android:textStyle="bold"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@id/img1"
-                    android:textColor="@color/black"
-                    android:paddingHorizontal="12dp"/>
-
-                <ImageView
-                    android:id="@+id/btn_apersepsi1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="32dp"
-                    android:paddingVertical="16dp"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-                    android:layout_centerVertical="true"
-                    android:layout_alignParentRight="true"/>
-
-                <View
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/view1"/>
+                    android:layout_height="wrap_content">
 
-            </RelativeLayout>
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_baseline_library_books_24"
+                        android:background="@drawable/iconmenu"/>
 
-        </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apersepsi_main"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/img1"
+                        android:textColor="@color/black"
+                        android:paddingHorizontal="12dp"/>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:paddingLeft="24dp"
-            android:id="@+id/linear2"
-            android:layout_marginTop="12dp"
-            android:layout_below="@id/linear1"
-            android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/btn_apersepsi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="32dp"
+                        android:paddingVertical="16dp"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
 
-            <RelativeLayout
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view1"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="24dp"
+                android:id="@+id/linear2"
+                android:layout_marginTop="12dp"
+                android:layout_below="@id/linear1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_ki"
+                        android:background="@drawable/iconmenu2"/>
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/KI_main"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black"
+                        android:layout_toRightOf="@id/img2"
+                        android:paddingHorizontal="12dp"/>
+
+                    <ImageView
+                        android:id="@+id/btn_ki1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="32dp"
+                        android:paddingVertical="16dp"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view2"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="24dp"
+                android:layout_below="@id/linear2"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_peta"
+                        android:background="@drawable/iconmenu3"/>
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/peta_main"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black"
+                        android:layout_toRightOf="@id/img3"
+                        android:paddingHorizontal="12dp"/>
+
+                    <ImageView
+                        android:id="@+id/btn_peta1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="32dp"
+                        android:paddingVertical="16dp"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view3"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="50dp"
+                android:paddingLeft="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_below="@id/linear3"
+                android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/img2"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_ki"
-                    android:background="@drawable/iconmenu2"/>
-
-                <TextView
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/KI_main"
-                    android:textStyle="bold"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/black"
-                    android:layout_toRightOf="@id/img2"
-                    android:paddingHorizontal="12dp"/>
-
-                <ImageView
-                    android:id="@+id/btn_ki1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="32dp"
-                    android:paddingVertical="16dp"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
-
-                <View
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/view2"/>
+                    android:layout_height="wrap_content">
 
-            </RelativeLayout>
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_tokoh"
+                        android:background="@drawable/iconmenu4"/>
 
-        </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tokoh_main"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/img4"
+                        android:textColor="@color/black"
+                        android:paddingHorizontal="12dp"/>
 
-        <LinearLayout
-            android:id="@+id/linear3"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:paddingLeft="24dp"
-            android:layout_below="@id/linear2"
-            android:orientation="horizontal"
-            android:layout_marginTop="12dp">
+                    <ImageView
+                        android:id="@+id/btn_tokoh1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="32dp"
+                        android:paddingVertical="16dp"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"/>
 
-            <RelativeLayout
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view4"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="50dp"
+                android:paddingLeft="24dp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/linear5"
+                android:layout_below="@id/linear4"
+                android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/img3"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_peta"
-                    android:background="@drawable/iconmenu3"/>
-
-                <TextView
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/peta_main"
-                    android:textStyle="bold"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/black"
-                    android:layout_toRightOf="@id/img3"
-                    android:paddingHorizontal="12dp"/>
-
-                <ImageView
-                    android:id="@+id/btn_peta1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="32dp"
-                    android:paddingVertical="16dp"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
-
-                <View
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/view3"/>
+                    android:layout_height="match_parent">
 
-            </RelativeLayout>
-        </LinearLayout>
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_materi"
+                        android:background="@drawable/iconmenu5"/>
 
-        <LinearLayout
-            android:id="@+id/linear4"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingLeft="24dp"
-            android:layout_marginTop="12dp"
-            android:layout_below="@id/linear3"
-            android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/materi_main"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/img5"
+                        android:textColor="@color/black"
+                        android:paddingHorizontal="12dp"/>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/btn_materi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="32dp"
+                        android:paddingVertical="16dp"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"/>
 
-                <ImageView
-                    android:id="@+id/img4"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_tokoh"
-                    android:background="@drawable/iconmenu4"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view5"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/tokoh_main"
-                    android:textStyle="bold"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@id/img4"
-                    android:textColor="@color/black"
-                    android:paddingHorizontal="12dp"/>
+                </RelativeLayout>
 
-                <ImageView
-                    android:id="@+id/btn_tokoh1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="32dp"
-                    android:paddingVertical="16dp"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
+            </LinearLayout>
 
-                <View
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="24dp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/linear6"
+                android:layout_below="@id/linear5"
+                android:orientation="horizontal">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/view4"/>
-            </RelativeLayout>
+                    android:layout_height="wrap_content">
 
-        </LinearLayout>
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="12dp"
+                        android:id="@+id/img6"
+                        android:src="@drawable/ic_soal"
+                        android:background="@drawable/iconmenu6"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingLeft="24dp"
-            android:layout_marginTop="12dp"
-            android:id="@+id/linear5"
-            android:layout_below="@id/linear4"
-            android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/soal_main"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/img6"
+                        android:textColor="@color/black"
+                        android:paddingHorizontal="12dp"/>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/btn_soal1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="32dp"
+                        android:paddingVertical="16dp"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"/>
 
-                <ImageView
-                    android:id="@+id/img5"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_materi"
-                    android:background="@drawable/iconmenu5"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view6"/>
 
-                <TextView
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/materi_main"
-                    android:textStyle="bold"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@id/img5"
-                    android:textColor="@color/black"
-                    android:paddingHorizontal="12dp"/>
+                </RelativeLayout>
 
-                <ImageView
-                    android:id="@+id/btn_materi1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="32dp"
-                    android:paddingVertical="16dp"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
+            </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/view5"/>
+        </RelativeLayout>
 
-            </RelativeLayout>
+    </ScrollView>
 
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:paddingLeft="24dp"
-            android:layout_marginTop="12dp"
-            android:id="@+id/linear6"
-            android:layout_below="@id/linear5"
-            android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:padding="12dp"
-                    android:id="@+id/img6"
-                    android:src="@drawable/ic_soal"
-                    android:background="@drawable/iconmenu6"/>
-
-                <TextView
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/soal_main"
-                    android:textStyle="bold"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@id/img6"
-                    android:textColor="@color/black"
-                    android:paddingHorizontal="12dp"/>
-
-                <ImageView
-                    android:id="@+id/btn_soal1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="32dp"
-                    android:paddingVertical="16dp"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/view6"/>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-    </RelativeLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
