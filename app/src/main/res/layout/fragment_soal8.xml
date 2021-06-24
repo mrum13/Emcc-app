@@ -26,43 +26,71 @@
         android:orientation="vertical"
         android:paddingHorizontal="24dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="24dp">
+        android:layout_marginBottom="12dp"
+        android:id="@+id/lytsoal">
 
-        <Button
-            android:id="@+id/btnA"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/soal8a"
-            android:textAllCaps="false"/>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnB"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="@string/soal8b"
-            android:textAllCaps="false" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="12dp"
+                android:layout_alignRight="@id/pembatassoal">
 
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="@string/soal8c"
-            android:textAllCaps="false"/>
+                <Button
+                    android:id="@+id/btnA"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/soal8a"/>
 
-        <Button
-            android:id="@+id/btnD"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="@string/soal8d"
-            android:textAllCaps="false"/>
+                <Button
+                    android:id="@+id/btnB"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/soal8b"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/pembatassoal"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:layout_marginHorizontal="12dp"/>
+
+            <LinearLayout
+                android:layout_alignLeft="@id/pembatassoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="12dp">
+
+                <Button
+                    android:id="@+id/btnC"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/soal8c"/>
+
+                <Button
+                    android:id="@+id/btnD"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/soal8d"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
 
         <Button
             android:id="@+id/btnE"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="@string/soal8e"
-            android:textAllCaps="false"/>
+            android:text="@string/soal8e"/>
 
     </LinearLayout>
 
