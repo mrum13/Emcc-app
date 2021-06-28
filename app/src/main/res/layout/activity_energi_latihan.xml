@@ -26,36 +26,71 @@
         android:orientation="vertical"
         android:paddingHorizontal="24dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="24dp">
+        android:layout_marginBottom="12dp"
+        android:id="@+id/lytsoal">
 
-        <Button
-            android:id="@+id/btnA"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/latihanenergi1a"/>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnB"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/latihanenergi1b"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="12dp"
+                android:layout_alignRight="@id/pembatassoal">
 
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/latihanenergi1c"/>
+                <Button
+                    android:id="@+id/btnA"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/latihanenergi1a"/>
 
-        <Button
-            android:id="@+id/btnD"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/latihanenergi1d"/>
+                <Button
+                    android:id="@+id/btnB"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/latihanenergi1b"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/pembatassoal"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:layout_marginHorizontal="12dp"/>
+
+            <LinearLayout
+                android:layout_alignLeft="@id/pembatassoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="12dp">
+
+                <Button
+                    android:id="@+id/btnC"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/latihanenergi1c"/>
+
+                <Button
+                    android:id="@+id/btnD"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/latihanenergi1d"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
 
         <Button
             android:id="@+id/btnE"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:text="@string/latihanenergi1e"/>
 
     </LinearLayout>
