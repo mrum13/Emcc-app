@@ -39,7 +39,7 @@ public class DayaFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getActivity(), WadahVideoActivity.class);
-                intent.putExtra("idvideo","-VAc_RjMoyA");
+                intent.putExtra("idvideo","SgceGfEQUes");
                 startActivity(intent);
             }
         });

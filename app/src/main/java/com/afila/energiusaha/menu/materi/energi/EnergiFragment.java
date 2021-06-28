@@ -31,7 +31,7 @@ public class EnergiFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getActivity(), WadahVideoActivity.class);
-                intent.putExtra("idvideo","gbePTtq-aLc");
+                intent.putExtra("idvideo","xkNtaNP5gh8");
                 startActivity(intent);
             }
         });
