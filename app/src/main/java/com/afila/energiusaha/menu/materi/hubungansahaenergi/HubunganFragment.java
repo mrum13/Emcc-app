@@ -31,7 +31,7 @@ public class HubunganFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getActivity(), WadahVideoActivity.class);
-                intent.putExtra("idvideo","gbePTtq-aLc");
+                intent.putExtra("idvideo","Qq_VDES23NQ");
                 startActivity(intent);
             }
         });
